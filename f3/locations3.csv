@@ -1,0 +1,16 @@
+﻿location_id,floor_id,code,name,type,searchable,public_access,description
+334,F3,334,334,room,1,1,
+333,F3,333,333,room,1,1,
+332,F3,332,332,room,1,1,
+330,F3,330,330,room,1,1,
+329,F3,329,329,room,1,1,
+335,F3,335,335,toilet,1,1,
+337,F3,337,337,faculty_room,1,1,
+336,F3,336,336,toilet,1,1,
+338,F3,338,338,electrical_room,0,0,Electrical/service room; excluded from navigation.
+339,F3,339,339,classroom,1,1,
+331,F3,331,331,faculty_room,1,1,
+340,F3,340,340,electrical_room,0,0,Electrical/service room; excluded from navigation.
+341,F3,341,341,faculty_room,1,1,
+328,F3,328,328,toilet,1,1,
+327,F3,327,327,toilet,1,1,

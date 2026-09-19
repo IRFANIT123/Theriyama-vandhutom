@@ -1,0 +1,59 @@
+PRP E-BLOCK CAMPUSNAV INTEGRATION REPORT
+==========================================
+
+SOURCE FLOORS
+-------------
+G: nodes=49, locations=15, horizontal_edges=57
+F1: nodes=49, locations=16, horizontal_edges=55
+F2: nodes=33, locations=15, horizontal_edges=34
+F3: nodes=40, locations=15, horizontal_edges=40
+F4: nodes=55, locations=17, horizontal_edges=63
+F5: nodes=46, locations=16, horizontal_edges=51
+F6: nodes=47, locations=16, horizontal_edges=51
+F7: nodes=45, locations=14, horizontal_edges=51
+
+COMBINED COUNTS
+---------------
+Floors               : 8
+Locations            : 124
+Nodes                : 364
+Edges total          : 444
+Vertical connections : 42
+
+VERTICAL CONNECTIONS
+--------------------
+Expected:
+3 lifts x 7 adjacent-floor links = 21
+3 stairs x 7 adjacent-floor links = 21
+Total expected                      = 42
+
+Created: 42
+Missing: 0
+
+No missing vertical connectors.
+
+INTEGRITY
+---------
+Foreign-key errors   : 0
+Duplicate node IDs   : 0
+Duplicate location IDs: 0
+Duplicate edge IDs   : 0
+
+ROUTING MODES
+-------------
+lift   = horizontal walking + lift vertical edges only
+stairs = horizontal walking + stair vertical edges only
+either = horizontal walking + both lift and stair vertical edges
+
+CROSS-FLOOR TESTS
+-----------------
+Configured tests failed: 0
+
+All configured lift/stairs/either routes passed.
+
+FINAL RESULT
+------------
+PASS - BUILDING DATABASE READY
+
+Output database:
+C:\2nd year fall\campus _ nav e block\integration\building_navigation.db

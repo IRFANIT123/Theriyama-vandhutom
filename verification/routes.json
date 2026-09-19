@@ -1,0 +1,5569 @@
+[
+  {
+    "params": {
+      "start_floor": "G",
+      "start": "ENTRANCE1-G",
+      "destination_floor": "F2",
+      "destination": "229",
+      "mode": "stairs"
+    },
+    "route": {
+      "start": "ENTRANCE1-G",
+      "destination": "229",
+      "mode": "stairs",
+      "total_cost": 40.28,
+      "floors": [
+        "G",
+        "F1",
+        "F2"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "G",
+          "text": "Start at ENTRANCE1-G"
+        },
+        {
+          "type": "connector",
+          "floor": "G",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "G",
+          "to_floor": "F1",
+          "text": "Take the stairs from G to F1"
+        },
+        {
+          "type": "connector",
+          "floor": "F1",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F1",
+          "to_floor": "F2",
+          "text": "Take the stairs from F1 to F2"
+        },
+        {
+          "type": "destination",
+          "floor": "F2",
+          "text": "Reach 229"
+        }
+      ],
+      "floor_routes": {
+        "G": [
+          {
+            "node_id": "ENTRANCE1-G",
+            "original_node_id": "ENTRANCE1-G",
+            "node_type": "corridor",
+            "x": 798.07361,
+            "y": 830.07819
+          },
+          {
+            "node_id": "ellipse28",
+            "original_node_id": "ellipse28",
+            "node_type": "corridor",
+            "x": 711.60706,
+            "y": 829.83392
+          },
+          {
+            "node_id": "ellipse35",
+            "original_node_id": "ellipse35",
+            "node_type": "corridor",
+            "x": 526.94958,
+            "y": 887.47827
+          },
+          {
+            "node_id": "STAIRS1-G",
+            "original_node_id": "STAIRS1-G",
+            "node_type": "stair",
+            "x": 550.57111,
+            "y": 931.33508
+          }
+        ],
+        "F1": [
+          {
+            "node_id": "STAIRS1-F1-D",
+            "original_node_id": "STAIRS1-F1-D",
+            "node_type": "stair",
+            "x": 697.79248,
+            "y": 932.41498
+          },
+          {
+            "node_id": "F1_ellipse31",
+            "original_node_id": "F1_ellipse31",
+            "node_type": "corridor",
+            "x": 710.63007,
+            "y": 970.03687
+          },
+          {
+            "node_id": "F1_ellipse33",
+            "original_node_id": "F1_ellipse33",
+            "node_type": "corridor",
+            "x": 527.43811,
+            "y": 971.01379
+          },
+          {
+            "node_id": "ellipse51",
+            "original_node_id": "ellipse51",
+            "node_type": "corridor",
+            "x": 527.04034,
+            "y": 932.60065
+          },
+          {
+            "node_id": "STAIRS1-F1-U",
+            "original_node_id": "STAIRS1-F1-U",
+            "node_type": "stair",
+            "x": 551.16443,
+            "y": 931.96564
+          }
+        ],
+        "F2": [
+          {
+            "node_id": "STAIRS1-F2-D",
+            "original_node_id": "STAIRS1-F2-D",
+            "node_type": "stair",
+            "x": 694.3736,
+            "y": 932.25055
+          },
+          {
+            "node_id": "circle19",
+            "original_node_id": "circle19",
+            "node_type": "corridor",
+            "x": 694.16431,
+            "y": 972.04401
+          },
+          {
+            "node_id": "ellipse18",
+            "original_node_id": "ellipse18",
+            "node_type": "corridor",
+            "x": 529.30402,
+            "y": 972.04401
+          },
+          {
+            "node_id": "circle1",
+            "original_node_id": "circle1",
+            "node_type": "corridor",
+            "x": 511.07181,
+            "y": 969.34772
+          },
+          {
+            "node_id": "circle18",
+            "original_node_id": "circle18",
+            "node_type": "corridor",
+            "x": 501.09152,
+            "y": 1046.0233
+          },
+          {
+            "node_id": "ellipse30",
+            "original_node_id": "ellipse30",
+            "node_type": "corridor",
+            "x": 489.24451,
+            "y": 1181.5861
+          },
+          {
+            "node_id": "C06",
+            "original_node_id": "C06",
+            "node_type": "corridor",
+            "x": 364.66,
+            "y": 1220.64
+          },
+          {
+            "node_id": "C07",
+            "original_node_id": "C07",
+            "node_type": "corridor",
+            "x": 358.79,
+            "y": 1262.65
+          },
+          {
+            "node_id": "229",
+            "original_node_id": "229",
+            "node_type": "room",
+            "x": 325.58,
+            "y": 1261.67
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "ENTRANCE1-G",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 798.07361,
+          "y": 830.07819,
+          "label": "Start: ENTRANCE1-G",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 40.28
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "ellipse28",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 711.60706,
+          "y": 829.83392,
+          "label": "Near G39",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 17.5,
+          "is_turn": false,
+          "progress_percent": 5.7,
+          "remaining_distance_m": 37.99
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "ellipse35",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 526.94958,
+          "y": 887.47827,
+          "label": "Near G39",
+          "turn_direction": "left",
+          "turn_angle_degrees": 101.0,
+          "is_turn": true,
+          "progress_percent": 18.4,
+          "remaining_distance_m": 32.88
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "STAIRS1-G",
+          "node_type": "stair",
+          "floor_id": "G",
+          "x": 550.57111,
+          "y": 931.33508,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 21.7,
+          "remaining_distance_m": 31.56
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "STAIRS1-F1-D",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 697.79248,
+          "y": 932.41498,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 30.3,
+          "remaining_distance_m": 28.06
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "F1_ellipse31",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 710.63007,
+          "y": 970.03687,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 108.5,
+          "is_turn": true,
+          "progress_percent": 33.0,
+          "remaining_distance_m": 27.01
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "F1_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.43811,
+          "y": 971.01379,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 45.0,
+          "remaining_distance_m": 22.16
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "ellipse51",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.04034,
+          "y": 932.60065,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.1,
+          "is_turn": true,
+          "progress_percent": 47.5,
+          "remaining_distance_m": 21.14
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "STAIRS1-F1-U",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 551.16443,
+          "y": 931.96564,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 49.1,
+          "remaining_distance_m": 20.5
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "STAIRS1-F2-D",
+          "node_type": "stair",
+          "floor_id": "F2",
+          "x": 694.3736,
+          "y": 932.25055,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 57.8,
+          "remaining_distance_m": 17.0
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "circle19",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 694.16431,
+          "y": 972.04401,
+          "label": "Near 238-A",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 60.4,
+          "remaining_distance_m": 15.95
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "ellipse18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 529.30402,
+          "y": 972.04401,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 8.4,
+          "is_turn": false,
+          "progress_percent": 71.2,
+          "remaining_distance_m": 11.59
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "circle1",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 511.07181,
+          "y": 969.34772,
+          "label": "Near 239",
+          "turn_direction": "left",
+          "turn_angle_degrees": 91.0,
+          "is_turn": true,
+          "progress_percent": 72.4,
+          "remaining_distance_m": 11.1
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "circle18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 501.09152,
+          "y": 1046.0233,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.4,
+          "is_turn": false,
+          "progress_percent": 77.5,
+          "remaining_distance_m": 9.06
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "ellipse30",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 489.24451,
+          "y": 1181.5861,
+          "label": "Near 227",
+          "turn_direction": "right",
+          "turn_angle_degrees": 67.6,
+          "is_turn": true,
+          "progress_percent": 86.5,
+          "remaining_distance_m": 5.46
+        },
+        {
+          "checkpoint": 16,
+          "path_index": 15,
+          "node_id": "C06",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 364.66,
+          "y": 1220.64,
+          "label": "Near 230",
+          "turn_direction": "left",
+          "turn_angle_degrees": 64.6,
+          "is_turn": true,
+          "progress_percent": 95.0,
+          "remaining_distance_m": 2.0
+        },
+        {
+          "checkpoint": 17,
+          "path_index": 16,
+          "node_id": "C07",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 358.79,
+          "y": 1262.65,
+          "label": "Near 229",
+          "turn_direction": "right",
+          "turn_angle_degrees": 83.7,
+          "is_turn": true,
+          "progress_percent": 97.8,
+          "remaining_distance_m": 0.88
+        },
+        {
+          "checkpoint": 18,
+          "path_index": 17,
+          "node_id": "229",
+          "node_type": "room",
+          "floor_id": "F2",
+          "x": 325.58,
+          "y": 1261.67,
+          "label": "Destination: 229",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "ENTRANCE1-G",
+        "ellipse28",
+        "ellipse35",
+        "STAIRS1-G",
+        "STAIRS1-F1-D",
+        "F1_ellipse31",
+        "F1_ellipse33",
+        "ellipse51",
+        "STAIRS1-F1-U",
+        "STAIRS1-F2-D",
+        "circle19",
+        "ellipse18",
+        "circle1",
+        "circle18",
+        "ellipse30",
+        "C06",
+        "C07",
+        "229"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "G",
+      "start": "G41",
+      "destination_floor": "F7",
+      "destination": "740",
+      "mode": "lift"
+    },
+    "route": {
+      "start": "G41",
+      "destination": "740",
+      "mode": "lift",
+      "total_cost": 34.83,
+      "floors": [
+        "G",
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "G",
+          "text": "Start at G41"
+        },
+        {
+          "type": "connector",
+          "floor": "G",
+          "text": "Proceed to Lift 3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "G",
+          "to_floor": "F1",
+          "text": "Take the lift from G to F1"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F1",
+          "to_floor": "F2",
+          "text": "Take the lift from F1 to F2"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F2",
+          "to_floor": "F3",
+          "text": "Take the lift from F2 to F3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F3",
+          "to_floor": "F4",
+          "text": "Take the lift from F3 to F4"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F4",
+          "to_floor": "F5",
+          "text": "Take the lift from F4 to F5"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F5",
+          "to_floor": "F6",
+          "text": "Take the lift from F5 to F6"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F6",
+          "to_floor": "F7",
+          "text": "Take the lift from F6 to F7"
+        },
+        {
+          "type": "destination",
+          "floor": "F7",
+          "text": "Reach 740"
+        }
+      ],
+      "floor_routes": {
+        "G": [
+          {
+            "node_id": "G41-1",
+            "original_node_id": "G41-1",
+            "node_type": "room",
+            "x": 506.33514,
+            "y": 1097.2942
+          },
+          {
+            "node_id": "ellipse43",
+            "original_node_id": "ellipse43",
+            "node_type": "corridor",
+            "x": 489.62756,
+            "y": 1095.7379
+          },
+          {
+            "node_id": "ellipse33",
+            "original_node_id": "ellipse33",
+            "node_type": "corridor",
+            "x": 527.43811,
+            "y": 971.01379
+          },
+          {
+            "node_id": "LIFT3-G",
+            "original_node_id": "LIFT3-G",
+            "node_type": "lift",
+            "x": 528.90363,
+            "y": 1039.6498
+          }
+        ],
+        "F1": [
+          {
+            "node_id": "LIFT3-F1",
+            "original_node_id": "LIFT3-F1",
+            "node_type": "lift",
+            "x": 528.90363,
+            "y": 1039.6498
+          }
+        ],
+        "F2": [
+          {
+            "node_id": "LIFT3-F2",
+            "original_node_id": "LIFT3-F2",
+            "node_type": "lift",
+            "x": 528.9,
+            "y": 1039.65
+          }
+        ],
+        "F3": [
+          {
+            "node_id": "LIFT3-F3",
+            "original_node_id": "LIFT3-F3",
+            "node_type": "lift",
+            "x": 115.92907,
+            "y": 201.61913
+          }
+        ],
+        "F4": [
+          {
+            "node_id": "LIFT3-F4",
+            "original_node_id": "LIFT3-F4",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "LIFT3-F5",
+            "original_node_id": "LIFT3-F5",
+            "node_type": "lift",
+            "x": 470.68445,
+            "y": 1030.1113
+          }
+        ],
+        "F6": [
+          {
+            "node_id": "LIFT3-F6",
+            "original_node_id": "LIFT3-F6",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F7": [
+          {
+            "node_id": "LIFT3-F7",
+            "original_node_id": "LIFT3-F7",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          },
+          {
+            "node_id": "F7_ellipse33",
+            "original_node_id": "F7_ellipse33",
+            "node_type": "corridor",
+            "x": 471.18884,
+            "y": 967.72504
+          },
+          {
+            "node_id": "circle2846",
+            "original_node_id": "circle2846",
+            "node_type": "corridor",
+            "x": 471.40045,
+            "y": 929.70276
+          },
+          {
+            "node_id": "F7_ellipse35",
+            "original_node_id": "F7_ellipse35",
+            "node_type": "corridor",
+            "x": 471.5022,
+            "y": 884.34558
+          },
+          {
+            "node_id": "740-1",
+            "original_node_id": "740-1",
+            "node_type": "room",
+            "x": 492.31964,
+            "y": 893.99695
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "G41-1",
+          "node_type": "room",
+          "floor_id": "G",
+          "x": 506.33514,
+          "y": 1097.2942,
+          "label": "Start: G41",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 34.83
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "ellipse43",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 489.62756,
+          "y": 1095.7379,
+          "label": "Near G41",
+          "turn_direction": "right",
+          "turn_angle_degrees": 101.5,
+          "is_turn": true,
+          "progress_percent": 1.3,
+          "remaining_distance_m": 34.39
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "ellipse33",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 527.43811,
+          "y": 971.01379,
+          "label": "Near G41",
+          "turn_direction": "right",
+          "turn_angle_degrees": 161.9,
+          "is_turn": true,
+          "progress_percent": 11.2,
+          "remaining_distance_m": 30.94
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "LIFT3-G",
+          "node_type": "lift",
+          "floor_id": "G",
+          "x": 528.90363,
+          "y": 1039.6498,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 16.4,
+          "remaining_distance_m": 29.13
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "LIFT3-F1",
+          "node_type": "lift",
+          "floor_id": "F1",
+          "x": 528.90363,
+          "y": 1039.6498,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 26.4,
+          "remaining_distance_m": 25.63
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "LIFT3-F2",
+          "node_type": "lift",
+          "floor_id": "F2",
+          "x": 528.9,
+          "y": 1039.65,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 36.5,
+          "remaining_distance_m": 22.13
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "LIFT3-F3",
+          "node_type": "lift",
+          "floor_id": "F3",
+          "x": 115.92907,
+          "y": 201.61913,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 46.5,
+          "remaining_distance_m": 18.63
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "LIFT3-F4",
+          "node_type": "lift",
+          "floor_id": "F4",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 56.6,
+          "remaining_distance_m": 15.13
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "LIFT3-F5",
+          "node_type": "lift",
+          "floor_id": "F5",
+          "x": 470.68445,
+          "y": 1030.1113,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 66.6,
+          "remaining_distance_m": 11.63
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "LIFT3-F6",
+          "node_type": "lift",
+          "floor_id": "F6",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 76.7,
+          "remaining_distance_m": 8.13
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "LIFT3-F7",
+          "node_type": "lift",
+          "floor_id": "F7",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 86.7,
+          "remaining_distance_m": 4.63
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "F7_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.18884,
+          "y": 967.72504,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.0,
+          "is_turn": false,
+          "progress_percent": 91.9,
+          "remaining_distance_m": 2.81
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "circle2846",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.40045,
+          "y": 929.70276,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.2,
+          "is_turn": false,
+          "progress_percent": 94.8,
+          "remaining_distance_m": 1.81
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "F7_ellipse35",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.5022,
+          "y": 884.34558,
+          "label": "Near 740",
+          "turn_direction": "right",
+          "turn_angle_degrees": 114.7,
+          "is_turn": true,
+          "progress_percent": 98.3,
+          "remaining_distance_m": 0.61
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "740-1",
+          "node_type": "room",
+          "floor_id": "F7",
+          "x": 492.31964,
+          "y": 893.99695,
+          "label": "Destination: 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "G41-1",
+        "ellipse43",
+        "ellipse33",
+        "LIFT3-G",
+        "LIFT3-F1",
+        "LIFT3-F2",
+        "LIFT3-F3",
+        "LIFT3-F4",
+        "LIFT3-F5",
+        "LIFT3-F6",
+        "LIFT3-F7",
+        "F7_ellipse33",
+        "circle2846",
+        "F7_ellipse35",
+        "740-1"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F7",
+      "start": "740",
+      "destination_floor": "G",
+      "destination": "G41",
+      "mode": "lift"
+    },
+    "route": {
+      "start": "740",
+      "destination": "G41",
+      "mode": "lift",
+      "total_cost": 34.83,
+      "floors": [
+        "F7",
+        "F6",
+        "F5",
+        "F4",
+        "F3",
+        "F2",
+        "F1",
+        "G"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F7",
+          "text": "Start at 740"
+        },
+        {
+          "type": "connector",
+          "floor": "F7",
+          "text": "Proceed to Lift 3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F7",
+          "to_floor": "F6",
+          "text": "Take the lift from F7 to F6"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F6",
+          "to_floor": "F5",
+          "text": "Take the lift from F6 to F5"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F5",
+          "to_floor": "F4",
+          "text": "Take the lift from F5 to F4"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F4",
+          "to_floor": "F3",
+          "text": "Take the lift from F4 to F3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F3",
+          "to_floor": "F2",
+          "text": "Take the lift from F3 to F2"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F2",
+          "to_floor": "F1",
+          "text": "Take the lift from F2 to F1"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F1",
+          "to_floor": "G",
+          "text": "Take the lift from F1 to G"
+        },
+        {
+          "type": "destination",
+          "floor": "G",
+          "text": "Reach G41"
+        }
+      ],
+      "floor_routes": {
+        "F7": [
+          {
+            "node_id": "740-1",
+            "original_node_id": "740-1",
+            "node_type": "room",
+            "x": 492.31964,
+            "y": 893.99695
+          },
+          {
+            "node_id": "F7_ellipse35",
+            "original_node_id": "F7_ellipse35",
+            "node_type": "corridor",
+            "x": 471.5022,
+            "y": 884.34558
+          },
+          {
+            "node_id": "circle2846",
+            "original_node_id": "circle2846",
+            "node_type": "corridor",
+            "x": 471.40045,
+            "y": 929.70276
+          },
+          {
+            "node_id": "F7_ellipse33",
+            "original_node_id": "F7_ellipse33",
+            "node_type": "corridor",
+            "x": 471.18884,
+            "y": 967.72504
+          },
+          {
+            "node_id": "LIFT3-F7",
+            "original_node_id": "LIFT3-F7",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F6": [
+          {
+            "node_id": "LIFT3-F6",
+            "original_node_id": "LIFT3-F6",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "LIFT3-F5",
+            "original_node_id": "LIFT3-F5",
+            "node_type": "lift",
+            "x": 470.68445,
+            "y": 1030.1113
+          }
+        ],
+        "F4": [
+          {
+            "node_id": "LIFT3-F4",
+            "original_node_id": "LIFT3-F4",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F3": [
+          {
+            "node_id": "LIFT3-F3",
+            "original_node_id": "LIFT3-F3",
+            "node_type": "lift",
+            "x": 115.92907,
+            "y": 201.61913
+          }
+        ],
+        "F2": [
+          {
+            "node_id": "LIFT3-F2",
+            "original_node_id": "LIFT3-F2",
+            "node_type": "lift",
+            "x": 528.9,
+            "y": 1039.65
+          }
+        ],
+        "F1": [
+          {
+            "node_id": "LIFT3-F1",
+            "original_node_id": "LIFT3-F1",
+            "node_type": "lift",
+            "x": 528.90363,
+            "y": 1039.6498
+          }
+        ],
+        "G": [
+          {
+            "node_id": "LIFT3-G",
+            "original_node_id": "LIFT3-G",
+            "node_type": "lift",
+            "x": 528.90363,
+            "y": 1039.6498
+          },
+          {
+            "node_id": "ellipse33",
+            "original_node_id": "ellipse33",
+            "node_type": "corridor",
+            "x": 527.43811,
+            "y": 971.01379
+          },
+          {
+            "node_id": "ellipse43",
+            "original_node_id": "ellipse43",
+            "node_type": "corridor",
+            "x": 489.62756,
+            "y": 1095.7379
+          },
+          {
+            "node_id": "G41-1",
+            "original_node_id": "G41-1",
+            "node_type": "room",
+            "x": 506.33514,
+            "y": 1097.2942
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "740-1",
+          "node_type": "room",
+          "floor_id": "F7",
+          "x": 492.31964,
+          "y": 893.99695,
+          "label": "Start: 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 34.83
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "F7_ellipse35",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.5022,
+          "y": 884.34558,
+          "label": "Near 740",
+          "turn_direction": "left",
+          "turn_angle_degrees": 114.7,
+          "is_turn": true,
+          "progress_percent": 1.7,
+          "remaining_distance_m": 34.23
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "circle2846",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.40045,
+          "y": 929.70276,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.2,
+          "is_turn": false,
+          "progress_percent": 5.2,
+          "remaining_distance_m": 33.03
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "F7_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.18884,
+          "y": 967.72504,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.0,
+          "is_turn": false,
+          "progress_percent": 8.1,
+          "remaining_distance_m": 32.02
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "LIFT3-F7",
+          "node_type": "lift",
+          "floor_id": "F7",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 13.3,
+          "remaining_distance_m": 30.21
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "LIFT3-F6",
+          "node_type": "lift",
+          "floor_id": "F6",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 23.3,
+          "remaining_distance_m": 26.71
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "LIFT3-F5",
+          "node_type": "lift",
+          "floor_id": "F5",
+          "x": 470.68445,
+          "y": 1030.1113,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 33.4,
+          "remaining_distance_m": 23.21
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "LIFT3-F4",
+          "node_type": "lift",
+          "floor_id": "F4",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 43.4,
+          "remaining_distance_m": 19.71
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "LIFT3-F3",
+          "node_type": "lift",
+          "floor_id": "F3",
+          "x": 115.92907,
+          "y": 201.61913,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 53.5,
+          "remaining_distance_m": 16.21
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "LIFT3-F2",
+          "node_type": "lift",
+          "floor_id": "F2",
+          "x": 528.9,
+          "y": 1039.65,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 63.5,
+          "remaining_distance_m": 12.71
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "LIFT3-F1",
+          "node_type": "lift",
+          "floor_id": "F1",
+          "x": 528.90363,
+          "y": 1039.6498,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 73.6,
+          "remaining_distance_m": 9.21
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "LIFT3-G",
+          "node_type": "lift",
+          "floor_id": "G",
+          "x": 528.90363,
+          "y": 1039.6498,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 83.6,
+          "remaining_distance_m": 5.71
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "ellipse33",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 527.43811,
+          "y": 971.01379,
+          "label": "Near G41",
+          "turn_direction": "left",
+          "turn_angle_degrees": 161.9,
+          "is_turn": true,
+          "progress_percent": 88.8,
+          "remaining_distance_m": 3.89
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "ellipse43",
+          "node_type": "corridor",
+          "floor_id": "G",
+          "x": 489.62756,
+          "y": 1095.7379,
+          "label": "Near G41",
+          "turn_direction": "left",
+          "turn_angle_degrees": 101.5,
+          "is_turn": true,
+          "progress_percent": 98.7,
+          "remaining_distance_m": 0.44
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "G41-1",
+          "node_type": "room",
+          "floor_id": "G",
+          "x": 506.33514,
+          "y": 1097.2942,
+          "label": "Destination: G41",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "740-1",
+        "F7_ellipse35",
+        "circle2846",
+        "F7_ellipse33",
+        "LIFT3-F7",
+        "LIFT3-F6",
+        "LIFT3-F5",
+        "LIFT3-F4",
+        "LIFT3-F3",
+        "LIFT3-F2",
+        "LIFT3-F1",
+        "LIFT3-G",
+        "ellipse33",
+        "ellipse43",
+        "G41-1"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F6",
+      "start": "626",
+      "destination_floor": "F1",
+      "destination": "131",
+      "mode": "stairs"
+    },
+    "route": {
+      "start": "626",
+      "destination": "131",
+      "mode": "stairs",
+      "total_cost": 65.86,
+      "floors": [
+        "F6",
+        "F5",
+        "F4",
+        "F3",
+        "F2",
+        "F1"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F6",
+          "text": "Start at 626"
+        },
+        {
+          "type": "connector",
+          "floor": "F6",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F6",
+          "to_floor": "F5",
+          "text": "Take the stairs from F6 to F5"
+        },
+        {
+          "type": "connector",
+          "floor": "F5",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F5",
+          "to_floor": "F4",
+          "text": "Take the stairs from F5 to F4"
+        },
+        {
+          "type": "connector",
+          "floor": "F4",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F4",
+          "to_floor": "F3",
+          "text": "Take the stairs from F4 to F3"
+        },
+        {
+          "type": "connector",
+          "floor": "F3",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F3",
+          "to_floor": "F2",
+          "text": "Take the stairs from F3 to F2"
+        },
+        {
+          "type": "connector",
+          "floor": "F2",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F2",
+          "to_floor": "F1",
+          "text": "Take the stairs from F2 to F1"
+        },
+        {
+          "type": "destination",
+          "floor": "F1",
+          "text": "Reach 131"
+        }
+      ],
+      "floor_routes": {
+        "F6": [
+          {
+            "node_id": "626",
+            "original_node_id": "626",
+            "node_type": "room",
+            "x": 431.00888,
+            "y": 1238.3013
+          },
+          {
+            "node_id": "F6_ellipse14309",
+            "original_node_id": "F6_ellipse14309",
+            "node_type": "corridor",
+            "x": 445.25632,
+            "y": 1221.8173
+          },
+          {
+            "node_id": "F6_ellipse53",
+            "original_node_id": "F6_ellipse53",
+            "node_type": "corridor",
+            "x": 419.69321,
+            "y": 1172.1659
+          },
+          {
+            "node_id": "ellipse641j",
+            "original_node_id": "ellipse641j",
+            "node_type": "corridor",
+            "x": 431.0,
+            "y": 1088.0
+          },
+          {
+            "node_id": "F6_ellipse43",
+            "original_node_id": "F6_ellipse43",
+            "node_type": "corridor",
+            "x": 433.84146,
+            "y": 1037.3282
+          },
+          {
+            "node_id": "F6_circle33",
+            "original_node_id": "F6_circle33",
+            "node_type": "corridor",
+            "x": 440.05557,
+            "y": 967.37714
+          },
+          {
+            "node_id": "F6_ellipse33",
+            "original_node_id": "F6_ellipse33",
+            "node_type": "corridor",
+            "x": 471.18884,
+            "y": 967.72504
+          },
+          {
+            "node_id": "circle62",
+            "original_node_id": "circle62",
+            "node_type": "stair",
+            "x": 653.7663,
+            "y": 964.24091
+          },
+          {
+            "node_id": "STAIRS1-F6-D",
+            "original_node_id": "STAIRS1-F6-D",
+            "node_type": "stair",
+            "x": 643.92737,
+            "y": 929.55878
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "STAIRS1-F5-U",
+            "original_node_id": "STAIRS1-F5-U",
+            "node_type": "stair",
+            "x": 492.00516,
+            "y": 928.71271
+          },
+          {
+            "node_id": "circle84",
+            "original_node_id": "circle84",
+            "node_type": "corridor",
+            "x": 471.49478,
+            "y": 929.75793
+          },
+          {
+            "node_id": "circle61",
+            "original_node_id": "circle61",
+            "node_type": "room",
+            "x": 471.06912,
+            "y": 969.57324
+          },
+          {
+            "node_id": "F5_circle54",
+            "original_node_id": "F5_circle54",
+            "node_type": "stair",
+            "x": 645.32568,
+            "y": 972.0896
+          },
+          {
+            "node_id": "STAIRS1-F5-D",
+            "original_node_id": "STAIRS1-F5-D",
+            "node_type": "stair",
+            "x": 641.44482,
+            "y": 930.07458
+          }
+        ],
+        "F4": [
+          {
+            "node_id": "STAIRS1-F4-U",
+            "original_node_id": "STAIRS1-F4-U",
+            "node_type": "stair",
+            "x": 503.44464,
+            "y": 928.62195
+          },
+          {
+            "node_id": "F4_circle42",
+            "original_node_id": "F4_circle42",
+            "node_type": "corridor",
+            "x": 470.6897,
+            "y": 925.45709
+          },
+          {
+            "node_id": "F4C010",
+            "original_node_id": "F4C010",
+            "node_type": "corridor",
+            "x": 471.18884,
+            "y": 967.72504
+          },
+          {
+            "node_id": "circle70",
+            "original_node_id": "circle70",
+            "node_type": "corridor",
+            "x": 548.76117,
+            "y": 968.07288
+          },
+          {
+            "node_id": "F4C008",
+            "original_node_id": "F4C008",
+            "node_type": "corridor",
+            "x": 658.30707,
+            "y": 966.57068
+          },
+          {
+            "node_id": "STAIRS1-F4-D",
+            "original_node_id": "STAIRS1-F4-D",
+            "node_type": "stair",
+            "x": 641.57794,
+            "y": 934.64856
+          }
+        ],
+        "F3": [
+          {
+            "node_id": "STAIRS1-F3-U",
+            "original_node_id": "STAIRS1-F3-U",
+            "node_type": "stair",
+            "x": 121.03812,
+            "y": 173.1235
+          },
+          {
+            "node_id": "circle2",
+            "original_node_id": "circle2",
+            "node_type": "corridor",
+            "x": 115.64761,
+            "y": 172.87886
+          },
+          {
+            "node_id": "C19",
+            "original_node_id": "C19",
+            "node_type": "corridor",
+            "x": 115.5322,
+            "y": 183.38933
+          },
+          {
+            "node_id": "circle27",
+            "original_node_id": "circle27",
+            "node_type": "stair",
+            "x": 162.55051,
+            "y": 183.22195
+          },
+          {
+            "node_id": "STAIRS1-F3-D",
+            "original_node_id": "STAIRS1-F3-D",
+            "node_type": "stair",
+            "x": 159.66914,
+            "y": 173.51303
+          }
+        ],
+        "F2": [
+          {
+            "node_id": "STAIRS1-F2-U",
+            "original_node_id": "STAIRS1-F2-U",
+            "node_type": "stair",
+            "x": 547.0,
+            "y": 935.0
+          },
+          {
+            "node_id": "ellipse22",
+            "original_node_id": "ellipse22",
+            "node_type": "corridor",
+            "x": 511.32858,
+            "y": 935.06598
+          },
+          {
+            "node_id": "circle1",
+            "original_node_id": "circle1",
+            "node_type": "corridor",
+            "x": 511.07181,
+            "y": 969.34772
+          },
+          {
+            "node_id": "ellipse18",
+            "original_node_id": "ellipse18",
+            "node_type": "corridor",
+            "x": 529.30402,
+            "y": 972.04401
+          },
+          {
+            "node_id": "circle19",
+            "original_node_id": "circle19",
+            "node_type": "corridor",
+            "x": 694.16431,
+            "y": 972.04401
+          },
+          {
+            "node_id": "STAIRS1-F2-D",
+            "original_node_id": "STAIRS1-F2-D",
+            "node_type": "stair",
+            "x": 694.3736,
+            "y": 932.25055
+          }
+        ],
+        "F1": [
+          {
+            "node_id": "STAIRS1-F1-U",
+            "original_node_id": "STAIRS1-F1-U",
+            "node_type": "stair",
+            "x": 551.16443,
+            "y": 931.96564
+          },
+          {
+            "node_id": "ellipse51",
+            "original_node_id": "ellipse51",
+            "node_type": "corridor",
+            "x": 527.04034,
+            "y": 932.60065
+          },
+          {
+            "node_id": "F1_ellipse33",
+            "original_node_id": "F1_ellipse33",
+            "node_type": "corridor",
+            "x": 527.43811,
+            "y": 971.01379
+          },
+          {
+            "node_id": "F1_ellipse43",
+            "original_node_id": "F1_ellipse43",
+            "node_type": "corridor",
+            "x": 489.62756,
+            "y": 1062.7379
+          },
+          {
+            "node_id": "F1_ellipse53",
+            "original_node_id": "F1_ellipse53",
+            "node_type": "corridor",
+            "x": 478.88031,
+            "y": 1176.0726
+          },
+          {
+            "node_id": "F1_ellipse14309",
+            "original_node_id": "F1_ellipse14309",
+            "node_type": "corridor",
+            "x": 504.42773,
+            "y": 1225.6975
+          },
+          {
+            "node_id": "131",
+            "original_node_id": "131",
+            "node_type": "room",
+            "x": 490.61053,
+            "y": 1242.2781
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "626",
+          "node_type": "room",
+          "floor_id": "F6",
+          "x": 431.00888,
+          "y": 1238.3013,
+          "label": "Start: 626",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 65.86
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "F6_ellipse14309",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 445.25632,
+          "y": 1221.8173,
+          "label": "Near 626",
+          "turn_direction": "left",
+          "turn_angle_degrees": 68.1,
+          "is_turn": true,
+          "progress_percent": 0.9,
+          "remaining_distance_m": 65.28
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "F6_ellipse53",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 419.69321,
+          "y": 1172.1659,
+          "label": "Near 626",
+          "turn_direction": "right",
+          "turn_angle_degrees": 34.9,
+          "is_turn": true,
+          "progress_percent": 3.1,
+          "remaining_distance_m": 63.8
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "ellipse641j",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 431.0,
+          "y": 1088.0,
+          "label": "Near 641",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 4.4,
+          "is_turn": false,
+          "progress_percent": 6.5,
+          "remaining_distance_m": 61.55
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "F6_ellipse43",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 433.84146,
+          "y": 1037.3282,
+          "label": "Near 631",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.9,
+          "is_turn": false,
+          "progress_percent": 8.6,
+          "remaining_distance_m": 60.21
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "F6_circle33",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 440.05557,
+          "y": 967.37714,
+          "label": "Near 631",
+          "turn_direction": "right",
+          "turn_angle_degrees": 85.6,
+          "is_turn": true,
+          "progress_percent": 11.4,
+          "remaining_distance_m": 58.35
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "F6_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 471.18884,
+          "y": 967.72504,
+          "label": "Near 631",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.7,
+          "is_turn": false,
+          "progress_percent": 12.6,
+          "remaining_distance_m": 57.53
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "circle62",
+          "node_type": "stair",
+          "floor_id": "F6",
+          "x": 653.7663,
+          "y": 964.24091,
+          "label": "Near 641",
+          "turn_direction": "left",
+          "turn_angle_degrees": 104.7,
+          "is_turn": true,
+          "progress_percent": 20.0,
+          "remaining_distance_m": 52.7
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "STAIRS1-F6-D",
+          "node_type": "stair",
+          "floor_id": "F6",
+          "x": 643.92737,
+          "y": 929.55878,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 21.4,
+          "remaining_distance_m": 51.74
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "STAIRS1-F5-U",
+          "node_type": "stair",
+          "floor_id": "F5",
+          "x": 492.00516,
+          "y": 928.71271,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 26.7,
+          "remaining_distance_m": 48.24
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "circle84",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 471.49478,
+          "y": 929.75793,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 86.5,
+          "is_turn": true,
+          "progress_percent": 27.6,
+          "remaining_distance_m": 47.7
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "circle61",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 471.06912,
+          "y": 969.57324,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 89.8,
+          "is_turn": true,
+          "progress_percent": 29.2,
+          "remaining_distance_m": 46.65
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "F5_circle54",
+          "node_type": "stair",
+          "floor_id": "F5",
+          "x": 645.32568,
+          "y": 972.0896,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 96.1,
+          "is_turn": true,
+          "progress_percent": 36.2,
+          "remaining_distance_m": 42.04
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "STAIRS1-F5-D",
+          "node_type": "stair",
+          "floor_id": "F5",
+          "x": 641.44482,
+          "y": 930.07458,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 37.9,
+          "remaining_distance_m": 40.92
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "STAIRS1-F4-U",
+          "node_type": "stair",
+          "floor_id": "F4",
+          "x": 503.44464,
+          "y": 928.62195,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 43.2,
+          "remaining_distance_m": 37.42
+        },
+        {
+          "checkpoint": 16,
+          "path_index": 15,
+          "node_id": "F4_circle42",
+          "node_type": "corridor",
+          "floor_id": "F4",
+          "x": 470.6897,
+          "y": 925.45709,
+          "label": "Near 434",
+          "turn_direction": "left",
+          "turn_angle_degrees": 96.2,
+          "is_turn": true,
+          "progress_percent": 44.5,
+          "remaining_distance_m": 36.55
+        },
+        {
+          "checkpoint": 17,
+          "path_index": 16,
+          "node_id": "F4C010",
+          "node_type": "corridor",
+          "floor_id": "F4",
+          "x": 471.18884,
+          "y": 967.72504,
+          "label": "Near 434",
+          "turn_direction": "left",
+          "turn_angle_degrees": 89.1,
+          "is_turn": true,
+          "progress_percent": 46.2,
+          "remaining_distance_m": 35.43
+        },
+        {
+          "checkpoint": 18,
+          "path_index": 17,
+          "node_id": "circle70",
+          "node_type": "corridor",
+          "floor_id": "F4",
+          "x": 548.76117,
+          "y": 968.07288,
+          "label": "Near 434",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.0,
+          "is_turn": false,
+          "progress_percent": 49.3,
+          "remaining_distance_m": 33.38
+        },
+        {
+          "checkpoint": 19,
+          "path_index": 18,
+          "node_id": "F4C008",
+          "node_type": "corridor",
+          "floor_id": "F4",
+          "x": 658.30707,
+          "y": 966.57068,
+          "label": "Near 434",
+          "turn_direction": "left",
+          "turn_angle_degrees": 116.9,
+          "is_turn": true,
+          "progress_percent": 53.7,
+          "remaining_distance_m": 30.48
+        },
+        {
+          "checkpoint": 20,
+          "path_index": 19,
+          "node_id": "STAIRS1-F4-D",
+          "node_type": "stair",
+          "floor_id": "F4",
+          "x": 641.57794,
+          "y": 934.64856,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 55.2,
+          "remaining_distance_m": 29.53
+        },
+        {
+          "checkpoint": 21,
+          "path_index": 20,
+          "node_id": "STAIRS1-F3-U",
+          "node_type": "stair",
+          "floor_id": "F3",
+          "x": 121.03812,
+          "y": 173.1235,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 60.5,
+          "remaining_distance_m": 26.03
+        },
+        {
+          "checkpoint": 22,
+          "path_index": 21,
+          "node_id": "circle2",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.64761,
+          "y": 172.87886,
+          "label": "Near 339",
+          "turn_direction": "left",
+          "turn_angle_degrees": 92.0,
+          "is_turn": true,
+          "progress_percent": 60.7,
+          "remaining_distance_m": 25.88
+        },
+        {
+          "checkpoint": 23,
+          "path_index": 22,
+          "node_id": "C19",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.5322,
+          "y": 183.38933,
+          "label": "Near 339",
+          "turn_direction": "left",
+          "turn_angle_degrees": 90.8,
+          "is_turn": true,
+          "progress_percent": 61.1,
+          "remaining_distance_m": 25.61
+        },
+        {
+          "checkpoint": 24,
+          "path_index": 23,
+          "node_id": "circle27",
+          "node_type": "stair",
+          "floor_id": "F3",
+          "x": 162.55051,
+          "y": 183.22195,
+          "label": "Near 339",
+          "turn_direction": "left",
+          "turn_angle_degrees": 106.3,
+          "is_turn": true,
+          "progress_percent": 63.0,
+          "remaining_distance_m": 24.36
+        },
+        {
+          "checkpoint": 25,
+          "path_index": 24,
+          "node_id": "STAIRS1-F3-D",
+          "node_type": "stair",
+          "floor_id": "F3",
+          "x": 159.66914,
+          "y": 173.51303,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 63.4,
+          "remaining_distance_m": 24.09
+        },
+        {
+          "checkpoint": 26,
+          "path_index": 25,
+          "node_id": "STAIRS1-F2-U",
+          "node_type": "stair",
+          "floor_id": "F2",
+          "x": 547.0,
+          "y": 935.0,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 68.7,
+          "remaining_distance_m": 20.59
+        },
+        {
+          "checkpoint": 27,
+          "path_index": 26,
+          "node_id": "ellipse22",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 511.32858,
+          "y": 935.06598,
+          "label": "Near 238",
+          "turn_direction": "left",
+          "turn_angle_degrees": 89.5,
+          "is_turn": true,
+          "progress_percent": 70.2,
+          "remaining_distance_m": 19.65
+        },
+        {
+          "checkpoint": 28,
+          "path_index": 27,
+          "node_id": "circle1",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 511.07181,
+          "y": 969.34772,
+          "label": "Near 239",
+          "turn_direction": "left",
+          "turn_angle_degrees": 82.0,
+          "is_turn": true,
+          "progress_percent": 71.5,
+          "remaining_distance_m": 18.74
+        },
+        {
+          "checkpoint": 29,
+          "path_index": 28,
+          "node_id": "ellipse18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 529.30402,
+          "y": 972.04401,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 8.4,
+          "is_turn": false,
+          "progress_percent": 72.3,
+          "remaining_distance_m": 18.25
+        },
+        {
+          "checkpoint": 30,
+          "path_index": 29,
+          "node_id": "circle19",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 694.16431,
+          "y": 972.04401,
+          "label": "Near 238-A",
+          "turn_direction": "left",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 78.9,
+          "remaining_distance_m": 13.89
+        },
+        {
+          "checkpoint": 31,
+          "path_index": 30,
+          "node_id": "STAIRS1-F2-D",
+          "node_type": "stair",
+          "floor_id": "F2",
+          "x": 694.3736,
+          "y": 932.25055,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 80.5,
+          "remaining_distance_m": 12.84
+        },
+        {
+          "checkpoint": 32,
+          "path_index": 31,
+          "node_id": "STAIRS1-F1-U",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 551.16443,
+          "y": 931.96564,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 85.8,
+          "remaining_distance_m": 9.34
+        },
+        {
+          "checkpoint": 33,
+          "path_index": 32,
+          "node_id": "ellipse51",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.04034,
+          "y": 932.60065,
+          "label": "Near 145",
+          "turn_direction": "left",
+          "turn_angle_degrees": 89.1,
+          "is_turn": true,
+          "progress_percent": 86.8,
+          "remaining_distance_m": 8.7
+        },
+        {
+          "checkpoint": 34,
+          "path_index": 33,
+          "node_id": "F1_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.43811,
+          "y": 971.01379,
+          "label": "Near 145",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 23.0,
+          "is_turn": false,
+          "progress_percent": 88.3,
+          "remaining_distance_m": 7.68
+        },
+        {
+          "checkpoint": 35,
+          "path_index": 34,
+          "node_id": "F1_ellipse43",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 489.62756,
+          "y": 1062.7379,
+          "label": "Near 145",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 17.0,
+          "is_turn": false,
+          "progress_percent": 92.3,
+          "remaining_distance_m": 5.06
+        },
+        {
+          "checkpoint": 36,
+          "path_index": 35,
+          "node_id": "F1_ellipse53",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 478.88031,
+          "y": 1176.0726,
+          "label": "Near 145",
+          "turn_direction": "left",
+          "turn_angle_degrees": 32.7,
+          "is_turn": true,
+          "progress_percent": 96.9,
+          "remaining_distance_m": 2.05
+        },
+        {
+          "checkpoint": 37,
+          "path_index": 36,
+          "node_id": "F1_ellipse14309",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 504.42773,
+          "y": 1225.6975,
+          "label": "Near 131",
+          "turn_direction": "right",
+          "turn_angle_degrees": 67.0,
+          "is_turn": true,
+          "progress_percent": 99.1,
+          "remaining_distance_m": 0.57
+        },
+        {
+          "checkpoint": 38,
+          "path_index": 37,
+          "node_id": "131",
+          "node_type": "room",
+          "floor_id": "F1",
+          "x": 490.61053,
+          "y": 1242.2781,
+          "label": "Destination: 131",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "626",
+        "F6_ellipse14309",
+        "F6_ellipse53",
+        "ellipse641j",
+        "F6_ellipse43",
+        "F6_circle33",
+        "F6_ellipse33",
+        "circle62",
+        "STAIRS1-F6-D",
+        "STAIRS1-F5-U",
+        "circle84",
+        "circle61",
+        "F5_circle54",
+        "STAIRS1-F5-D",
+        "STAIRS1-F4-U",
+        "F4_circle42",
+        "F4C010",
+        "circle70",
+        "F4C008",
+        "STAIRS1-F4-D",
+        "STAIRS1-F3-U",
+        "circle2",
+        "C19",
+        "circle27",
+        "STAIRS1-F3-D",
+        "STAIRS1-F2-U",
+        "ellipse22",
+        "circle1",
+        "ellipse18",
+        "circle19",
+        "STAIRS1-F2-D",
+        "STAIRS1-F1-U",
+        "ellipse51",
+        "F1_ellipse33",
+        "F1_ellipse43",
+        "F1_ellipse53",
+        "F1_ellipse14309",
+        "131"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F2",
+      "start": "229",
+      "destination_floor": "F5",
+      "destination": "529",
+      "mode": "lift"
+    },
+    "route": {
+      "start": "229",
+      "destination": "529",
+      "mode": "lift",
+      "total_cost": 35.56,
+      "floors": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F2",
+          "text": "Start at 229"
+        },
+        {
+          "type": "connector",
+          "floor": "F2",
+          "text": "Proceed to Lift 3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F2",
+          "to_floor": "F3",
+          "text": "Take the lift from F2 to F3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F3",
+          "to_floor": "F4",
+          "text": "Take the lift from F3 to F4"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F4",
+          "to_floor": "F5",
+          "text": "Take the lift from F4 to F5"
+        },
+        {
+          "type": "destination",
+          "floor": "F5",
+          "text": "Reach 529"
+        }
+      ],
+      "floor_routes": {
+        "F2": [
+          {
+            "node_id": "229",
+            "original_node_id": "229",
+            "node_type": "room",
+            "x": 325.58,
+            "y": 1261.67
+          },
+          {
+            "node_id": "C07",
+            "original_node_id": "C07",
+            "node_type": "corridor",
+            "x": 358.79,
+            "y": 1262.65
+          },
+          {
+            "node_id": "C06",
+            "original_node_id": "C06",
+            "node_type": "corridor",
+            "x": 364.66,
+            "y": 1220.64
+          },
+          {
+            "node_id": "ellipse30",
+            "original_node_id": "ellipse30",
+            "node_type": "corridor",
+            "x": 489.24451,
+            "y": 1181.5861
+          },
+          {
+            "node_id": "circle18",
+            "original_node_id": "circle18",
+            "node_type": "corridor",
+            "x": 501.09152,
+            "y": 1046.0233
+          },
+          {
+            "node_id": "circle1",
+            "original_node_id": "circle1",
+            "node_type": "corridor",
+            "x": 511.07181,
+            "y": 969.34772
+          },
+          {
+            "node_id": "ellipse18",
+            "original_node_id": "ellipse18",
+            "node_type": "corridor",
+            "x": 529.30402,
+            "y": 972.04401
+          },
+          {
+            "node_id": "LIFT3-F2",
+            "original_node_id": "LIFT3-F2",
+            "node_type": "lift",
+            "x": 528.9,
+            "y": 1039.65
+          }
+        ],
+        "F3": [
+          {
+            "node_id": "LIFT3-F3",
+            "original_node_id": "LIFT3-F3",
+            "node_type": "lift",
+            "x": 115.92907,
+            "y": 201.61913
+          }
+        ],
+        "F4": [
+          {
+            "node_id": "LIFT3-F4",
+            "original_node_id": "LIFT3-F4",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "LIFT3-F5",
+            "original_node_id": "LIFT3-F5",
+            "node_type": "lift",
+            "x": 470.68445,
+            "y": 1030.1113
+          },
+          {
+            "node_id": "circle61",
+            "original_node_id": "circle61",
+            "node_type": "room",
+            "x": 471.06912,
+            "y": 969.57324
+          },
+          {
+            "node_id": "F5_ellipse33",
+            "original_node_id": "F5_ellipse33",
+            "node_type": "corridor",
+            "x": 433.0,
+            "y": 968.0
+          },
+          {
+            "node_id": "circle55",
+            "original_node_id": "circle55",
+            "node_type": "room",
+            "x": 432.21118,
+            "y": 1028.7681
+          },
+          {
+            "node_id": "ellipse541",
+            "original_node_id": "ellipse541",
+            "node_type": "corridor",
+            "x": 431.78949,
+            "y": 1090.179
+          },
+          {
+            "node_id": "F5_ellipse53",
+            "original_node_id": "F5_ellipse53",
+            "node_type": "corridor",
+            "x": 415.33685,
+            "y": 1167.6421
+          },
+          {
+            "node_id": "F5_ellipse54",
+            "original_node_id": "F5_ellipse54",
+            "node_type": "corridor",
+            "x": 296.0,
+            "y": 1217.0
+          },
+          {
+            "node_id": "529",
+            "original_node_id": "529",
+            "node_type": "room",
+            "x": 283.70001,
+            "y": 1218.2
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "229",
+          "node_type": "room",
+          "floor_id": "F2",
+          "x": 325.58,
+          "y": 1261.67,
+          "label": "Start: 229",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 35.56
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "C07",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 358.79,
+          "y": 1262.65,
+          "label": "Near 229",
+          "turn_direction": "left",
+          "turn_angle_degrees": 83.7,
+          "is_turn": true,
+          "progress_percent": 2.5,
+          "remaining_distance_m": 34.68
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "C06",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 364.66,
+          "y": 1220.64,
+          "label": "Near 230",
+          "turn_direction": "right",
+          "turn_angle_degrees": 64.6,
+          "is_turn": true,
+          "progress_percent": 5.6,
+          "remaining_distance_m": 33.56
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "ellipse30",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 489.24451,
+          "y": 1181.5861,
+          "label": "Near 227",
+          "turn_direction": "left",
+          "turn_angle_degrees": 67.6,
+          "is_turn": true,
+          "progress_percent": 15.3,
+          "remaining_distance_m": 30.1
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "circle18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 501.09152,
+          "y": 1046.0233,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.4,
+          "is_turn": false,
+          "progress_percent": 25.5,
+          "remaining_distance_m": 26.5
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "circle1",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 511.07181,
+          "y": 969.34772,
+          "label": "Near 239",
+          "turn_direction": "right",
+          "turn_angle_degrees": 91.0,
+          "is_turn": true,
+          "progress_percent": 31.2,
+          "remaining_distance_m": 24.46
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "ellipse18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 529.30402,
+          "y": 972.04401,
+          "label": "Near 239",
+          "turn_direction": "right",
+          "turn_angle_degrees": 81.9,
+          "is_turn": true,
+          "progress_percent": 32.6,
+          "remaining_distance_m": 23.97
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "LIFT3-F2",
+          "node_type": "lift",
+          "floor_id": "F2",
+          "x": 528.9,
+          "y": 1039.65,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 37.6,
+          "remaining_distance_m": 22.18
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "LIFT3-F3",
+          "node_type": "lift",
+          "floor_id": "F3",
+          "x": 115.92907,
+          "y": 201.61913,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 47.5,
+          "remaining_distance_m": 18.68
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "LIFT3-F4",
+          "node_type": "lift",
+          "floor_id": "F4",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 57.3,
+          "remaining_distance_m": 15.18
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "LIFT3-F5",
+          "node_type": "lift",
+          "floor_id": "F5",
+          "x": 470.68445,
+          "y": 1030.1113,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 67.1,
+          "remaining_distance_m": 11.68
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "circle61",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 471.06912,
+          "y": 969.57324,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 88.0,
+          "is_turn": true,
+          "progress_percent": 71.7,
+          "remaining_distance_m": 10.08
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "F5_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 433.0,
+          "y": 968.0,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 91.6,
+          "is_turn": true,
+          "progress_percent": 74.5,
+          "remaining_distance_m": 9.07
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "circle55",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 432.21118,
+          "y": 1028.7681,
+          "label": "Near 541",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.4,
+          "is_turn": false,
+          "progress_percent": 79.0,
+          "remaining_distance_m": 7.46
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "ellipse541",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 431.78949,
+          "y": 1090.179,
+          "label": "Near 541",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 11.6,
+          "is_turn": false,
+          "progress_percent": 83.6,
+          "remaining_distance_m": 5.84
+        },
+        {
+          "checkpoint": 16,
+          "path_index": 15,
+          "node_id": "F5_ellipse53",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 415.33685,
+          "y": 1167.6421,
+          "label": "Near 526",
+          "turn_direction": "right",
+          "turn_angle_degrees": 55.5,
+          "is_turn": true,
+          "progress_percent": 89.5,
+          "remaining_distance_m": 3.74
+        },
+        {
+          "checkpoint": 17,
+          "path_index": 16,
+          "node_id": "F5_ellipse54",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 296.0,
+          "y": 1217.0,
+          "label": "Near 529",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 16.9,
+          "is_turn": false,
+          "progress_percent": 99.1,
+          "remaining_distance_m": 0.33
+        },
+        {
+          "checkpoint": 18,
+          "path_index": 17,
+          "node_id": "529",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 283.70001,
+          "y": 1218.2,
+          "label": "Destination: 529",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "229",
+        "C07",
+        "C06",
+        "ellipse30",
+        "circle18",
+        "circle1",
+        "ellipse18",
+        "LIFT3-F2",
+        "LIFT3-F3",
+        "LIFT3-F4",
+        "LIFT3-F5",
+        "circle61",
+        "F5_ellipse33",
+        "circle55",
+        "ellipse541",
+        "F5_ellipse53",
+        "F5_ellipse54",
+        "529"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F4",
+      "start": "429",
+      "destination_floor": "F7",
+      "destination": "740",
+      "mode": "stairs"
+    },
+    "route": {
+      "start": "429",
+      "destination": "740",
+      "mode": "stairs",
+      "total_cost": 41.75,
+      "floors": [
+        "F4",
+        "F5",
+        "F6",
+        "F7"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F4",
+          "text": "Start at 429"
+        },
+        {
+          "type": "connector",
+          "floor": "F4",
+          "text": "Proceed to Staircase 3"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F4",
+          "to_floor": "F5",
+          "text": "Take the stairs from F4 to F5"
+        },
+        {
+          "type": "connector",
+          "floor": "F5",
+          "text": "Proceed to Staircase 3"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F5",
+          "to_floor": "F6",
+          "text": "Take the stairs from F5 to F6"
+        },
+        {
+          "type": "connector",
+          "floor": "F6",
+          "text": "Proceed to Staircase 3"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F6",
+          "to_floor": "F7",
+          "text": "Take the stairs from F6 to F7"
+        },
+        {
+          "type": "destination",
+          "floor": "F7",
+          "text": "Reach 740"
+        }
+      ],
+      "floor_routes": {
+        "F4": [
+          {
+            "node_id": "429",
+            "original_node_id": "429",
+            "node_type": "room",
+            "x": 289.22025,
+            "y": 551.19769
+          },
+          {
+            "node_id": "F4C021",
+            "original_node_id": "F4C021",
+            "node_type": "corridor",
+            "x": 318.85056,
+            "y": 551.57849
+          },
+          {
+            "node_id": "F4C020",
+            "original_node_id": "F4C020",
+            "node_type": "corridor",
+            "x": 323.52161,
+            "y": 397.06192
+          },
+          {
+            "node_id": "STAIRS3-F4-U",
+            "original_node_id": "STAIRS3-F4-U",
+            "node_type": "stair",
+            "x": 299.85223,
+            "y": 361.41934
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "STAIRS3-F5-D",
+            "original_node_id": "STAIRS3-F5-D",
+            "node_type": "stair",
+            "x": 437.32352,
+            "y": 364.92474
+          },
+          {
+            "node_id": "F5_ellipse46",
+            "original_node_id": "F5_ellipse46",
+            "node_type": "corridor",
+            "x": 434.90616,
+            "y": 397.0564
+          },
+          {
+            "node_id": "F5_ellipse14323",
+            "original_node_id": "F5_ellipse14323",
+            "node_type": "corridor",
+            "x": 360.2113,
+            "y": 395.7355
+          },
+          {
+            "node_id": "F5_ellipse47",
+            "original_node_id": "F5_ellipse47",
+            "node_type": "corridor",
+            "x": 323.34769,
+            "y": 396.54013
+          },
+          {
+            "node_id": "STAIRS3-F5-U",
+            "original_node_id": "STAIRS3-F5-U",
+            "node_type": "stair",
+            "x": 298.14215,
+            "y": 362.52008
+          }
+        ],
+        "F6": [
+          {
+            "node_id": "STAIRS3-F6-D",
+            "original_node_id": "STAIRS3-F6-D",
+            "node_type": "stair",
+            "x": 433.25577,
+            "y": 361.94113
+          },
+          {
+            "node_id": "F6_ellipse46",
+            "original_node_id": "F6_ellipse46",
+            "node_type": "corridor",
+            "x": 434.90616,
+            "y": 397.0564
+          },
+          {
+            "node_id": "F6_ellipse14323",
+            "original_node_id": "F6_ellipse14323",
+            "node_type": "corridor",
+            "x": 360.2113,
+            "y": 395.7355
+          },
+          {
+            "node_id": "F6_ellipse47",
+            "original_node_id": "F6_ellipse47",
+            "node_type": "corridor",
+            "x": 323.34769,
+            "y": 396.54013
+          },
+          {
+            "node_id": "STAIRS3-F6-U",
+            "original_node_id": "STAIRS3-F6-U",
+            "node_type": "stair",
+            "x": 298.51294,
+            "y": 363.73233
+          }
+        ],
+        "F7": [
+          {
+            "node_id": "STAIRS3-F7-D",
+            "original_node_id": "STAIRS3-F7-D",
+            "node_type": "stair",
+            "x": 433.25577,
+            "y": 361.94113
+          },
+          {
+            "node_id": "F7_ellipse46",
+            "original_node_id": "F7_ellipse46",
+            "node_type": "corridor",
+            "x": 434.90616,
+            "y": 397.0564
+          },
+          {
+            "node_id": "F7_ellipse45",
+            "original_node_id": "F7_ellipse45",
+            "node_type": "corridor",
+            "x": 439.83414,
+            "y": 428.04227
+          },
+          {
+            "node_id": "F7_ellipse14321",
+            "original_node_id": "F7_ellipse14321",
+            "node_type": "corridor",
+            "x": 438.51025,
+            "y": 564.07861
+          },
+          {
+            "node_id": "F7_ellipse44",
+            "original_node_id": "F7_ellipse44",
+            "node_type": "corridor",
+            "x": 436.00577,
+            "y": 591.12927
+          },
+          {
+            "node_id": "F7_circle13",
+            "original_node_id": "F7_circle13",
+            "node_type": "corridor",
+            "x": 437.51645,
+            "y": 679.48462
+          },
+          {
+            "node_id": "F7_ellipse34",
+            "original_node_id": "F7_ellipse34",
+            "node_type": "corridor",
+            "x": 474.46277,
+            "y": 682.48981
+          },
+          {
+            "node_id": "circle4491",
+            "original_node_id": "circle4491",
+            "node_type": "room",
+            "x": 472.04666,
+            "y": 726.26031
+          },
+          {
+            "node_id": "F7_ellipse36",
+            "original_node_id": "F7_ellipse36",
+            "node_type": "corridor",
+            "x": 470.59314,
+            "y": 766.51349
+          },
+          {
+            "node_id": "F7_ellipse35",
+            "original_node_id": "F7_ellipse35",
+            "node_type": "corridor",
+            "x": 471.5022,
+            "y": 884.34558
+          },
+          {
+            "node_id": "740-1",
+            "original_node_id": "740-1",
+            "node_type": "room",
+            "x": 492.31964,
+            "y": 893.99695
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "429",
+          "node_type": "room",
+          "floor_id": "F4",
+          "x": 289.22025,
+          "y": 551.19769,
+          "label": "Start: 429",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 41.75
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "F4C021",
+          "node_type": "corridor",
+          "floor_id": "F4",
+          "x": 318.85056,
+          "y": 551.57849,
+          "label": "Near 429",
+          "turn_direction": "left",
+          "turn_angle_degrees": 89.0,
+          "is_turn": true,
+          "progress_percent": 1.9,
+          "remaining_distance_m": 40.97
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "F4C020",
+          "node_type": "corridor",
+          "floor_id": "F4",
+          "x": 323.52161,
+          "y": 397.06192,
+          "label": "Near 430",
+          "turn_direction": "left",
+          "turn_angle_degrees": 35.3,
+          "is_turn": true,
+          "progress_percent": 11.7,
+          "remaining_distance_m": 36.88
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "STAIRS3-F4-U",
+          "node_type": "stair",
+          "floor_id": "F4",
+          "x": 299.85223,
+          "y": 361.41934,
+          "label": "Staircase 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 14.4,
+          "remaining_distance_m": 35.74
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "STAIRS3-F5-D",
+          "node_type": "stair",
+          "floor_id": "F5",
+          "x": 437.32352,
+          "y": 364.92474,
+          "label": "Staircase 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 22.8,
+          "remaining_distance_m": 32.24
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "F5_ellipse46",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 434.90616,
+          "y": 397.0564,
+          "label": "Near 536",
+          "turn_direction": "right",
+          "turn_angle_degrees": 86.7,
+          "is_turn": true,
+          "progress_percent": 24.8,
+          "remaining_distance_m": 31.39
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "F5_ellipse14323",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 360.2113,
+          "y": 395.7355,
+          "label": "Near 535",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.3,
+          "is_turn": false,
+          "progress_percent": 29.5,
+          "remaining_distance_m": 29.41
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "F5_ellipse47",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 323.34769,
+          "y": 396.54013,
+          "label": "Near 535",
+          "turn_direction": "right",
+          "turn_angle_degrees": 54.7,
+          "is_turn": true,
+          "progress_percent": 31.9,
+          "remaining_distance_m": 28.44
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "STAIRS3-F5-U",
+          "node_type": "stair",
+          "floor_id": "F5",
+          "x": 298.14215,
+          "y": 362.52008,
+          "label": "Staircase 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 34.6,
+          "remaining_distance_m": 27.32
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "STAIRS3-F6-D",
+          "node_type": "stair",
+          "floor_id": "F6",
+          "x": 433.25577,
+          "y": 361.94113,
+          "label": "Staircase 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 42.9,
+          "remaining_distance_m": 23.82
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "F6_ellipse46",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 434.90616,
+          "y": 397.0564,
+          "label": "Near 636",
+          "turn_direction": "right",
+          "turn_angle_degrees": 93.7,
+          "is_turn": true,
+          "progress_percent": 45.2,
+          "remaining_distance_m": 22.89
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "F6_ellipse14323",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 360.2113,
+          "y": 395.7355,
+          "label": "Near 635",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.3,
+          "is_turn": false,
+          "progress_percent": 49.9,
+          "remaining_distance_m": 20.91
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "F6_ellipse47",
+          "node_type": "corridor",
+          "floor_id": "F6",
+          "x": 323.34769,
+          "y": 396.54013,
+          "label": "Near 635",
+          "turn_direction": "right",
+          "turn_angle_degrees": 54.1,
+          "is_turn": true,
+          "progress_percent": 52.2,
+          "remaining_distance_m": 19.94
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "STAIRS3-F6-U",
+          "node_type": "stair",
+          "floor_id": "F6",
+          "x": 298.51294,
+          "y": 363.73233,
+          "label": "Staircase 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 54.9,
+          "remaining_distance_m": 18.85
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "STAIRS3-F7-D",
+          "node_type": "stair",
+          "floor_id": "F7",
+          "x": 433.25577,
+          "y": 361.94113,
+          "label": "Staircase 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 63.2,
+          "remaining_distance_m": 15.35
+        },
+        {
+          "checkpoint": 16,
+          "path_index": 15,
+          "node_id": "F7_ellipse46",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 434.90616,
+          "y": 397.0564,
+          "label": "Near 738",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 6.3,
+          "is_turn": false,
+          "progress_percent": 65.5,
+          "remaining_distance_m": 14.42
+        },
+        {
+          "checkpoint": 17,
+          "path_index": 16,
+          "node_id": "F7_ellipse45",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 439.83414,
+          "y": 428.04227,
+          "label": "Near 738",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 9.6,
+          "is_turn": false,
+          "progress_percent": 67.5,
+          "remaining_distance_m": 13.59
+        },
+        {
+          "checkpoint": 18,
+          "path_index": 17,
+          "node_id": "F7_ellipse14321",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 438.51025,
+          "y": 564.07861,
+          "label": "Near 736",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 4.7,
+          "is_turn": false,
+          "progress_percent": 76.1,
+          "remaining_distance_m": 9.99
+        },
+        {
+          "checkpoint": 19,
+          "path_index": 18,
+          "node_id": "F7_ellipse44",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 436.00577,
+          "y": 591.12927,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 6.3,
+          "is_turn": false,
+          "progress_percent": 77.8,
+          "remaining_distance_m": 9.27
+        },
+        {
+          "checkpoint": 20,
+          "path_index": 19,
+          "node_id": "F7_circle13",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 437.51645,
+          "y": 679.48462,
+          "label": "Near 740",
+          "turn_direction": "left",
+          "turn_angle_degrees": 84.4,
+          "is_turn": true,
+          "progress_percent": 83.4,
+          "remaining_distance_m": 6.93
+        },
+        {
+          "checkpoint": 21,
+          "path_index": 20,
+          "node_id": "F7_ellipse34",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 474.46277,
+          "y": 682.48981,
+          "label": "Near 740",
+          "turn_direction": "right",
+          "turn_angle_degrees": 88.5,
+          "is_turn": true,
+          "progress_percent": 85.7,
+          "remaining_distance_m": 5.95
+        },
+        {
+          "checkpoint": 22,
+          "path_index": 21,
+          "node_id": "circle4491",
+          "node_type": "room",
+          "floor_id": "F7",
+          "x": 472.04666,
+          "y": 726.26031,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.1,
+          "is_turn": false,
+          "progress_percent": 88.5,
+          "remaining_distance_m": 4.79
+        },
+        {
+          "checkpoint": 23,
+          "path_index": 22,
+          "node_id": "F7_ellipse36",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 470.59314,
+          "y": 766.51349,
+          "label": "Near 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.5,
+          "is_turn": false,
+          "progress_percent": 91.1,
+          "remaining_distance_m": 3.72
+        },
+        {
+          "checkpoint": 24,
+          "path_index": 23,
+          "node_id": "F7_ellipse35",
+          "node_type": "corridor",
+          "floor_id": "F7",
+          "x": 471.5022,
+          "y": 884.34558,
+          "label": "Near 740",
+          "turn_direction": "left",
+          "turn_angle_degrees": 64.7,
+          "is_turn": true,
+          "progress_percent": 98.5,
+          "remaining_distance_m": 0.61
+        },
+        {
+          "checkpoint": 25,
+          "path_index": 24,
+          "node_id": "740-1",
+          "node_type": "room",
+          "floor_id": "F7",
+          "x": 492.31964,
+          "y": 893.99695,
+          "label": "Destination: 740",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "429",
+        "F4C021",
+        "F4C020",
+        "STAIRS3-F4-U",
+        "STAIRS3-F5-D",
+        "F5_ellipse46",
+        "F5_ellipse14323",
+        "F5_ellipse47",
+        "STAIRS3-F5-U",
+        "STAIRS3-F6-D",
+        "F6_ellipse46",
+        "F6_ellipse14323",
+        "F6_ellipse47",
+        "STAIRS3-F6-U",
+        "STAIRS3-F7-D",
+        "F7_ellipse46",
+        "F7_ellipse45",
+        "F7_ellipse14321",
+        "F7_ellipse44",
+        "F7_circle13",
+        "F7_ellipse34",
+        "circle4491",
+        "F7_ellipse36",
+        "F7_ellipse35",
+        "740-1"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F2",
+      "start": "LIFT1-F2",
+      "destination_floor": "F5",
+      "destination": "529",
+      "mode": "lift"
+    },
+    "route": {
+      "start": "LIFT1-F2",
+      "destination": "529",
+      "mode": "lift",
+      "total_cost": 27.56,
+      "floors": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F2",
+          "text": "Start at LIFT1-F2"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F2",
+          "to_floor": "F3",
+          "text": "Take the lift from F2 to F3"
+        },
+        {
+          "type": "connector",
+          "floor": "F3",
+          "text": "Proceed to Lift 3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F3",
+          "to_floor": "F4",
+          "text": "Take the lift from F3 to F4"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F4",
+          "to_floor": "F5",
+          "text": "Take the lift from F4 to F5"
+        },
+        {
+          "type": "destination",
+          "floor": "F5",
+          "text": "Reach 529"
+        }
+      ],
+      "floor_routes": {
+        "F2": [
+          {
+            "node_id": "LIFT1-F2",
+            "original_node_id": "LIFT1-F2",
+            "node_type": "lift",
+            "x": 413.13,
+            "y": 416.31
+          }
+        ],
+        "F3": [
+          {
+            "node_id": "LIFT1-F3",
+            "original_node_id": "LIFT1-F3",
+            "node_type": "lift",
+            "x": 84.866989,
+            "y": 36.99538
+          },
+          {
+            "node_id": "F3_C02",
+            "original_node_id": "F3_C02",
+            "node_type": "corridor",
+            "x": 84.866989,
+            "y": 32.312252
+          },
+          {
+            "node_id": "c001",
+            "original_node_id": "c001",
+            "node_type": "corridor",
+            "x": 104.6032,
+            "y": 32.312744
+          },
+          {
+            "node_id": "F3_C11",
+            "original_node_id": "F3_C11",
+            "node_type": "corridor",
+            "x": 105.90136,
+            "y": 40.752457
+          },
+          {
+            "node_id": "F3_C12",
+            "original_node_id": "F3_C12",
+            "node_type": "corridor",
+            "x": 105.99337,
+            "y": 76.551781
+          },
+          {
+            "node_id": "C13",
+            "original_node_id": "C13",
+            "node_type": "corridor",
+            "x": 105.31927,
+            "y": 83.905998
+          },
+          {
+            "node_id": "circle3",
+            "original_node_id": "circle3",
+            "node_type": "corridor",
+            "x": 106.60447,
+            "y": 108.2243
+          },
+          {
+            "node_id": "C14",
+            "original_node_id": "C14",
+            "node_type": "corridor",
+            "x": 115.66448,
+            "y": 108.036
+          },
+          {
+            "node_id": "F3_circle1",
+            "original_node_id": "F3_circle1",
+            "node_type": "corridor",
+            "x": 115.77289,
+            "y": 119.38585
+          },
+          {
+            "node_id": "C15",
+            "original_node_id": "C15",
+            "node_type": "corridor",
+            "x": 115.64761,
+            "y": 129.65851
+          },
+          {
+            "node_id": "circle12",
+            "original_node_id": "circle12",
+            "node_type": "corridor",
+            "x": 116.03797,
+            "y": 162.25311
+          },
+          {
+            "node_id": "circle2",
+            "original_node_id": "circle2",
+            "node_type": "corridor",
+            "x": 115.64761,
+            "y": 172.87886
+          },
+          {
+            "node_id": "C19",
+            "original_node_id": "C19",
+            "node_type": "corridor",
+            "x": 115.5322,
+            "y": 183.38933
+          },
+          {
+            "node_id": "LIFT3-F3",
+            "original_node_id": "LIFT3-F3",
+            "node_type": "lift",
+            "x": 115.92907,
+            "y": 201.61913
+          }
+        ],
+        "F4": [
+          {
+            "node_id": "LIFT3-F4",
+            "original_node_id": "LIFT3-F4",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "LIFT3-F5",
+            "original_node_id": "LIFT3-F5",
+            "node_type": "lift",
+            "x": 470.68445,
+            "y": 1030.1113
+          },
+          {
+            "node_id": "circle61",
+            "original_node_id": "circle61",
+            "node_type": "room",
+            "x": 471.06912,
+            "y": 969.57324
+          },
+          {
+            "node_id": "F5_ellipse33",
+            "original_node_id": "F5_ellipse33",
+            "node_type": "corridor",
+            "x": 433.0,
+            "y": 968.0
+          },
+          {
+            "node_id": "circle55",
+            "original_node_id": "circle55",
+            "node_type": "room",
+            "x": 432.21118,
+            "y": 1028.7681
+          },
+          {
+            "node_id": "ellipse541",
+            "original_node_id": "ellipse541",
+            "node_type": "corridor",
+            "x": 431.78949,
+            "y": 1090.179
+          },
+          {
+            "node_id": "F5_ellipse53",
+            "original_node_id": "F5_ellipse53",
+            "node_type": "corridor",
+            "x": 415.33685,
+            "y": 1167.6421
+          },
+          {
+            "node_id": "F5_ellipse54",
+            "original_node_id": "F5_ellipse54",
+            "node_type": "corridor",
+            "x": 296.0,
+            "y": 1217.0
+          },
+          {
+            "node_id": "529",
+            "original_node_id": "529",
+            "node_type": "room",
+            "x": 283.70001,
+            "y": 1218.2
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "LIFT1-F2",
+          "node_type": "lift",
+          "floor_id": "F2",
+          "x": 413.13,
+          "y": 416.31,
+          "label": "Start: LIFT1-F2",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 27.56
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "LIFT1-F3",
+          "node_type": "lift",
+          "floor_id": "F3",
+          "x": 84.866989,
+          "y": 36.99538,
+          "label": "Lift 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 12.7,
+          "remaining_distance_m": 24.06
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "F3_C02",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 84.866989,
+          "y": 32.312252,
+          "label": "Near 335",
+          "turn_direction": "right",
+          "turn_angle_degrees": 90.0,
+          "is_turn": true,
+          "progress_percent": 13.2,
+          "remaining_distance_m": 23.93
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "c001",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 104.6032,
+          "y": 32.312744,
+          "label": "Near 336",
+          "turn_direction": "right",
+          "turn_angle_degrees": 81.3,
+          "is_turn": true,
+          "progress_percent": 15.0,
+          "remaining_distance_m": 23.41
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "F3_C11",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 105.90136,
+          "y": 40.752457,
+          "label": "Near 337",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 8.6,
+          "is_turn": false,
+          "progress_percent": 15.9,
+          "remaining_distance_m": 23.18
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "F3_C12",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 105.99337,
+          "y": 76.551781,
+          "label": "Near 337",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 5.4,
+          "is_turn": false,
+          "progress_percent": 19.3,
+          "remaining_distance_m": 22.24
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "C13",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 105.31927,
+          "y": 83.905998,
+          "label": "Near 337",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 8.3,
+          "is_turn": false,
+          "progress_percent": 20.0,
+          "remaining_distance_m": 22.04
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "circle3",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 106.60447,
+          "y": 108.2243,
+          "label": "Near 339",
+          "turn_direction": "left",
+          "turn_angle_degrees": 88.2,
+          "is_turn": true,
+          "progress_percent": 22.3,
+          "remaining_distance_m": 21.4
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "C14",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.66448,
+          "y": 108.036,
+          "label": "Near 339",
+          "turn_direction": "right",
+          "turn_angle_degrees": 90.6,
+          "is_turn": true,
+          "progress_percent": 23.2,
+          "remaining_distance_m": 21.16
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "F3_circle1",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.77289,
+          "y": 119.38585,
+          "label": "Near 339",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.2,
+          "is_turn": false,
+          "progress_percent": 24.3,
+          "remaining_distance_m": 20.86
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "C15",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.64761,
+          "y": 129.65851,
+          "label": "Near 339",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.4,
+          "is_turn": false,
+          "progress_percent": 25.3,
+          "remaining_distance_m": 20.59
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "circle12",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 116.03797,
+          "y": 162.25311,
+          "label": "Near 339",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.8,
+          "is_turn": false,
+          "progress_percent": 28.4,
+          "remaining_distance_m": 19.72
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "circle2",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.64761,
+          "y": 172.87886,
+          "label": "Near 339",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.5,
+          "is_turn": false,
+          "progress_percent": 29.4,
+          "remaining_distance_m": 19.44
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "C19",
+          "node_type": "corridor",
+          "floor_id": "F3",
+          "x": 115.5322,
+          "y": 183.38933,
+          "label": "Near 339",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.9,
+          "is_turn": false,
+          "progress_percent": 30.5,
+          "remaining_distance_m": 19.16
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "LIFT3-F3",
+          "node_type": "lift",
+          "floor_id": "F3",
+          "x": 115.92907,
+          "y": 201.61913,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 32.2,
+          "remaining_distance_m": 18.68
+        },
+        {
+          "checkpoint": 16,
+          "path_index": 15,
+          "node_id": "LIFT3-F4",
+          "node_type": "lift",
+          "floor_id": "F4",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 44.9,
+          "remaining_distance_m": 15.18
+        },
+        {
+          "checkpoint": 17,
+          "path_index": 16,
+          "node_id": "LIFT3-F5",
+          "node_type": "lift",
+          "floor_id": "F5",
+          "x": 470.68445,
+          "y": 1030.1113,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 57.6,
+          "remaining_distance_m": 11.68
+        },
+        {
+          "checkpoint": 18,
+          "path_index": 17,
+          "node_id": "circle61",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 471.06912,
+          "y": 969.57324,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 88.0,
+          "is_turn": true,
+          "progress_percent": 63.4,
+          "remaining_distance_m": 10.08
+        },
+        {
+          "checkpoint": 19,
+          "path_index": 18,
+          "node_id": "F5_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 433.0,
+          "y": 968.0,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 91.6,
+          "is_turn": true,
+          "progress_percent": 67.1,
+          "remaining_distance_m": 9.07
+        },
+        {
+          "checkpoint": 20,
+          "path_index": 19,
+          "node_id": "circle55",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 432.21118,
+          "y": 1028.7681,
+          "label": "Near 541",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.4,
+          "is_turn": false,
+          "progress_percent": 72.9,
+          "remaining_distance_m": 7.46
+        },
+        {
+          "checkpoint": 21,
+          "path_index": 20,
+          "node_id": "ellipse541",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 431.78949,
+          "y": 1090.179,
+          "label": "Near 541",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 11.6,
+          "is_turn": false,
+          "progress_percent": 78.8,
+          "remaining_distance_m": 5.84
+        },
+        {
+          "checkpoint": 22,
+          "path_index": 21,
+          "node_id": "F5_ellipse53",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 415.33685,
+          "y": 1167.6421,
+          "label": "Near 526",
+          "turn_direction": "right",
+          "turn_angle_degrees": 55.5,
+          "is_turn": true,
+          "progress_percent": 86.4,
+          "remaining_distance_m": 3.74
+        },
+        {
+          "checkpoint": 23,
+          "path_index": 22,
+          "node_id": "F5_ellipse54",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 296.0,
+          "y": 1217.0,
+          "label": "Near 529",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 16.9,
+          "is_turn": false,
+          "progress_percent": 98.8,
+          "remaining_distance_m": 0.33
+        },
+        {
+          "checkpoint": 24,
+          "path_index": 23,
+          "node_id": "529",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 283.70001,
+          "y": 1218.2,
+          "label": "Destination: 529",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "LIFT1-F2",
+        "LIFT1-F3",
+        "F3_C02",
+        "c001",
+        "F3_C11",
+        "F3_C12",
+        "C13",
+        "circle3",
+        "C14",
+        "F3_circle1",
+        "C15",
+        "circle12",
+        "circle2",
+        "C19",
+        "LIFT3-F3",
+        "LIFT3-F4",
+        "LIFT3-F5",
+        "circle61",
+        "F5_ellipse33",
+        "circle55",
+        "ellipse541",
+        "F5_ellipse53",
+        "F5_ellipse54",
+        "529"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "G",
+      "start": "STAIRS1-G",
+      "destination_floor": "F2",
+      "destination": "229",
+      "mode": "stairs"
+    },
+    "route": {
+      "start": "STAIRS1-G",
+      "destination": "229",
+      "mode": "stairs",
+      "total_cost": 31.56,
+      "floors": [
+        "G",
+        "F1",
+        "F2"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "G",
+          "text": "Start at STAIRS1-G"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "G",
+          "to_floor": "F1",
+          "text": "Take the stairs from G to F1"
+        },
+        {
+          "type": "connector",
+          "floor": "F1",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F1",
+          "to_floor": "F2",
+          "text": "Take the stairs from F1 to F2"
+        },
+        {
+          "type": "destination",
+          "floor": "F2",
+          "text": "Reach 229"
+        }
+      ],
+      "floor_routes": {
+        "G": [
+          {
+            "node_id": "STAIRS1-G",
+            "original_node_id": "STAIRS1-G",
+            "node_type": "stair",
+            "x": 550.57111,
+            "y": 931.33508
+          }
+        ],
+        "F1": [
+          {
+            "node_id": "STAIRS1-F1-D",
+            "original_node_id": "STAIRS1-F1-D",
+            "node_type": "stair",
+            "x": 697.79248,
+            "y": 932.41498
+          },
+          {
+            "node_id": "F1_ellipse31",
+            "original_node_id": "F1_ellipse31",
+            "node_type": "corridor",
+            "x": 710.63007,
+            "y": 970.03687
+          },
+          {
+            "node_id": "F1_ellipse33",
+            "original_node_id": "F1_ellipse33",
+            "node_type": "corridor",
+            "x": 527.43811,
+            "y": 971.01379
+          },
+          {
+            "node_id": "ellipse51",
+            "original_node_id": "ellipse51",
+            "node_type": "corridor",
+            "x": 527.04034,
+            "y": 932.60065
+          },
+          {
+            "node_id": "STAIRS1-F1-U",
+            "original_node_id": "STAIRS1-F1-U",
+            "node_type": "stair",
+            "x": 551.16443,
+            "y": 931.96564
+          }
+        ],
+        "F2": [
+          {
+            "node_id": "STAIRS1-F2-D",
+            "original_node_id": "STAIRS1-F2-D",
+            "node_type": "stair",
+            "x": 694.3736,
+            "y": 932.25055
+          },
+          {
+            "node_id": "circle19",
+            "original_node_id": "circle19",
+            "node_type": "corridor",
+            "x": 694.16431,
+            "y": 972.04401
+          },
+          {
+            "node_id": "ellipse18",
+            "original_node_id": "ellipse18",
+            "node_type": "corridor",
+            "x": 529.30402,
+            "y": 972.04401
+          },
+          {
+            "node_id": "circle1",
+            "original_node_id": "circle1",
+            "node_type": "corridor",
+            "x": 511.07181,
+            "y": 969.34772
+          },
+          {
+            "node_id": "circle18",
+            "original_node_id": "circle18",
+            "node_type": "corridor",
+            "x": 501.09152,
+            "y": 1046.0233
+          },
+          {
+            "node_id": "ellipse30",
+            "original_node_id": "ellipse30",
+            "node_type": "corridor",
+            "x": 489.24451,
+            "y": 1181.5861
+          },
+          {
+            "node_id": "C06",
+            "original_node_id": "C06",
+            "node_type": "corridor",
+            "x": 364.66,
+            "y": 1220.64
+          },
+          {
+            "node_id": "C07",
+            "original_node_id": "C07",
+            "node_type": "corridor",
+            "x": 358.79,
+            "y": 1262.65
+          },
+          {
+            "node_id": "229",
+            "original_node_id": "229",
+            "node_type": "room",
+            "x": 325.58,
+            "y": 1261.67
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "STAIRS1-G",
+          "node_type": "stair",
+          "floor_id": "G",
+          "x": 550.57111,
+          "y": 931.33508,
+          "label": "Start: STAIRS1-G",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 31.56
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "STAIRS1-F1-D",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 697.79248,
+          "y": 932.41498,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 11.1,
+          "remaining_distance_m": 28.06
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "F1_ellipse31",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 710.63007,
+          "y": 970.03687,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 108.5,
+          "is_turn": true,
+          "progress_percent": 14.4,
+          "remaining_distance_m": 27.01
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "F1_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.43811,
+          "y": 971.01379,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 29.8,
+          "remaining_distance_m": 22.16
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "ellipse51",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.04034,
+          "y": 932.60065,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.1,
+          "is_turn": true,
+          "progress_percent": 33.0,
+          "remaining_distance_m": 21.14
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "STAIRS1-F1-U",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 551.16443,
+          "y": 931.96564,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 35.0,
+          "remaining_distance_m": 20.5
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "STAIRS1-F2-D",
+          "node_type": "stair",
+          "floor_id": "F2",
+          "x": 694.3736,
+          "y": 932.25055,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 46.1,
+          "remaining_distance_m": 17.0
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "circle19",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 694.16431,
+          "y": 972.04401,
+          "label": "Near 238-A",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 49.5,
+          "remaining_distance_m": 15.95
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "ellipse18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 529.30402,
+          "y": 972.04401,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 8.4,
+          "is_turn": false,
+          "progress_percent": 63.3,
+          "remaining_distance_m": 11.59
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "circle1",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 511.07181,
+          "y": 969.34772,
+          "label": "Near 239",
+          "turn_direction": "left",
+          "turn_angle_degrees": 91.0,
+          "is_turn": true,
+          "progress_percent": 64.8,
+          "remaining_distance_m": 11.1
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "circle18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 501.09152,
+          "y": 1046.0233,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.4,
+          "is_turn": false,
+          "progress_percent": 71.3,
+          "remaining_distance_m": 9.06
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "ellipse30",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 489.24451,
+          "y": 1181.5861,
+          "label": "Near 227",
+          "turn_direction": "right",
+          "turn_angle_degrees": 67.6,
+          "is_turn": true,
+          "progress_percent": 82.7,
+          "remaining_distance_m": 5.46
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "C06",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 364.66,
+          "y": 1220.64,
+          "label": "Near 230",
+          "turn_direction": "left",
+          "turn_angle_degrees": 64.6,
+          "is_turn": true,
+          "progress_percent": 93.7,
+          "remaining_distance_m": 2.0
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "C07",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 358.79,
+          "y": 1262.65,
+          "label": "Near 229",
+          "turn_direction": "right",
+          "turn_angle_degrees": 83.7,
+          "is_turn": true,
+          "progress_percent": 97.2,
+          "remaining_distance_m": 0.88
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "229",
+          "node_type": "room",
+          "floor_id": "F2",
+          "x": 325.58,
+          "y": 1261.67,
+          "label": "Destination: 229",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "STAIRS1-G",
+        "STAIRS1-F1-D",
+        "F1_ellipse31",
+        "F1_ellipse33",
+        "ellipse51",
+        "STAIRS1-F1-U",
+        "STAIRS1-F2-D",
+        "circle19",
+        "ellipse18",
+        "circle1",
+        "circle18",
+        "ellipse30",
+        "C06",
+        "C07",
+        "229"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F2",
+      "start": "229",
+      "destination_floor": "F2",
+      "destination": "235",
+      "mode": "stairs"
+    },
+    "route": {
+      "start": "229",
+      "destination": "235",
+      "mode": "stairs",
+      "total_cost": 25.01,
+      "floors": [
+        "F2"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F2",
+          "text": "Start at 229"
+        },
+        {
+          "type": "destination",
+          "floor": "F2",
+          "text": "Reach 235"
+        }
+      ],
+      "floor_routes": {
+        "F2": [
+          {
+            "node_id": "229",
+            "original_node_id": "229",
+            "node_type": "room",
+            "x": 325.58,
+            "y": 1261.67
+          },
+          {
+            "node_id": "C07",
+            "original_node_id": "C07",
+            "node_type": "corridor",
+            "x": 358.79,
+            "y": 1262.65
+          },
+          {
+            "node_id": "C06",
+            "original_node_id": "C06",
+            "node_type": "corridor",
+            "x": 364.66,
+            "y": 1220.64
+          },
+          {
+            "node_id": "C05",
+            "original_node_id": "C05",
+            "node_type": "corridor",
+            "x": 370.82,
+            "y": 1049.14
+          },
+          {
+            "node_id": "C04",
+            "original_node_id": "C04",
+            "node_type": "corridor",
+            "x": 372.2,
+            "y": 884.71
+          },
+          {
+            "node_id": "circle16",
+            "original_node_id": "circle16",
+            "node_type": "corridor",
+            "x": 374.77457,
+            "y": 782.46338
+          },
+          {
+            "node_id": "C03",
+            "original_node_id": "C03",
+            "node_type": "corridor",
+            "x": 373.07,
+            "y": 719.92
+          },
+          {
+            "node_id": "circle49",
+            "original_node_id": "circle49",
+            "node_type": "corridor",
+            "x": 373.27744,
+            "y": 601.95044
+          },
+          {
+            "node_id": "C02",
+            "original_node_id": "C02",
+            "node_type": "corridor",
+            "x": 374.05,
+            "y": 554.8
+          },
+          {
+            "node_id": "C01",
+            "original_node_id": "C01",
+            "node_type": "corridor",
+            "x": 376.98,
+            "y": 399.45
+          },
+          {
+            "node_id": "235",
+            "original_node_id": "235",
+            "node_type": "room",
+            "x": 329.35,
+            "y": 406.05
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "229",
+          "node_type": "room",
+          "floor_id": "F2",
+          "x": 325.58,
+          "y": 1261.67,
+          "label": "Start: 229",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 25.01
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "C07",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 358.79,
+          "y": 1262.65,
+          "label": "Near 229",
+          "turn_direction": "left",
+          "turn_angle_degrees": 83.7,
+          "is_turn": true,
+          "progress_percent": 3.5,
+          "remaining_distance_m": 24.13
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "C06",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 364.66,
+          "y": 1220.64,
+          "label": "Near 230",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 5.9,
+          "is_turn": false,
+          "progress_percent": 8.0,
+          "remaining_distance_m": 23.01
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "C05",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 370.82,
+          "y": 1049.14,
+          "label": "Near 231",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.6,
+          "is_turn": false,
+          "progress_percent": 26.2,
+          "remaining_distance_m": 18.46
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "C04",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 372.2,
+          "y": 884.71,
+          "label": "Near 232",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.0,
+          "is_turn": false,
+          "progress_percent": 43.6,
+          "remaining_distance_m": 14.11
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "circle16",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 374.77457,
+          "y": 782.46338,
+          "label": "Near 233",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 3.0,
+          "is_turn": false,
+          "progress_percent": 54.4,
+          "remaining_distance_m": 11.41
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "C03",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 373.07,
+          "y": 719.92,
+          "label": "Near 233",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 1.7,
+          "is_turn": false,
+          "progress_percent": 61.0,
+          "remaining_distance_m": 9.75
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "circle49",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 373.27744,
+          "y": 601.95044,
+          "label": "Near 234",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.8,
+          "is_turn": false,
+          "progress_percent": 73.5,
+          "remaining_distance_m": 6.63
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "C02",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 374.05,
+          "y": 554.8,
+          "label": "Near 234",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.1,
+          "is_turn": false,
+          "progress_percent": 78.5,
+          "remaining_distance_m": 5.38
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "C01",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 376.98,
+          "y": 399.45,
+          "label": "Near 235",
+          "turn_direction": "left",
+          "turn_angle_degrees": 99.0,
+          "is_turn": true,
+          "progress_percent": 94.9,
+          "remaining_distance_m": 1.27
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "235",
+          "node_type": "room",
+          "floor_id": "F2",
+          "x": 329.35,
+          "y": 406.05,
+          "label": "Destination: 235",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [],
+      "raw_node_path": [
+        "229",
+        "C07",
+        "C06",
+        "C05",
+        "C04",
+        "circle16",
+        "C03",
+        "circle49",
+        "C02",
+        "C01",
+        "235"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "G",
+      "start": "STAIRS1-G",
+      "destination_floor": "F2",
+      "destination": "229",
+      "mode": "stairs",
+      "blocked": [
+        "STAIRS2"
+      ]
+    },
+    "route": {
+      "start": "STAIRS1-G",
+      "destination": "229",
+      "mode": "stairs",
+      "total_cost": 31.56,
+      "floors": [
+        "G",
+        "F1",
+        "F2"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "G",
+          "text": "Start at STAIRS1-G"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "G",
+          "to_floor": "F1",
+          "text": "Take the stairs from G to F1"
+        },
+        {
+          "type": "connector",
+          "floor": "F1",
+          "text": "Proceed to Staircase 1"
+        },
+        {
+          "type": "stairs",
+          "from_floor": "F1",
+          "to_floor": "F2",
+          "text": "Take the stairs from F1 to F2"
+        },
+        {
+          "type": "destination",
+          "floor": "F2",
+          "text": "Reach 229"
+        }
+      ],
+      "floor_routes": {
+        "G": [
+          {
+            "node_id": "STAIRS1-G",
+            "original_node_id": "STAIRS1-G",
+            "node_type": "stair",
+            "x": 550.57111,
+            "y": 931.33508
+          }
+        ],
+        "F1": [
+          {
+            "node_id": "STAIRS1-F1-D",
+            "original_node_id": "STAIRS1-F1-D",
+            "node_type": "stair",
+            "x": 697.79248,
+            "y": 932.41498
+          },
+          {
+            "node_id": "F1_ellipse31",
+            "original_node_id": "F1_ellipse31",
+            "node_type": "corridor",
+            "x": 710.63007,
+            "y": 970.03687
+          },
+          {
+            "node_id": "F1_ellipse33",
+            "original_node_id": "F1_ellipse33",
+            "node_type": "corridor",
+            "x": 527.43811,
+            "y": 971.01379
+          },
+          {
+            "node_id": "ellipse51",
+            "original_node_id": "ellipse51",
+            "node_type": "corridor",
+            "x": 527.04034,
+            "y": 932.60065
+          },
+          {
+            "node_id": "STAIRS1-F1-U",
+            "original_node_id": "STAIRS1-F1-U",
+            "node_type": "stair",
+            "x": 551.16443,
+            "y": 931.96564
+          }
+        ],
+        "F2": [
+          {
+            "node_id": "STAIRS1-F2-D",
+            "original_node_id": "STAIRS1-F2-D",
+            "node_type": "stair",
+            "x": 694.3736,
+            "y": 932.25055
+          },
+          {
+            "node_id": "circle19",
+            "original_node_id": "circle19",
+            "node_type": "corridor",
+            "x": 694.16431,
+            "y": 972.04401
+          },
+          {
+            "node_id": "ellipse18",
+            "original_node_id": "ellipse18",
+            "node_type": "corridor",
+            "x": 529.30402,
+            "y": 972.04401
+          },
+          {
+            "node_id": "circle1",
+            "original_node_id": "circle1",
+            "node_type": "corridor",
+            "x": 511.07181,
+            "y": 969.34772
+          },
+          {
+            "node_id": "circle18",
+            "original_node_id": "circle18",
+            "node_type": "corridor",
+            "x": 501.09152,
+            "y": 1046.0233
+          },
+          {
+            "node_id": "ellipse30",
+            "original_node_id": "ellipse30",
+            "node_type": "corridor",
+            "x": 489.24451,
+            "y": 1181.5861
+          },
+          {
+            "node_id": "C06",
+            "original_node_id": "C06",
+            "node_type": "corridor",
+            "x": 364.66,
+            "y": 1220.64
+          },
+          {
+            "node_id": "C07",
+            "original_node_id": "C07",
+            "node_type": "corridor",
+            "x": 358.79,
+            "y": 1262.65
+          },
+          {
+            "node_id": "229",
+            "original_node_id": "229",
+            "node_type": "room",
+            "x": 325.58,
+            "y": 1261.67
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "STAIRS1-G",
+          "node_type": "stair",
+          "floor_id": "G",
+          "x": 550.57111,
+          "y": 931.33508,
+          "label": "Start: STAIRS1-G",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 31.56
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "STAIRS1-F1-D",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 697.79248,
+          "y": 932.41498,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 11.1,
+          "remaining_distance_m": 28.06
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "F1_ellipse31",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 710.63007,
+          "y": 970.03687,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 108.5,
+          "is_turn": true,
+          "progress_percent": 14.4,
+          "remaining_distance_m": 27.01
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "F1_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.43811,
+          "y": 971.01379,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 29.8,
+          "remaining_distance_m": 22.16
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "ellipse51",
+          "node_type": "corridor",
+          "floor_id": "F1",
+          "x": 527.04034,
+          "y": 932.60065,
+          "label": "Near 145",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.1,
+          "is_turn": true,
+          "progress_percent": 33.0,
+          "remaining_distance_m": 21.14
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "STAIRS1-F1-U",
+          "node_type": "stair",
+          "floor_id": "F1",
+          "x": 551.16443,
+          "y": 931.96564,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 35.0,
+          "remaining_distance_m": 20.5
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "STAIRS1-F2-D",
+          "node_type": "stair",
+          "floor_id": "F2",
+          "x": 694.3736,
+          "y": 932.25055,
+          "label": "Staircase 1",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 46.1,
+          "remaining_distance_m": 17.0
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "circle19",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 694.16431,
+          "y": 972.04401,
+          "label": "Near 238-A",
+          "turn_direction": "right",
+          "turn_angle_degrees": 89.7,
+          "is_turn": true,
+          "progress_percent": 49.5,
+          "remaining_distance_m": 15.95
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "ellipse18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 529.30402,
+          "y": 972.04401,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 8.4,
+          "is_turn": false,
+          "progress_percent": 63.3,
+          "remaining_distance_m": 11.59
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "circle1",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 511.07181,
+          "y": 969.34772,
+          "label": "Near 239",
+          "turn_direction": "left",
+          "turn_angle_degrees": 91.0,
+          "is_turn": true,
+          "progress_percent": 64.8,
+          "remaining_distance_m": 11.1
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "circle18",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 501.09152,
+          "y": 1046.0233,
+          "label": "Near 239",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 2.4,
+          "is_turn": false,
+          "progress_percent": 71.3,
+          "remaining_distance_m": 9.06
+        },
+        {
+          "checkpoint": 12,
+          "path_index": 11,
+          "node_id": "ellipse30",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 489.24451,
+          "y": 1181.5861,
+          "label": "Near 227",
+          "turn_direction": "right",
+          "turn_angle_degrees": 67.6,
+          "is_turn": true,
+          "progress_percent": 82.7,
+          "remaining_distance_m": 5.46
+        },
+        {
+          "checkpoint": 13,
+          "path_index": 12,
+          "node_id": "C06",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 364.66,
+          "y": 1220.64,
+          "label": "Near 230",
+          "turn_direction": "left",
+          "turn_angle_degrees": 64.6,
+          "is_turn": true,
+          "progress_percent": 93.7,
+          "remaining_distance_m": 2.0
+        },
+        {
+          "checkpoint": 14,
+          "path_index": 13,
+          "node_id": "C07",
+          "node_type": "corridor",
+          "floor_id": "F2",
+          "x": 358.79,
+          "y": 1262.65,
+          "label": "Near 229",
+          "turn_direction": "right",
+          "turn_angle_degrees": 83.7,
+          "is_turn": true,
+          "progress_percent": 97.2,
+          "remaining_distance_m": 0.88
+        },
+        {
+          "checkpoint": 15,
+          "path_index": 14,
+          "node_id": "229",
+          "node_type": "room",
+          "floor_id": "F2",
+          "x": 325.58,
+          "y": 1261.67,
+          "label": "Destination: 229",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [
+        "STAIR2"
+      ],
+      "raw_node_path": [
+        "STAIRS1-G",
+        "STAIRS1-F1-D",
+        "F1_ellipse31",
+        "F1_ellipse33",
+        "ellipse51",
+        "STAIRS1-F1-U",
+        "STAIRS1-F2-D",
+        "circle19",
+        "ellipse18",
+        "circle1",
+        "circle18",
+        "ellipse30",
+        "C06",
+        "C07",
+        "229"
+      ]
+    }
+  },
+  {
+    "params": {
+      "start_floor": "F2",
+      "start": "LIFT3-F2",
+      "destination_floor": "F5",
+      "destination": "529",
+      "mode": "lift",
+      "blocked": [
+        "LIFT2"
+      ]
+    },
+    "route": {
+      "start": "LIFT3-F2",
+      "destination": "529",
+      "mode": "lift",
+      "total_cost": 22.18,
+      "floors": [
+        "F2",
+        "F3",
+        "F4",
+        "F5"
+      ],
+      "instructions": [
+        {
+          "type": "start",
+          "floor": "F2",
+          "text": "Start at LIFT3-F2"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F2",
+          "to_floor": "F3",
+          "text": "Take the lift from F2 to F3"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F3",
+          "to_floor": "F4",
+          "text": "Take the lift from F3 to F4"
+        },
+        {
+          "type": "lift",
+          "from_floor": "F4",
+          "to_floor": "F5",
+          "text": "Take the lift from F4 to F5"
+        },
+        {
+          "type": "destination",
+          "floor": "F5",
+          "text": "Reach 529"
+        }
+      ],
+      "floor_routes": {
+        "F2": [
+          {
+            "node_id": "LIFT3-F2",
+            "original_node_id": "LIFT3-F2",
+            "node_type": "lift",
+            "x": 528.9,
+            "y": 1039.65
+          }
+        ],
+        "F3": [
+          {
+            "node_id": "LIFT3-F3",
+            "original_node_id": "LIFT3-F3",
+            "node_type": "lift",
+            "x": 115.92907,
+            "y": 201.61913
+          }
+        ],
+        "F4": [
+          {
+            "node_id": "LIFT3-F4",
+            "original_node_id": "LIFT3-F4",
+            "node_type": "lift",
+            "x": 472.01624,
+            "y": 1036.2378
+          }
+        ],
+        "F5": [
+          {
+            "node_id": "LIFT3-F5",
+            "original_node_id": "LIFT3-F5",
+            "node_type": "lift",
+            "x": 470.68445,
+            "y": 1030.1113
+          },
+          {
+            "node_id": "circle61",
+            "original_node_id": "circle61",
+            "node_type": "room",
+            "x": 471.06912,
+            "y": 969.57324
+          },
+          {
+            "node_id": "F5_ellipse33",
+            "original_node_id": "F5_ellipse33",
+            "node_type": "corridor",
+            "x": 433.0,
+            "y": 968.0
+          },
+          {
+            "node_id": "circle55",
+            "original_node_id": "circle55",
+            "node_type": "room",
+            "x": 432.21118,
+            "y": 1028.7681
+          },
+          {
+            "node_id": "ellipse541",
+            "original_node_id": "ellipse541",
+            "node_type": "corridor",
+            "x": 431.78949,
+            "y": 1090.179
+          },
+          {
+            "node_id": "F5_ellipse53",
+            "original_node_id": "F5_ellipse53",
+            "node_type": "corridor",
+            "x": 415.33685,
+            "y": 1167.6421
+          },
+          {
+            "node_id": "F5_ellipse54",
+            "original_node_id": "F5_ellipse54",
+            "node_type": "corridor",
+            "x": 296.0,
+            "y": 1217.0
+          },
+          {
+            "node_id": "529",
+            "original_node_id": "529",
+            "node_type": "room",
+            "x": 283.70001,
+            "y": 1218.2
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "checkpoint": 1,
+          "path_index": 0,
+          "node_id": "LIFT3-F2",
+          "node_type": "lift",
+          "floor_id": "F2",
+          "x": 528.9,
+          "y": 1039.65,
+          "label": "Start: LIFT3-F2",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 0.0,
+          "remaining_distance_m": 22.18
+        },
+        {
+          "checkpoint": 2,
+          "path_index": 1,
+          "node_id": "LIFT3-F3",
+          "node_type": "lift",
+          "floor_id": "F3",
+          "x": 115.92907,
+          "y": 201.61913,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 15.8,
+          "remaining_distance_m": 18.68
+        },
+        {
+          "checkpoint": 3,
+          "path_index": 2,
+          "node_id": "LIFT3-F4",
+          "node_type": "lift",
+          "floor_id": "F4",
+          "x": 472.01624,
+          "y": 1036.2378,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 31.6,
+          "remaining_distance_m": 15.18
+        },
+        {
+          "checkpoint": 4,
+          "path_index": 3,
+          "node_id": "LIFT3-F5",
+          "node_type": "lift",
+          "floor_id": "F5",
+          "x": 470.68445,
+          "y": 1030.1113,
+          "label": "Lift 3",
+          "turn_direction": "floor_change",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 47.3,
+          "remaining_distance_m": 11.68
+        },
+        {
+          "checkpoint": 5,
+          "path_index": 4,
+          "node_id": "circle61",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 471.06912,
+          "y": 969.57324,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 88.0,
+          "is_turn": true,
+          "progress_percent": 54.6,
+          "remaining_distance_m": 10.08
+        },
+        {
+          "checkpoint": 6,
+          "path_index": 5,
+          "node_id": "F5_ellipse33",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 433.0,
+          "y": 968.0,
+          "label": "Near 541",
+          "turn_direction": "left",
+          "turn_angle_degrees": 91.6,
+          "is_turn": true,
+          "progress_percent": 59.1,
+          "remaining_distance_m": 9.07
+        },
+        {
+          "checkpoint": 7,
+          "path_index": 6,
+          "node_id": "circle55",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 432.21118,
+          "y": 1028.7681,
+          "label": "Near 541",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.4,
+          "is_turn": false,
+          "progress_percent": 66.4,
+          "remaining_distance_m": 7.46
+        },
+        {
+          "checkpoint": 8,
+          "path_index": 7,
+          "node_id": "ellipse541",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 431.78949,
+          "y": 1090.179,
+          "label": "Near 541",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 11.6,
+          "is_turn": false,
+          "progress_percent": 73.7,
+          "remaining_distance_m": 5.84
+        },
+        {
+          "checkpoint": 9,
+          "path_index": 8,
+          "node_id": "F5_ellipse53",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 415.33685,
+          "y": 1167.6421,
+          "label": "Near 526",
+          "turn_direction": "right",
+          "turn_angle_degrees": 55.5,
+          "is_turn": true,
+          "progress_percent": 83.1,
+          "remaining_distance_m": 3.74
+        },
+        {
+          "checkpoint": 10,
+          "path_index": 9,
+          "node_id": "F5_ellipse54",
+          "node_type": "corridor",
+          "floor_id": "F5",
+          "x": 296.0,
+          "y": 1217.0,
+          "label": "Near 529",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 16.9,
+          "is_turn": false,
+          "progress_percent": 98.5,
+          "remaining_distance_m": 0.33
+        },
+        {
+          "checkpoint": 11,
+          "path_index": 10,
+          "node_id": "529",
+          "node_type": "room",
+          "floor_id": "F5",
+          "x": 283.70001,
+          "y": 1218.2,
+          "label": "Destination: 529",
+          "turn_direction": "straight",
+          "turn_angle_degrees": 0.0,
+          "is_turn": false,
+          "progress_percent": 100.0,
+          "remaining_distance_m": 0.0
+        }
+      ],
+      "blocked": [
+        "LIFT2"
+      ],
+      "raw_node_path": [
+        "LIFT3-F2",
+        "LIFT3-F3",
+        "LIFT3-F4",
+        "LIFT3-F5",
+        "circle61",
+        "F5_ellipse33",
+        "circle55",
+        "ellipse541",
+        "F5_ellipse53",
+        "F5_ellipse54",
+        "529"
+      ]
+    }
+  }
+]

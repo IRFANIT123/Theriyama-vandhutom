@@ -1,0 +1,98 @@
+PRP E BLOCK SVG NAVIGATION EXTRACTION REPORT
+====================================================
+SVG file: E Block - 7th Floor Final Map.svg
+Floor: F7
+
+COUNTS
+--------------------
+Total nodes: 45
+  Room nodes: 12
+  Corridor nodes: 27
+  Lift nodes: 3
+  Stair nodes: 3
+  Entrance nodes: 0
+Unique graph edges: 51
+Room locations: 14
+Connected components: 1
+
+SEARCHABLE LOCATIONS
+--------------------
+728 (room)
+729 (room)
+730 (room)
+731 (room)
+732 (room)
+733 (room)
+734 (room)
+735 (room)
+736 (room)
+737 (room)
+738 (room)
+740 (room)
+
+NON-SEARCHABLE LOCATIONS
+--------------------
+739: Electrical/service room; excluded from navigation.
+741: Electrical/service room; excluded from navigation.
+
+PATH TOPOLOGY EXTRACTED FROM NAV - Edges
+--------------------
+F7E001: ellipse33 -> ellipse31
+F7E002: ellipse31 -> ellipse28
+F7E003: ellipse28 -> ellipse32
+F7E004: ellipse32 -> ellipse34
+F7E005: ellipse33 -> ellipse35
+F7E006: ellipse35 -> ellipse36
+F7E007: ellipse36 -> ellipse34
+F7E008: ellipse35 -> STAIRS1-F7
+F7E009: ellipse33 -> STAIRS1-F7
+F7E010: ellipse36 -> STAIRS2-F7
+F7E011: ellipse34 -> STAIRS2-F7
+F7E012: ellipse35 -> ellipse37
+F7E013: ellipse37 -> ellipse50
+F7E014: ellipse50 -> ellipse49
+F7E015: ellipse49 -> 735
+F7E016: ellipse36 -> ellipse50
+F7E017: ellipse33 -> LIFT3-F7
+F7E018: ellipse33 -> ellipse43
+F7E019: ellipse43 -> ellipse53
+F7E020: ellipse53 -> ellipse54
+F7E021: ellipse54 -> 731
+F7E022: ellipse54 -> ellipse55
+F7E023: ellipse55 -> 730
+F7E024: ellipse55 -> 729
+F7E025: ellipse54 -> ellipse38
+F7E026: ellipse38 -> 732
+F7E027: ellipse38 -> ellipse37
+F7E028: ellipse53 -> ellipse14309
+F7E029: ellipse14309 -> 728
+F7E030: ellipse14309 -> ellipse14311
+F7E031: ellipse14311 -> ellipse14310
+F7E032: ellipse14310 -> ellipse10
+F7E033: ellipse34 -> LIFT2-F7
+F7E034: ellipse34 -> ellipse44
+F7E035: ellipse44 -> ellipse14321
+F7E036: ellipse14321 -> ellipse45
+F7E037: ellipse45 -> ellipse46
+F7E038: ellipse46 -> STAIRS3-F7
+F7E039: ellipse46 -> ellipse14323
+F7E040: ellipse14323 -> LIFT1-F7
+F7E041: ellipse14323 -> ellipse47
+F7E042: ellipse47 -> 737
+F7E043: ellipse47 -> 738
+F7E044: ellipse47 -> ellipse48
+F7E045: ellipse48 -> 736
+F7E046: ellipse48 -> ellipse49
+F7E047: ellipse37 -> 734
+F7E048: ellipse50 -> ellipse52
+F7E049: ellipse52 -> ellipse37
+F7E050: 733 -> ellipse43
+F7E051: 740 -> ellipse36
+
+WARNINGS
+--------------------
+None
+
+VALIDATION
+--------------------
+PASS

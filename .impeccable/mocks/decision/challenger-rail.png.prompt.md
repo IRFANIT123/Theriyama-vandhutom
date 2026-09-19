@@ -1,0 +1,8 @@
+# Image provenance
+
+- Source: AI-generated with OpenAI ImageGen on 2026-09-16.
+- Purpose: Impeccable direction-selection comp for CampusNav, not a shipping UI asset.
+
+## Prompt
+
+Create a high-fidelity 16:9 desktop UI design comp for CampusNav, an indoor wayfinding application for PRP E Block at VIT Vellore. Direction name: Checkpoint Rail. Visual system: a film cutting bench flattened into a functional route interface—true black and charcoal field, bold grain-orange occupying about one third of the screen, punched white content windows, hairline orange rules, one condensed grotesque type size, perforation ticks. Structure: the real indoor floor plan dominates the upper two thirds; a compact origin and destination setup sits in a punched-white window; G and F1–F7 remain visible as floor controls; along the bottom runs one horizontal perforated checkpoint rail with clear frames for Start, Lift 2, Floor 2, Room 234; the current checkpoint has a folded orange tape flag; completed frames have a grease-pencil cross; a blocked connector is visibly punched out; next physical action and an “I’m here” button remain unmistakable. Make it operational, legible, and production-realistic—not a poster. Preserve familiar map affordances and clear room labels. No gradients, no glassmorphism, no generic floating cards, no invented commercial claims. Use only factual labels such as CampusNav, PRP E Block, Ground Floor, Room 234, Lift 2, Stairs, You are here, Destination, Previous Point, Current Point, I’m here. Pixel-perfect product UI screenshot, landscape desktop browser viewport, no device frame.

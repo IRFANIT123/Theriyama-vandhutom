@@ -1,0 +1,141 @@
+PRP E BLOCK - 6TH FLOOR A* VALIDATION
+========================================
+
+TEST 1: 629 -> 637
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 629 (629)
+Destination : 637 (637-2)
+Nodes in DB : 47
+Route nodes : 11
+Distance    : 20.21 m
+Est. walking: 0.25 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 629 [629]
+ 2. ellipse54 [ellipse54]
+ 3. ellipse53 [ellipse53]
+ 4. ellipse641j [ellipse641j]
+ 5. ellipse43 [ellipse43]
+ 6. ellipse33 [ellipse33]
+ 7. ellipse35 [ellipse35]
+ 8. ellipse36 [ellipse36]
+ 9. ellipse34 [ellipse34]
+10. ellipse44 [ellipse44]
+11. 637 [637-2]
+
+RESULT: A* route found successfully.
+============================================================
+
+TEST 2: 634 -> 641
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 634 (634)
+Destination : 641 (641-1)
+Nodes in DB : 47
+Route nodes : 10
+Distance    : 19.66 m
+Est. walking: 0.25 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 634 [634]
+ 2. ellipse48 [ellipse48]
+ 3. ellipse49 [ellipse49]
+ 4. ellipse50 [ellipse50]
+ 5. ellipse36 [ellipse36]
+ 6. ellipse35 [ellipse35]
+ 7. ellipse33 [ellipse33]
+ 8. ellipse43 [ellipse43]
+ 9. ellipse641j [ellipse641j]
+10. 641 [641-1]
+
+RESULT: A* route found successfully.
+============================================================
+
+TEST 3: 627 -> 639
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 627 (627)
+Destination : 639 (639)
+Nodes in DB : 47
+Route nodes : 10
+Distance    : 17.65 m
+Est. walking: 0.22 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 627 [627]
+ 2. ellipse55 [ellipse55]
+ 3. ellipse54 [ellipse54]
+ 4. ellipse53 [ellipse53]
+ 5. ellipse641j [ellipse641j]
+ 6. ellipse43 [ellipse43]
+ 7. ellipse33 [ellipse33]
+ 8. ellipse35 [ellipse35]
+ 9. ellipse36 [ellipse36]
+10. 639 [639]
+
+RESULT: A* route found successfully.
+============================================================
+
+TEST 4: 630 -> LIFT1-F6
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 630 (630)
+Destination : LIFT1-F6 (LIFT1-F6)
+Nodes in DB : 47
+Route nodes : 9
+Distance    : 19.33 m
+Est. walking: 0.24 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 630 [630]
+ 2. ellipse38 [ellipse38]
+ 3. ellipse37 [ellipse37]
+ 4. ellipse50 [ellipse50]
+ 5. ellipse49 [ellipse49]
+ 6. ellipse48 [ellipse48]
+ 7. ellipse47 [ellipse47]
+ 8. ellipse14323 [ellipse14323]
+ 9. LIFT1-F6 [LIFT1-F6]
+
+RESULT: A* route found successfully.
+============================================================
+
+TEST 5: 626 -> STAIRS2-F6
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 626 (626)
+Destination : STAIRS2-F6 (STAIRS2-F6)
+Nodes in DB : 47
+Route nodes : 9
+Distance    : 14.44 m
+Est. walking: 0.18 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 626 [626]
+ 2. ellipse14309 [ellipse14309]
+ 3. ellipse53 [ellipse53]
+ 4. ellipse641j [ellipse641j]
+ 5. ellipse43 [ellipse43]
+ 6. ellipse33 [ellipse33]
+ 7. ellipse35 [ellipse35]
+ 8. ellipse36 [ellipse36]
+ 9. STAIRS2-F6 [STAIRS2-F6]
+
+RESULT: A* route found successfully.
+============================================================

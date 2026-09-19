@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#4F46E5" />
+  <title>Navora — PRP E Block</title>
+  <link rel="stylesheet" href="style.css?v=navora-indigo-20260918-01" />
+</head>
+<body>
+<div class="app-shell">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"><span>N</span></div>
+      <div>
+        <div class="brand-name">Navora</div>
+        <div class="brand-subtitle">Indoor wayfinding · PRP E Block</div>
+      </div>
+    </div>
+
+    <div class="global-search">
+      <span class="global-search-icon" aria-hidden="true">⌕</span>
+      <label class="sr-only" for="globalSearch">Search rooms and facilities</label>
+      <input id="globalSearch" type="search" autocomplete="off"
+             placeholder="Search a room, a floor, or “exit”…" disabled />
+      <div id="globalSuggestions" class="suggestions global-suggestions" hidden></div>
+    </div>
+
+    <div class="topbar-actions">
+      <button id="gpsBtn" class="top-icon-btn locate-action" type="button"
+              title="Use outdoor GPS to find the nearest entrance"
+              aria-label="Locate nearest entrance">
+        <span aria-hidden="true">◎</span><span class="gps-label">Locate me</span>
+      </button>
+      <button id="themeBtn" class="theme-toggle" type="button"
+              aria-label="Toggle calm evening theme" aria-pressed="false">
+        <span aria-hidden="true">☀</span><span aria-hidden="true">☾</span>
+      </button>
+      <div id="apiPill" class="status-pill" aria-live="polite">
+        <span class="status-dot"></span><span>Connecting…</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="workspace">
+
+    <!-- ============ Planner / route panel ============ -->
+    <aside class="planner-panel" aria-label="Route planner">
+      <div class="planner-scroll">
+
+        <div class="planning-view">
+          <div class="panel-heading"><h1>Plan a route</h1></div>
+
+          <section class="search-card planning-fields" aria-label="Choose route">
+            <div class="route-input-row">
+              <span class="route-dot start-dot" aria-hidden="true"></span>
+              <div class="search-block">
+                <label class="field-label" for="startSearch">From</label>
+                <div class="smart-search">
+                  <input id="startSearch" type="search" autocomplete="off"
+                         placeholder="Current room or entrance" disabled />
+                  <button id="clearStartBtn" class="clear-search" type="button"
+                          aria-label="Clear start">×</button>
+                  <div id="startSuggestions" class="suggestions" hidden></div>
+                </div>
+                <div id="startSelection" class="selection-note" hidden></div>
+              </div>
+            </div>
+
+            <div class="route-spine" aria-hidden="true"></div>
+
+            <div class="route-input-row">
+              <span class="route-dot destination-dot" aria-hidden="true"></span>
+              <div class="search-block">
+                <label class="field-label" for="destinationSearch">To</label>
+                <div class="smart-search">
+                  <input id="destinationSearch" type="search" autocomplete="off"
+                         placeholder="Room, floor, or exit" disabled />
+                  <button id="clearDestinationBtn" class="clear-search" type="button"
+                          aria-label="Clear destination">×</button>
+                  <div id="destinationSuggestions" class="suggestions" hidden></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="exitChooser" class="exit-chooser" hidden>
+              <div class="choice-heading">
+                <strong>Choose an exit</strong>
+                <span>Use the closest exit or pick an entrance.</span>
+              </div>
+              <div id="exitButtons" class="exit-buttons"></div>
+            </div>
+          </section>
+
+          <section class="option-card planning-fields" aria-label="Route options">
+            <div class="option-row">
+              <span class="field-label" id="modeLabel">Between floors</span>
+              <div class="mode-buttons" role="radiogroup" aria-labelledby="modeLabel">
+                <label class="mode-button">
+                  <input type="radio" name="mode" value="lift" checked />
+                  <span class="mode-icon" aria-hidden="true">⇅</span><strong>Lift</strong>
+                </label>
+                <label class="mode-button">
+                  <input type="radio" name="mode" value="stairs" />
+                  <span class="mode-icon" aria-hidden="true">↗</span><strong>Stairs</strong>
+                </label>
+              </div>
+            </div>
+
+            <details class="avoid-panel">
+              <summary><span>Avoid a lift or stair</span><span class="summary-hint">Optional</span></summary>
+              <div class="avoid-body">
+                <p>Choose anything you cannot use.</p>
+                <div class="avoid-buttons">
+                  <label><input type="checkbox" value="LIFT1"><span>Lift 1</span></label>
+                  <label><input type="checkbox" value="LIFT2"><span>Lift 2</span></label>
+                  <label><input type="checkbox" value="LIFT3"><span>Lift 3</span></label>
+                  <label><input type="checkbox" value="STAIRS1"><span>Stair 1</span></label>
+                  <label><input type="checkbox" value="STAIRS2"><span>Stair 2</span></label>
+                  <label><input type="checkbox" value="STAIRS3"><span>Stair 3</span></label>
+                </div>
+              </div>
+            </details>
+
+            <div id="blockedStatus" class="blocked-status" role="status" hidden></div>
+            <button id="navigateBtn" class="btn btn-primary btn-wide" type="button">
+              <span>Get route</span><span aria-hidden="true">→</span>
+            </button>
+            <div id="formMessage" class="form-message" role="alert" hidden></div>
+          </section>
+        </div>
+
+        <!-- ============ Active route summary ============ -->
+        <section id="routeSummary" class="route-summary active-route" hidden>
+          <div class="summary-head">
+            <div>
+              <span class="state-label"><i aria-hidden="true"></i> Route ready</span>
+              <h1 id="summaryRouteText">—</h1>
+              <p class="route-origin">From <span id="summaryStartText">—</span></p>
+            </div>
+            <button id="clearRouteBtn" class="icon-btn" type="button"
+                    title="End route" aria-label="End route">×</button>
+          </div>
+
+          <div class="summary-metrics" aria-label="Route summary">
+            <div><strong id="summaryTime">—</strong><span>estimated</span></div>
+            <div><strong id="summaryCost">—</strong><span>distance</span></div>
+            <div><strong id="summaryFloors">—</strong><span>floors</span></div>
+          </div>
+          <div class="route-mode-line">Via <strong id="summaryMode">—</strong></div>
+          <div id="routeBlockedStatus" class="blocked-status" role="status" hidden></div>
+
+          <div class="progress-card">
+            <div class="progress-head">
+              <span id="currentLandmark">Start</span><strong id="progressPercent">0%</strong>
+            </div>
+            <div id="journeyProgress" class="progress-track" role="progressbar"
+                 aria-label="Journey progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <div id="progressFill" class="progress-fill"></div>
+            </div>
+            <div class="progress-copy"><span id="remainingText">Route ready</span></div>
+          </div>
+
+          <section id="currentStepCard" class="current-step-card" hidden>
+            <span class="section-label">You are here</span>
+            <strong id="currentStepTitle">—</strong>
+            <span id="currentStepFloor">—</span>
+          </section>
+
+          <section id="routeInstructionsCard" class="instructions-card" hidden>
+            <div class="instructions-head"><strong>Route</strong><span id="instructionCount">0 steps</span></div>
+            <div id="routeInstructions" class="instructions-list"></div>
+          </section>
+        </section>
+      </div>
+    </aside>
+
+    <!-- ============ Map ============ -->
+    <section class="map-panel" aria-label="Indoor map">
+      <div id="mapViewport" class="map-viewport">
+
+        <div id="mapLoading" class="map-state">
+          <div class="spinner"></div><span>Loading floor map…</span>
+        </div>
+        <div id="svgHost" class="svg-host"></div>
+
+        <div class="map-floor-badge" aria-live="polite">
+          <strong id="currentFloorTitle">E Block · G</strong>
+          <span id="currentFloorSubtitle">Ground Floor</span>
+        </div>
+
+        <div class="map-view-controls" aria-label="Map display mode">
+          <button class="view-mode-btn active" type="button" data-map-mode="2d" aria-pressed="true">2D</button>
+          <button class="view-mode-btn" type="button" data-map-mode="25d" aria-pressed="false">2.5D</button>
+        </div>
+
+        <div id="floorOverviewButtons" class="floor-rail" role="group"
+             aria-label="Floor selector"></div>
+
+        <div class="map-utility-controls">
+          <div class="compass" aria-label="North is up">
+            <span aria-hidden="true">▲</span><strong>N</strong>
+          </div>
+          <div class="map-controls" aria-label="Map zoom">
+            <button id="zoomInBtn" class="control-btn" type="button" title="Zoom in" aria-label="Zoom in">+</button>
+            <button id="fitBtn" class="control-btn fit-btn" type="button" title="Fit map">Fit</button>
+            <button id="zoomOutBtn" class="control-btn" type="button" title="Zoom out" aria-label="Zoom out">−</button>
+          </div>
+        </div>
+
+        <details class="map-legend">
+          <summary><span aria-hidden="true">◈</span> Legend</summary>
+          <div class="legend-body">
+            <span><i class="legend-classroom"></i>Classroom</span>
+            <span><i class="legend-lab"></i>Lab / Research</span>
+            <span><i class="legend-office"></i>Office</span>
+            <span><i class="legend-lift"></i>Lift</span>
+            <span><i class="legend-stair"></i>Stairs</span>
+            <span><i class="legend-bathroom"></i>Bathroom</span>
+            <span><i class="legend-open"></i>Open space</span>
+            <span><i class="legend-seating"></i>Seating</span>
+            <span><i class="legend-entrance"></i>Building entry</span>
+            <span><i class="legend-door"></i>Service access</span>
+          </div>
+        </details>
+      </div>
+
+      <!-- ============ Navigation dock ============ -->
+      <div id="stepBar" class="step-bar" hidden>
+        <div class="dock-progress">
+          <div>
+            <span id="dockPointCount">Route progress</span>
+            <strong id="dockProgressPercent">0%</strong>
+          </div>
+          <div class="dock-progress-track"><i id="dockProgressFill"></i></div>
+          <small>
+            <span id="dockPointCounter">—</span>
+            <span id="dockRemaining">Route ready</span>
+          </small>
+        </div>
+
+        <div class="dock-next-action">
+          <span class="dock-next-copy">
+            <small>Next</small>
+            <strong id="nextStepTitle">—</strong>
+            <em id="nextStepSubtitle">—</em>
+          </span>
+          <div class="step-actions">
+            <button id="confirmNextBtn" class="btn btn-primary" type="button"
+                    aria-label="Confirm you have reached the next route point">I'm here →</button>
+            <button id="reportBlockedBtn" class="btn btn-secondary" type="button">Blocked</button>
+          </div>
+        </div>
+
+        <div class="dock-row">
+          <div id="floatingNavControls" class="floating-nav-controls" hidden>
+            <button id="previousCheckpointBtn" class="dock-point" type="button" disabled>
+              <i class="dock-pin previous-pin" aria-hidden="true">‹</i>
+              <span><small>Previous</small><strong id="dockPreviousTitle">Start</strong>
+                    <em id="dockPreviousMeta">Beginning</em></span>
+            </button>
+            <button id="centerMeBtn" class="dock-point current-point" type="button">
+              <i class="dock-pin" aria-hidden="true">●</i>
+              <span><small>You are here</small><strong id="dockCurrentTitle">Start</strong>
+                    <em id="dockCurrentMeta">On route</em></span>
+            </button>
+          </div>
+
+          <div class="dock-point destination-point" aria-live="polite">
+            <i class="dock-pin destination-pin" aria-hidden="true">⚑</i>
+            <span><small>Destination</small><strong id="dockDestinationTitle">—</strong>
+                  <em id="dockDestinationMeta">—</em></span>
+          </div>
+        </div>
+
+        <button id="mobileRouteDetailsBtn" class="mobile-route-details-btn"
+                type="button" aria-expanded="false">
+          <span>Route details</span><span id="mobileRouteDetailsHint">Show full plan</span>
+        </button>
+      </div>
+    </section>
+  </main>
+</div>
+
+<dialog id="blockedDialog" class="modal">
+  <form method="dialog" class="modal-card">
+    <div class="modal-head">
+      <div>
+        <span class="section-label">Find another route</span>
+        <h2>What can’t you use?</h2>
+      </div>
+      <button class="icon-btn" value="cancel" aria-label="Close">×</button>
+    </div>
+    <p>We’ll reroute from your last confirmed point.</p>
+    <div class="blocked-grid">
+      <label><input type="checkbox" value="LIFT1"><span>Lift 1</span></label>
+      <label><input type="checkbox" value="LIFT2"><span>Lift 2</span></label>
+      <label><input type="checkbox" value="LIFT3"><span>Lift 3</span></label>
+      <label><input type="checkbox" value="STAIRS1"><span>Stair 1</span></label>
+      <label><input type="checkbox" value="STAIRS2"><span>Stair 2</span></label>
+      <label><input type="checkbox" value="STAIRS3"><span>Stair 3</span></label>
+    </div>
+    <div class="modal-actions">
+      <button class="btn btn-secondary" value="cancel">Cancel</button>
+      <button id="applyBlockedBtn" class="btn btn-primary" value="default">Reroute</button>
+    </div>
+  </form>
+</dialog>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="schematic-overlays.js"></script>
+<script src="app.js?v=navora-indigo-20260918-01"></script>
+</body>
+</html>

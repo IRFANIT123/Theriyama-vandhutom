@@ -1,0 +1,132 @@
+COMMAND: python test_astar.py prp_navigation.db 535 529
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 535 (535)
+Destination : 529 (529)
+Nodes in DB : 46
+Route nodes : 9
+Distance    : 23.38 m
+Est. walking: 0.29 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 535 [535]
+ 2. ellipse47 [ellipse47]
+ 3. ellipse48 [ellipse48]
+ 4. ellipse49 [ellipse49]
+ 5. ellipse50 [ellipse50]
+ 6. ellipse37 [ellipse37]
+ 7. ellipse38 [ellipse38]
+ 8. ellipse54 [ellipse54]
+ 9. 529 [529]
+
+RESULT: A* route found successfully.
+============================================================
+
+COMMAND: python test_astar.py prp_navigation.db 533 539
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 533 (533-2)
+Destination : 539 (539-1)
+Nodes in DB : 46
+Route nodes : 4
+Distance    : 2.50 m
+Est. walking: 0.03 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 533 [533-2]
+ 2. ellipse533r [ellipse533r]
+ 3. ellipse36 [ellipse36]
+ 4. 539 [539-1]
+
+RESULT: A* route found successfully.
+============================================================
+
+COMMAND: python test_astar.py prp_navigation.db 527 541
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 527 (527)
+Destination : 541 (541-2)
+Nodes in DB : 46
+Route nodes : 5
+Distance    : 5.96 m
+Est. walking: 0.07 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 527 [527]
+ 2. ellipse55 [ellipse55]
+ 3. ellipse54 [ellipse54]
+ 4. ellipse53 [ellipse53]
+ 5. 541 [541-2]
+
+RESULT: A* route found successfully.
+============================================================
+
+COMMAND: python test_astar.py prp_navigation.db 537 530
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 537 (537-2)
+Destination : 530 (530)
+Nodes in DB : 46
+Route nodes : 8
+Distance    : 16.37 m
+Est. walking: 0.20 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 537 [537-2]
+ 2. ellipse44 [ellipse44]
+ 3. ellipse533r [ellipse533r]
+ 4. ellipse36 [ellipse36]
+ 5. ellipse50 [ellipse50]
+ 6. ellipse37 [ellipse37]
+ 7. ellipse38 [ellipse38]
+ 8. 530 [530]
+
+RESULT: A* route found successfully.
+============================================================
+
+COMMAND: python test_astar.py prp_navigation.db 526 535
+
+============================================================
+PRP E BLOCK - A* ROUTE TEST
+============================================================
+Start       : 526 (526)
+Destination : 535 (535)
+Nodes in DB : 46
+Route nodes : 16
+Distance    : 27.42 m
+Est. walking: 0.34 min
+
+ROUTE
+------------------------------------------------------------
+ 1. 526 [526]
+ 2. ellipse14309 [ellipse14309]
+ 3. ellipse53 [ellipse53]
+ 4. ellipse541j [ellipse541j]
+ 5. ellipse43 [ellipse43]
+ 6. ellipse33 [ellipse33]
+ 7. ellipse35 [ellipse35]
+ 8. ellipse36 [ellipse36]
+ 9. ellipse533r [ellipse533r]
+10. ellipse44 [ellipse44]
+11. ellipse14321 [ellipse14321]
+12. ellipse45 [ellipse45]
+13. ellipse46 [ellipse46]
+14. ellipse14323 [ellipse14323]
+15. ellipse47 [ellipse47]
+16. 535 [535]
+
+RESULT: A* route found successfully.
+============================================================
+

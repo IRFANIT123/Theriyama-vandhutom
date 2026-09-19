@@ -1,0 +1,100 @@
+PRP E BLOCK SVG NAVIGATION EXTRACTION REPORT
+====================================================
+SVG file: E Block - 6th Floor Final Map.svg
+Floor: F6
+
+COUNTS
+--------------------
+Total nodes: 47
+  Room nodes: 17
+  Corridor nodes: 24
+  Lift nodes: 3
+  Stair nodes: 3
+  Entrance nodes: 0
+Unique graph edges: 51
+Room locations: 16
+Connected components: 1
+
+SEARCHABLE LOCATIONS
+--------------------
+626 (room)
+627 (room)
+628 (room)
+629 (room)
+630 (room)
+631 (room)
+632 (room)
+633 (room)
+634 (room)
+635 (room)
+636 (room)
+637 (room)
+639 (room)
+641 (room)
+
+NON-SEARCHABLE LOCATIONS
+--------------------
+638: Electrical/service room; excluded from navigation.
+640: Electrical/service room; excluded from navigation.
+
+PATH TOPOLOGY EXTRACTED FROM NAV - Edges
+--------------------
+F6E001: ellipse33 -> ellipse35
+F6E002: ellipse35 -> ellipse36
+F6E003: ellipse36 -> ellipse34
+F6E004: ellipse35 -> STAIRS1-F6
+F6E005: ellipse33 -> STAIRS1-F6
+F6E006: ellipse36 -> STAIRS2-F6
+F6E007: ellipse34 -> STAIRS2-F6
+F6E008: ellipse35 -> ellipse37
+F6E009: ellipse37 -> ellipse50
+F6E010: ellipse50 -> ellipse49
+F6E011: ellipse49 -> 633
+F6E012: ellipse36 -> ellipse50
+F6E013: ellipse33 -> LIFT3-F6
+F6E014: ellipse33 -> ellipse43
+F6E015: ellipse43 -> ellipse641j
+F6E016: ellipse641j -> ellipse53
+F6E017: ellipse53 -> ellipse54
+F6E018: ellipse54 -> 629
+F6E019: ellipse54 -> ellipse55
+F6E020: ellipse55 -> 628
+F6E021: ellipse55 -> 627
+F6E022: ellipse54 -> ellipse38
+F6E023: ellipse38 -> 630
+F6E024: ellipse38 -> ellipse37
+F6E025: ellipse53 -> ellipse14309
+F6E026: ellipse14309 -> 626
+F6E027: ellipse14309 -> ellipse14311
+F6E028: ellipse14311 -> ellipse14310
+F6E029: ellipse14310 -> ellipse10
+F6E030: ellipse34 -> LIFT2-F6
+F6E031: ellipse34 -> ellipse44
+F6E032: ellipse44 -> ellipse14321
+F6E033: ellipse14321 -> ellipse45
+F6E034: ellipse45 -> ellipse46
+F6E035: ellipse46 -> STAIRS3-F6
+F6E036: ellipse46 -> ellipse14323
+F6E037: ellipse14323 -> LIFT1-F6
+F6E038: ellipse14323 -> ellipse47
+F6E039: ellipse47 -> 635
+F6E040: ellipse47 -> 636
+F6E041: ellipse47 -> ellipse48
+F6E042: ellipse48 -> 634
+F6E043: ellipse48 -> ellipse49
+F6E044: ellipse37 -> 632
+F6E045: 631-2 -> ellipse43
+F6E046: 639 -> ellipse36
+F6E047: 631-1 -> ellipse38
+F6E048: 637-1 -> ellipse45
+F6E049: 637-2 -> ellipse44
+F6E050: 641-1 -> ellipse641j
+F6E051: 641-2 -> ellipse53
+
+WARNINGS
+--------------------
+None
+
+VALIDATION
+--------------------
+PASS

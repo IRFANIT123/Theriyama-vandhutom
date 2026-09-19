@@ -1,0 +1,3 @@
+Command: python test_astar.py F7_SUBMISSION\prp_navigation.db 728 738
+RESULT: A* route found successfully.
+Route: 728 -> ellipse14309 -> ellipse53 -> ellipse54 -> ellipse38 -> ellipse37 -> ellipse50 -> ellipse49 -> ellipse48 -> ellipse47 -> 738

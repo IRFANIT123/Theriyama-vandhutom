@@ -1,0 +1,100 @@
+PRP E BLOCK SVG NAVIGATION EXTRACTION REPORT
+====================================================
+SVG file: /mnt/data/f5_work/E Block - 5th Floor Final Map.svg
+Floor: F5
+
+COUNTS
+--------------------
+Total nodes: 46
+  Room nodes: 18
+  Corridor nodes: 22
+  Lift nodes: 3
+  Stair nodes: 3
+  Entrance nodes: 0
+Unique graph edges: 51
+Room locations: 16
+Connected components: 1
+
+SEARCHABLE LOCATIONS
+--------------------
+526 (room)
+527 (room)
+528 (room)
+529 (room)
+530 (room)
+531 (room)
+532 (room)
+533 (room)
+534 (room)
+535 (room)
+536 (room)
+537 (room)
+539 (room)
+541 (room)
+
+NON-SEARCHABLE LOCATIONS
+--------------------
+538: Electrical/service room; excluded from navigation.
+540: Electrical/service room; excluded from navigation.
+
+PATH TOPOLOGY EXTRACTED FROM NAV - Edges
+--------------------
+F5E001: ellipse33 -> ellipse35
+F5E002: ellipse35 -> ellipse36
+F5E003: ellipse36 -> ellipse34
+F5E004: ellipse35 -> STAIRS1-F5
+F5E005: ellipse33 -> STAIRS1-F5
+F5E006: ellipse36 -> STAIRS2-F5
+F5E007: ellipse34 -> STAIRS2-F5
+F5E008: ellipse35 -> ellipse37
+F5E009: ellipse37 -> ellipse50
+F5E010: ellipse50 -> ellipse49
+F5E011: ellipse49 -> 532
+F5E012: ellipse36 -> ellipse50
+F5E013: ellipse33 -> LIFT3-F5
+F5E014: ellipse33 -> ellipse43
+F5E015: ellipse43 -> ellipse541j
+F5E016: ellipse541j -> ellipse53
+F5E017: ellipse53 -> ellipse54
+F5E018: ellipse54 -> 529
+F5E019: ellipse54 -> ellipse55
+F5E020: ellipse55 -> 528
+F5E021: ellipse55 -> 527
+F5E022: ellipse54 -> ellipse38
+F5E023: ellipse38 -> 530
+F5E024: ellipse38 -> ellipse37
+F5E025: ellipse53 -> ellipse14309
+F5E026: ellipse14309 -> 526
+F5E027: ellipse34 -> LIFT2-F5
+F5E028: ellipse34 -> ellipse44
+F5E029: ellipse44 -> ellipse14321
+F5E030: ellipse14321 -> ellipse45
+F5E031: ellipse45 -> ellipse46
+F5E032: ellipse46 -> STAIRS3-F5
+F5E033: ellipse46 -> ellipse14323
+F5E034: ellipse14323 -> LIFT1-F5
+F5E035: ellipse14323 -> ellipse47
+F5E036: ellipse47 -> 535
+F5E037: ellipse47 -> 536
+F5E038: ellipse47 -> ellipse48
+F5E039: ellipse48 -> 534
+F5E040: ellipse48 -> ellipse49
+F5E041: ellipse37 -> 531
+F5E042: 537-1 -> ellipse45
+F5E043: 537-2 -> ellipse44
+F5E044: 541-1 -> ellipse541j
+F5E045: 541-2 -> ellipse53
+F5E046: 533-1 -> ellipse49
+F5E047: 533-2 -> ellipse533r
+F5E048: ellipse44 -> ellipse533r
+F5E049: ellipse533r -> ellipse36
+F5E050: 539-1 -> ellipse36
+F5E051: 539-2 -> ellipse35
+
+WARNINGS
+--------------------
+None
+
+VALIDATION
+--------------------
+PASS

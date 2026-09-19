@@ -1,0 +1,82 @@
+PRP E BLOCK SVG NAVIGATION EXTRACTION REPORT
+=======================================================
+SVG file: PRP E-BLOCK\PRP NAVIGATION\E Block - Ground Floor Final Map.svg
+Floor: G
+
+COUNTS
+--------------------
+Total nodes: 49
+  Room nodes: 13
+  Corridor nodes: 30
+  Lift nodes: 3
+  Stair nodes: 3
+  Entrance nodes: 0
+Unique graph edges: 57
+Room locations: 15
+Connected components: 1
+
+SEARCHABLE LOCATIONS
+--------------------
+G28 (toilet)
+G30 (room)
+G29 (room)
+G31 (room)
+G32 (room)
+G33 (room)
+G34 (room)
+G35 (room)
+G37 (room)
+G39 (room)
+G41 (room)
+
+NON-SEARCHABLE LOCATIONS
+--------------------
+G36: No navigation node found in NAV - Nodes.
+G38: No navigation node found in NAV - Nodes.
+G40: No navigation node found in NAV - Nodes.
+G42: No navigation node found in NAV - Nodes.
+
+PATH TOPOLOGY
+--------------------
+path56: ENTRANCE1-G -> ellipse28
+path57: ellipse33 -> ellipse31 -> ellipse28 -> ellipse35
+path2510: ellipse28 -> ellipse36
+path3863: ellipse33 -> ellipse35 -> ellipse36
+path14297: ellipse35 -> STAIRS1
+path14298: ellipse36 -> STAIRS2-G
+path14299: ellipse35 -> ellipse37
+path14300: ellipse50 -> ellipse52 -> ellipse37 -> ellipse50
+path14301: ellipse50 -> ellipse49
+path14302: G33 -> ellipse49
+path14303: ENTRANCE2-G -> ellipse52
+path14304: ellipse36 -> ellipse50
+path14305: LIFT1-G -> ellipse33 -> ellipse43
+path14306: ellipse43 -> G41-1
+path14307: ellipse43 -> ellipse53 -> G41-2
+path14308: ellipse53 -> ellipse54 -> G31
+path14309: G30 -> ellipse55 -> ellipse54 -> ellipse38 -> G32
+path14311: ellipse53 -> ellipse14309 -> G28
+path14312: ellipse14309 -> ellipse14311 -> ellipse14310 -> ellipse10
+path14313: ellipse55 -> G29
+path14314: ellipse38 -> ellipse37
+path14315: ellipse28 -> ellipse32
+path14316: ellipse32 -> ellipse34 -> STAIRS2-G
+path14317: ellipse36 -> ellipse34 -> G39
+path14318: LIFT2-G -> ellipse34 -> ellipse44
+path14321: ellipse44 -> ellipse14321 -> G37-1
+path14322: ellipse14321 -> ellipse45 -> G37-2
+path14323: ellipse45 -> ellipse46 -> STAIRS3-G
+path14324: ellipse46 -> ellipse14323 -> LIFT3-G
+path14325: ellipse14323 -> ellipse47 -> G35
+path14326: ellipse47 -> ellipse48 -> G34
+path14327: ellipse48 -> ellipse49
+path14328: STAIRS1 -> ellipse33
+path14329: ellipse14329 -> ellipse49
+
+WARNINGS
+--------------------
+None
+
+VALIDATION
+--------------------
+PASS

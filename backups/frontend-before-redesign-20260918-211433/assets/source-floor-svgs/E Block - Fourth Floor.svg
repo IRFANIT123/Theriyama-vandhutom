@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="svg-f4-campusnav"
+   width="1122.6667"
+   height="1588"
+   viewBox="0 0 1122.6667 1588"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="E Block - Fourth Floor.svg"
+   inkscape:docname="E Block - 4th Floor Final Map.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs56" />
+  <sodipodi:namedview
+     id="namedview56"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.7186841"
+     inkscape:cx="390.29665"
+     inkscape:cy="1138.1913"
+     inkscape:window-width="1031"
+     inkscape:window-height="981"
+     inkscape:window-x="952"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="nav-nodes-f4"
+     inkscape:rotation="90" />
+  <title
+     id="title1">PRP E Block - 4th Floor CampusNav Final Map</title>
+  <g
+     id="map-walls-f4"
+     inkscape:groupmode="layer"
+     inkscape:label="MAP - Walls">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 288.742307,1230.298271 C 288.742307,1230.298271 288.742307,1230.298271 276.526374,1230.060475 C 276.526374,1230.060475 275.785903,1230.057048 276.394092,1243.653152 C 276.394092,1243.653152 276.394092,1243.653152 165.690765,1243.503269 C 165.690765,1243.503269 165.690765,1243.503269 166.239291,1187.139247 C 166.239291,1187.139247 166.239291,1187.139247 167.687178,1076.406428 C 290.601148,1077.337775 290.601148,1077.337775 290.601148,1077.337775 C 290.354223,1102.710673 290.354223,1102.710673 290.354223,1102.710673 C 277.029347,1102.286480 277.029347,1102.286480 277.029347,1102.286480 C 275.671488,1184.745753 275.671488,1184.745753 275.671488,1184.745753 C 275.817727,1207.764340 275.817727,1207.764340 275.817727,1207.764340 C 289.142602,1208.188533 289.142602,1208.188533 289.142602,1208.188533"
+       id="f4wall-ref-001" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 249.687664,1266.249623 C 272.461297,1266.611340 272.461297,1266.611340 272.461297,1266.611340 C 271.810390,1306.593669 271.810390,1306.593669 271.810390,1306.593669 C 271.777964,1309.925639 271.777964,1309.925639 271.777964,1309.925639 C 182.244223,1309.511297 182.244223,1309.511297 182.244223,1309.511297 C 182.069943,1246.712956 182.069943,1246.712956 182.069943,1246.712956 C 272.391567,1246.874621 272.391567,1246.874621 272.391567,1246.874621"
+       id="f4wall-ref-002" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 306.122932,1304.958288 C 306.346988,1389.543652 306.346988,1389.543652 306.346988,1389.543652 C 297.027036,1405.648473 297.027036,1405.648473 297.027036,1405.648473 C 183.014524,1337.965995 183.014524,1337.965995 183.014524,1337.965995 C 183.291394,1309.516143 183.291394,1309.516143 183.291394,1309.516143"
+       id="f4wall-ref-003" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 284.171992,1327.668796 C 304.596951,1327.250769 304.596951,1327.250769 304.596951,1327.250769"
+       id="f4wall-ref-004" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 308.023060,1244.220044 C 308.367055,1262.676410 308.367055,1262.676410 308.367055,1262.676410"
+       id="f4wall-ref-005" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 307.397097,1281.639343 C 306.873400,1308.550206 306.873400,1308.550206 306.873400,1308.550206"
+       id="f4wall-ref-006" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 308.608792,1291.641311 C 338.620485,1274.607049 338.620485,1274.607049 338.620485,1274.607049 C 425.449198,1230.153463 425.449198,1230.153463 425.449198,1230.153463"
+       id="f4wall-ref-007" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 309.062759,1244.993830 C 335.506500,1244.859881 335.506500,1244.859881 335.506500,1244.859881 C 334.922939,1277.922057 334.922939,1277.922057 334.922939,1277.922057"
+       id="f4wall-ref-008" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 442.378542,1239.202870 C 494.448118,1269.176594 494.448118,1269.176594 494.448118,1269.176594 C 507.834453,1292.563284 507.834453,1292.563284 507.834453,1292.563284"
+       id="f4wall-ref-009" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 516.565846,1310.033166 C 516.565846,1310.033166 516.565846,1310.033166 342.566818,1407.140844 C 343.357730,1272.065725 343.357730,1272.065725 343.357730,1272.065725"
+       id="f4wall-ref-010" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 548.909194,1187.919996 C 497.343148,1186.912386 497.343148,1186.912386 497.343148,1186.912386 C 463.653853,1205.211252 463.653853,1205.211252 463.653853,1205.211252"
+       id="f4wall-ref-011" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 437.095474,1190.222018 C 475.369759,1211.929711 475.369759,1211.929711 475.369759,1211.929711"
+       id="f4wall-ref-012" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 487.075686,1219.673423 C 533.687473,1245.520695 533.687473,1245.520695 533.687473,1245.520695 C 549.572140,1254.308943 549.572140,1254.308943 549.572140,1254.308943 C 549.425296,1188.691358 549.425296,1188.691358 549.425296,1188.691358"
+       id="f4wall-ref-013" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 448.302871,1168.486990 C 448.936428,1103.385566 448.936428,1103.385566 448.936428,1103.385566"
+       id="f4wall-ref-014" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 448.899124,1080.316977 C 550.724727,1082.069727 550.724727,1082.069727 550.724727,1082.069727 C 549.427791,1188.435045 549.427791,1188.435045 549.427791,1188.435045"
+       id="f4wall-ref-015" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 541.901833,992.410295 C 494.508425,992.553457 494.508425,992.553457 494.508425,992.553457 C 494.441097,1075.562444 494.441097,1075.562444 494.441097,1075.562444 C 559.972417,1075.865708 559.972417,1075.865708 559.972417,1075.865708 C 559.299274,992.853295 559.299274,992.853295 559.299274,992.853295"
+       id="f4wall-ref-016" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 683.899695,744.402003 C 744.607396,745.770398 744.607396,745.770398 744.607396,745.770398"
+       id="f4wall-ref-017" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 544.745152,662.198658 C 497.355281,661.979348 497.355281,661.979348 497.355281,661.979348 C 497.355434,623.918318 497.355434,623.918318 497.355434,623.918318"
+       id="f4wall-ref-018" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 168.244294,1076.227842 C 169.881055,908.041843 169.881055,908.041843 169.881055,908.041843 C 290.933267,910.051998 290.933267,910.051998 290.933267,910.051998 C 291.088324,932.164366 291.088324,932.164366 291.088324,932.164366 C 278.126629,932.466860 278.126629,932.466860 278.126629,932.466860 C 277.882927,1033.599327 277.882927,1033.599327 277.882927,1033.599327 C 290.093569,1034.380791 290.093569,1034.380791 290.093569,1034.380791"
+       id="f4wall-ref-019" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 169.012984,1073.331478 C 279.342539,1073.842059 279.342539,1073.842059 279.342539,1073.842059 C 279.134569,1057.166721 279.134569,1057.166721 279.134569,1057.166721 C 290.241572,1057.218122 290.241572,1057.218122 290.241572,1057.218122"
+       id="f4wall-ref-020" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 336.617383,705.096303 C 336.617383,705.096303 336.617383,705.096303 337.478246,578.592651 C 418.566414,578.242944 418.566414,578.242944 418.566414,578.242944 C 417.687913,706.558942 417.687913,706.558942 417.687913,706.558942"
+       id="f4wall-ref-021" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 335.277390,728.651693 C 335.425392,751.489005 335.425392,751.489005 335.425392,751.489005 C 417.246975,751.867657 417.246975,751.867657 417.246975,751.867657 C 417.469208,729.032059 417.469208,729.032059 417.469208,729.032059"
+       id="f4wall-ref-022" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 173.969734,411.817352 C 171.690968,645.972806 171.690968,645.972806 171.690968,645.972806 C 170.491770,731.151481 170.491770,731.151481 170.491770,731.151481 C 170.731488,744.564576 170.731488,744.564576 170.731488,744.564576 C 281.064580,744.712686 281.064580,744.712686 281.064580,744.712686 C 280.846028,729.124772 280.846028,729.124772 280.846028,729.124772 C 294.177958,728.823982 294.177958,728.823982 294.177958,728.823982"
+       id="f4wall-ref-023" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 280.701553,705.924999 C 282.080653,602.260363 282.080653,602.260363 282.080653,602.260363 C 295.038821,602.320330 295.038821,602.320330 295.038821,602.320330 C 294.897874,578.758086 294.897874,578.758086 294.897874,578.758086 C 173.461317,578.196104 173.461317,578.196104 173.461317,578.196104"
+       id="f4wall-ref-024" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 174.332915,412.544008 C 295.776527,412.381048 295.776527,412.381048 295.776527,412.381048 C 294.810306,435.575690 294.810306,435.575690 294.810306,435.575690 C 283.322486,436.609980 283.322486,436.609980 283.322486,436.609980 C 281.576678,539.910432 281.576678,539.910432 281.576678,539.910432 C 293.787331,540.691906 293.787331,540.691906 293.787331,540.691906"
+       id="f4wall-ref-025" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 173.859772,575.298056 C 283.078621,575.803497 283.078621,575.803497 283.078621,575.803497 C 282.465151,562.751160 282.465151,562.751160 282.465151,562.751160 C 296.167316,562.452093 296.167316,562.452093 296.167316,562.452093"
+       id="f4wall-ref-026" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 502.098072,593.128949 C 564.293759,593.779265 564.293759,593.779265 564.293759,593.779265 C 562.505773,663.368314 562.505773,663.368314 562.505773,663.368314"
+       id="f4wall-ref-027" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 454.606667,413.116079 C 557.894740,414.319049 557.894740,414.319049 557.894740,414.319049 C 555.552784,578.876887 555.552784,578.876887 555.552784,578.876887 C 454.856347,577.685911 454.856347,577.685911 454.856347,577.685911"
+       id="f4wall-ref-028" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 454.744087,437.040795 C 453.971412,554.482701 453.971412,554.482701 453.971412,554.482701"
+       id="f4wall-ref-029" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 559.192275,992.141888 C 570.713735,991.938892 570.713735,991.938892 570.713735,991.938892 C 585.389089,1017.382115 585.389089,1017.382115 585.389089,1017.382115 C 745.153934,930.204974 745.153934,930.204974 745.153934,930.204974 C 744.807445,912.004902 744.807445,912.004902 744.807445,912.004902 C 746.016757,895.349938 746.016757,895.349938 746.016757,895.349938"
+       id="f4wall-ref-030" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 562.397477,662.790214 C 574.958635,663.360973 574.958635,663.360973 574.958635,663.360973"
+       id="f4wall-ref-031" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 581.356442,651.600028 C 589.871050,637.542037 589.871050,637.542037 589.871050,637.542037 C 746.618321,725.927622 746.618321,725.927622 746.618321,725.927622 C 747.580585,761.560039 747.580585,761.560039 747.580585,761.560039"
+       id="f4wall-ref-032" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 344.274984,1339.224923 C 480.899653,1262.449654 480.899653,1262.449654 480.899653,1262.449654"
+       id="f4wall-ref-033" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 175.091022,410.735088 C 250.650539,369.761351 250.650539,369.761351 250.650539,369.761351 C 266.693888,395.209616 266.693888,395.209616 266.693888,395.209616 C 285.202024,395.657756 285.202024,395.657756 285.202024,395.657756"
+       id="f4wall-ref-034" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 459.208206,396.825506 C 469.208030,396.509296 469.208030,396.509296 469.208030,396.509296 C 484.253716,372.292356 484.253716,372.292356 484.253716,372.292356"
+       id="f4wall-ref-035" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 275.223517,355.738108 C 365.701720,303.596352 365.701720,303.596352 365.701720,303.596352 L 365.701720,303.596352 C 370.514756,303.618625 370.514756,303.618625 370.514756,303.618625 C 554.206509,412.852040 554.206509,412.852040 554.206509,412.852040"
+       id="f4wall-ref-036" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none"
+       d="M 421.455111,1232.543612 C 421.455111,1232.543612 421.455111,1232.543612 337.398016,1233.604625 C 336.914902,1245.201877 336.914902,1245.201877 336.914902,1245.201877"
+       id="f4wall-ref-037" />
+    <path
+       style="fill:none;stroke:#00aad4;stroke-width:3;stroke-dasharray:none"
+       d="M 415.687591,969.170831 C 415.687591,969.170831 415.687591,969.170831 416.301376,906.101097 C 416.301376,906.101097 416.301376,906.101097 335.146354,905.239072 C 333.410086,1137.453660 333.410086,1137.453660 333.410086,1137.453660 L 333.410086,1137.453660 C 413.860419,1137.899830 413.860419,1137.899830 413.860419,1137.899830 C 414.534098,1087.698458 414.534098,1087.698458 414.534098,1087.698458 C 416.198850,973.704273 416.198850,973.704273 416.198850,973.704273 C 415.736976,964.096251 415.736976,964.096251 415.736976,964.096251"
+       id="f4wall-ref-038" />
+    <path
+       style="fill:none;stroke:#00aad4;stroke-width:3;stroke-dasharray:none"
+       d="M 334.208480,857.510542 C 417.694358,858.078140 417.694358,858.078140 417.694358,858.078140 C 417.754554,794.824601 417.754554,794.824601 417.754554,794.824601"
+       id="f4wall-ref-039" />
+    <path
+       style="fill:none;stroke:#00aad4;stroke-width:3;stroke-dasharray:none"
+       d="M 417.380792,795.185359 C 417.380792,795.185359 417.380792,795.185359 335.007383,794.441666 C 334.393598,857.511399 334.393598,857.511399 334.393598,857.511399"
+       id="f4wall-ref-040" />
+    <path
+       style="fill:none;stroke:#00aad4;stroke-width:3;stroke-dasharray:none"
+       d="M 420.996328,461.714916 C 420.996328,461.714916 420.996328,461.714916 338.436039,461.151601 C 336.961695,574.602916 336.961695,574.602916 336.961695,574.602916 C 419.525513,574.803759 419.525513,574.803759 419.525513,574.803759"
+       id="f4wall-ref-041" />
+    <path
+       style="fill:none;stroke:#00aad4;stroke-width:3;stroke-dasharray:none"
+       d="M 418.592870,575.524419 C 420.437448,462.074818 420.437448,462.074818 420.437448,462.074818"
+       id="f4wall-ref-042" />
+    <path
+       id="f4wall-ref-043"
+       style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 170.612551,745.729374 L 169.034124,907.921250 L 279.138190,908.430788 L 279.288747,892.960178 M 279.512155,870.003790 L 280.716617,746.238912 Z" />
+    <path
+       id="f4wall-ref-044"
+       style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 336.482712,641.691361 L 418.652968,642.071627" />
+    <path
+       id="f4wall-ref-045"
+       style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 170.612551,745.729374 L 169.034124,907.921250" />
+    <path
+       id="f4wall-ref-046"
+       style="fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 747.309243,761.374135 L 746.007647,895.120052" />
+    <path
+       id="f4wall-cce-top"
+       d="M 493,744 L 640,744"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-cce-right"
+       d="M 640,744 L 640,914"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-cce-bottom"
+       d="m 639.65214,915.04357 h -147"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-cce-left-upper"
+       d="M 493,744 L 493,748"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-cce-left-mid"
+       d="M 493,767 V 886.09665"
+       style="fill:none;stroke:#000000;stroke-width:2.9283;stroke-dasharray:none" />
+    <path
+       id="f4wall-cce-left-lower"
+       d="M 493,902.93556 V 914"
+       style="fill:none;stroke:#000000;stroke-width:2.57656;stroke-dasharray:none" />
+    <path
+       id="f4wall-432-left-a"
+       d="M 454.8,414 L 454.8,423"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-432-left-b"
+       d="M 454.8,437 L 454.8,557"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-432-left-c"
+       d="M 454.8,573 L 454.8,578"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-436-left-a"
+       d="M 448.5,1080 L 448.5,1090"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-436-left-b"
+       d="M 448.5,1103 L 448.5,1175"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="f4wall-436-left-c"
+       d="M 448.5,1191 L 448.5,1202"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-dasharray:none" />
+    <path
+       id="path61"
+       d="M 742.96596,915.56536 H 639.10035"
+       style="fill:none;stroke:#000000;stroke-width:2.52173;stroke-dasharray:none" />
+  </g>
+  <g
+     id="map-rooms-f4"
+     inkscape:groupmode="layer"
+     inkscape:label="MAP - Rooms">
+    <text
+       id="room-421-label"
+       x="425.666700"
+       y="1276.146700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">421</text>
+    <text
+       id="room-422-label"
+       x="291.906700"
+       y="1328.946700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">422</text>
+    <text
+       id="room-423-label"
+       x="278.306700"
+       y="1266.706700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">423</text>
+    <text
+       id="room-424-label"
+       x="269.826700"
+       y="1229.746700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">424</text>
+    <text
+       id="room-425-label"
+       x="269.186700"
+       y="1056.626700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">425</text>
+    <text
+       id="room-426-label"
+       x="269.826700"
+       y="893.106700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">426</text>
+    <text
+       id="room-427-label"
+       x="272.226700"
+       y="725.426700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">427</text>
+    <text
+       id="room-428-label"
+       x="345.826700"
+       y="729.266700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">428</text>
+    <text
+       id="room-429-label"
+       x="271.426700"
+       y="560.786700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">429</text>
+    <text
+       id="room-430-label"
+       x="279.586700"
+       y="413.586700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">430</text>
+    <text
+       id="room-431-label"
+       x="450.61523"
+       y="439.42136"
+       style="font-weight:600;font-size:12.2813px;font-family:Arial, sans-serif;text-anchor:middle;fill:#000000;stroke-width:0.877237"
+       transform="scale(1.0860789,0.92074342)">431</text>
+    <text
+       id="room-432-label"
+       x="473.64536"
+       y="476.9848"
+       style="font-weight:600;font-size:14px;font-family:Arial, sans-serif;text-anchor:middle;fill:#000000">432</text>
+    <text
+       id="room-433-label"
+       x="527.906700"
+       y="652.466700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">433</text>
+    <text
+       id="room-434-label"
+       x="552.000000"
+       y="850.000000"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">434</text>
+    <text
+       id="room-434-A-label"
+       x="678.22009"
+       y="836.16193"
+       style="font-weight:600;font-size:14px;font-family:Arial, sans-serif;text-anchor:middle;fill:#000000">434-A</text>
+    <text
+       id="room-435-label"
+       x="521.186700"
+       y="1012.146700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">435</text>
+    <text
+       id="room-436-label"
+       x="462.946700"
+       y="1128.306700"
+       style="font-size:14px;font-family:Arial,sans-serif;font-weight:600;fill:#000000;text-anchor:middle">436</text>
+    <text
+       id="note-433"
+       x="527.906700"
+       y="669.436000"
+       style="font-size:7px;font-family:Arial,sans-serif;fill:#555;text-anchor:middle">ELECTRICAL</text>
+    <text
+       id="note-435"
+       x="521.186700"
+       y="1029.116000"
+       style="font-size:7px;font-family:Arial,sans-serif;fill:#555;text-anchor:middle">ELECTRICAL</text>
+    <text
+       id="note-434"
+       x="552.000000"
+       y="866.970000"
+       style="font-size:7px;font-family:Arial,sans-serif;fill:#555;text-anchor:middle">CCE LAB</text>
+    <text
+       id="note-421"
+       x="425.700000"
+       y="1292.800000"
+       style="font-size:7px;font-family:Arial,sans-serif;fill:#555;text-anchor:middle">PHC / TOILET AREA</text>
+  </g>
+  <g
+     id="map-infrastructure-f4"
+     inkscape:groupmode="layer"
+     inkscape:label="MAP - Infrastructure">
+    <path
+       id="rect5-f4"
+       d="m 491.74796,918.46929 147.82984,0.51331 -0.41584,32.06095 -147.82984,-0.51331 z"
+       style="fill:none;stroke:#ff0000;stroke-width:1.73151;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="rect5-8-f4"
+       d="m 497.25282,705.00815 144.22785,0.54105 -0.40571,33.79336 -144.22785,-0.54105 z"
+       style="fill:none;stroke:#ff0000;stroke-width:1.75589;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="M 309.701573,375.651878 C 292.720882,347.300471 293.073042,347.302101 293.073042,347.302101 L 368.150320,304.550724 L 444.136141,349.380350 L 426.611892,376.882495 L 383.205803,349.787959 L 351.494643,351.365159 Z"
+       id="path6-f4" />
+    <path
+       id="rect14329-f4"
+       d="M 455.601406,580.253822 L 496.122261,580.441344 L 495.676059,626.290974 L 455.155204,626.103453 Z"
+       style="fill:none;stroke:#ff0000;stroke-width:1.08409;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="rect14330-f4"
+       d="M 450.562846,1032.516642 L 491.083701,1032.704164 L 490.637499,1078.553794 L 450.116644,1078.366272 Z"
+       style="fill:none;stroke:#ff0000;stroke-width:1.08409;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="rect14331-f4"
+       d="m 339.99274,405.87372 37.61872,0.19561 -0.41424,47.82682 -37.61872,-0.1956 z"
+       style="fill:none;stroke:#ff0000;stroke-width:1.06683;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="LIFT1-visual"
+       x="359.630619"
+       y="442.168723"
+       style="font-size:9px;font-family:Arial,sans-serif;font-weight:bold;fill:#cc0000;text-anchor:middle">LIFT1</text>
+    <text
+       id="LIFT2-visual"
+       x="474.976946"
+       y="637.341538"
+       style="font-size:9px;font-family:Arial,sans-serif;font-weight:bold;fill:#cc0000;text-anchor:middle">LIFT2</text>
+    <text
+       id="LIFT3-visual"
+       x="470.800185"
+       y="1066.526195"
+       style="font-size:9px;font-family:Arial,sans-serif;font-weight:bold;fill:#cc0000;text-anchor:middle">LIFT3</text>
+    <text
+       id="STAIR3-visual"
+       x="370.874487"
+       y="334.420687"
+       style="font-size:9px;font-family:Arial,sans-serif;font-weight:bold;fill:#cc0000;text-anchor:middle">STAIR3</text>
+    <text
+       id="STAIR2-visual"
+       x="569.904917"
+       y="730.608683"
+       style="font-size:9px;font-family:Arial,sans-serif;font-weight:bold;fill:#cc0000;text-anchor:middle">STAIR2</text>
+    <text
+       id="STAIR1-visual"
+       x="565.903846"
+       y="932.216225"
+       style="font-size:9px;font-family:Arial,sans-serif;font-weight:bold;fill:#cc0000;text-anchor:middle">STAIR1</text>
+  </g>
+  <g
+     id="nav-nodes-f4"
+     inkscape:groupmode="layer"
+     inkscape:label="NAV - Nodes">
+    <circle
+       id="421"
+       cx="431.00888"
+       cy="1238.3013"
+       inkscape:label="421"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title2">421</title>
+    </circle>
+    <circle
+       id="422"
+       cx="293.84634"
+       cy="1318.4641"
+       inkscape:label="422"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title3">422</title>
+    </circle>
+    <circle
+       id="423"
+       cx="262.57034"
+       cy="1256.8809"
+       inkscape:label="423"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title4">423</title>
+    </circle>
+    <circle
+       id="424"
+       cx="283.72498"
+       cy="1218.2194"
+       inkscape:label="424"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title5">424</title>
+    </circle>
+    <circle
+       id="425"
+       cx="283.41263"
+       cy="1045.6049"
+       inkscape:label="425"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title6">425</title>
+    </circle>
+    <circle
+       id="426"
+       cx="285.01523"
+       cy="880.72424"
+       inkscape:label="426"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title7">426</title>
+    </circle>
+    <circle
+       id="427"
+       cx="288.59348"
+       cy="717.95654"
+       inkscape:label="427"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title8">427</title>
+    </circle>
+    <circle
+       id="429"
+       cx="289.22025"
+       cy="551.19769"
+       inkscape:label="429"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title9">429</title>
+    </circle>
+    <circle
+       id="430"
+       cx="274.55191"
+       cy="402.4631"
+       inkscape:label="430"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title10">430</title>
+    </circle>
+    <circle
+       id="431"
+       cx="460.435"
+       cy="404.34976"
+       inkscape:label="431"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title11">431</title>
+    </circle>
+    <circle
+       id="434-1"
+       cx="493.27988"
+       cy="757.49481"
+       inkscape:label="434-1"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title12">434-1</title>
+    </circle>
+    <circle
+       id="LIFT1-F4"
+       cx="360.03818"
+       cy="413.5325"
+       inkscape:label="LIFT1-F4"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title13">LIFT1-F4</title>
+    </circle>
+    <circle
+       id="LIFT2-F4"
+       cx="476.79901"
+       cy="621.54974"
+       inkscape:label="LIFT2-F4"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title14">LIFT2-F4</title>
+    </circle>
+    <circle
+       id="LIFT3-F4"
+       cx="472.01624"
+       cy="1036.2378"
+       inkscape:label="LIFT3-F4"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title15">LIFT3-F4</title>
+    </circle>
+    <circle
+       id="STAIRS1-F4-U"
+       cx="503.44464"
+       cy="928.62195"
+       inkscape:label="STAIRS1-F4"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title16">STAIRS1-F4</title>
+    </circle>
+    <circle
+       id="STAIRS2-F4-U"
+       cx="502.55832"
+       cy="721.68079"
+       inkscape:label="STAIRS2-F4-U"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title17">STAIRS2-F4</title>
+    </circle>
+    <circle
+       id="F4C001"
+       cx="502.09991"
+       cy="1306.9503"
+       inkscape:label="F4C001"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title19">F4C001</title>
+    </circle>
+    <circle
+       id="F4C002"
+       cx="445.25632"
+       cy="1221.8173"
+       inkscape:label="F4C002"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title20">F4C002</title>
+    </circle>
+    <circle
+       id="F4C004"
+       cx="537.99017"
+       cy="1274.0164"
+       inkscape:label="F4C004"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title22">F4C004</title>
+    </circle>
+    <circle
+       id="F4C005"
+       cx="438.51025"
+       cy="564.07861"
+       inkscape:label="F4C005"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title23">F4C005</title>
+    </circle>
+    <circle
+       id="F4C006"
+       cx="360.2113"
+       cy="395.7355"
+       inkscape:label="F4C006"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title24">F4C006</title>
+    </circle>
+    <circle
+       id="F4C008"
+       cx="658.30707"
+       cy="966.57068"
+       inkscape:label="F4C008"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title26">F4C008</title>
+    </circle>
+    <circle
+       id="F4C009"
+       cx="655.20459"
+       cy="687.71478"
+       inkscape:label="F4C009"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title27">F4C009</title>
+    </circle>
+    <circle
+       id="F4C010"
+       cx="471.18884"
+       cy="967.72504"
+       inkscape:label="F4C010"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title28">F4C010</title>
+    </circle>
+    <circle
+       id="F4C011"
+       cx="474.46277"
+       cy="682.48981"
+       inkscape:label="F4C011"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title29">F4C011</title>
+    </circle>
+    <circle
+       id="F4C012"
+       cx="471.5022"
+       cy="884.34558"
+       inkscape:label="F4C012"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title30">F4C012</title>
+    </circle>
+    <circle
+       id="F4C013"
+       cx="470.15564"
+       cy="766.82599"
+       inkscape:label="F4C013"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title31">F4C013</title>
+    </circle>
+    <circle
+       id="F4C014"
+       cx="313.76151"
+       cy="880.8573"
+       inkscape:label="F4C014"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title32">F4C014</title>
+    </circle>
+    <circle
+       id="F4C015"
+       cx="310.75574"
+       cy="1044.9636"
+       inkscape:label="F4C015"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title33">F4C015</title>
+    </circle>
+    <circle
+       id="F4C016"
+       cx="431.7507"
+       cy="1059.0968"
+       inkscape:label="F4C016"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title34">F4C016</title>
+    </circle>
+    <circle
+       id="F4C017"
+       cx="440.18732"
+       cy="594.81885"
+       inkscape:label="F4C017"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title35">F4C017</title>
+    </circle>
+    <circle
+       id="F4C018"
+       cx="440.44907"
+       cy="428.41122"
+       inkscape:label="F4C018"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title36">F4C018</title>
+    </circle>
+    <circle
+       id="F4C019"
+       cx="435.3981"
+       cy="397.0564"
+       inkscape:label="F4C019"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title37">F4C019</title>
+    </circle>
+    <circle
+       id="F4C020"
+       cx="323.52161"
+       cy="397.06192"
+       inkscape:label="F4C020"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title38">F4C020</title>
+    </circle>
+    <circle
+       id="F4C021"
+       cx="318.85056"
+       cy="551.57849"
+       inkscape:label="F4C021"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title39">F4C021</title>
+    </circle>
+    <circle
+       id="F4C022"
+       cx="316.25067"
+       cy="716.37781"
+       inkscape:label="F4C022"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title40">F4C022</title>
+    </circle>
+    <circle
+       id="F4C023"
+       cx="317.75879"
+       cy="766.12073"
+       inkscape:label="F4C023"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title41">F4C023</title>
+    </circle>
+    <circle
+       id="F4C025"
+       cx="419.69321"
+       cy="1172.1659"
+       inkscape:label="F4C025"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title43">F4C025</title>
+    </circle>
+    <circle
+       id="F4C026"
+       cx="302.81125"
+       cy="1216.1082"
+       inkscape:label="F4C026"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title44">F4C026</title>
+    </circle>
+    <circle
+       id="F4C027"
+       cx="296.42685"
+       cy="1258.0127"
+       inkscape:label="F4C027"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title45">F4C027</title>
+    </circle>
+    <circle
+       id="428-1"
+       cx="331.20001"
+       cy="716.79999"
+       inkscape:label="428-1"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title46">428-1</title>
+    </circle>
+    <circle
+       id="428-2"
+       cx="410.39999"
+       cy="716.79999"
+       inkscape:label="428-2"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title47">428-2</title>
+    </circle>
+    <circle
+       id="432-1"
+       cx="461.4342"
+       cy="430.10107"
+       inkscape:label="432-1"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title48">432-1</title>
+    </circle>
+    <circle
+       id="432-2"
+       cx="458.48254"
+       cy="566.36102"
+       inkscape:label="432-2"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title49">432-2</title>
+    </circle>
+    <circle
+       id="434-2"
+       cx="493"
+       cy="895.5"
+       inkscape:label="434-2"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title50">434-2</title>
+    </circle>
+    <circle
+       id="STAIRS2-F4-D"
+       cx="645.73895"
+       cy="722.94818"
+       inkscape:label="STAIRS2-F4-D"
+       style="fill:#008000;stroke:#008000;stroke-width:1.09984;stroke-dasharray:none;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title51">434-A</title>
+    </circle>
+    <circle
+       id="436-1"
+       cx="445.20001"
+       cy="1096"
+       inkscape:label="436-1"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title52">436-1</title>
+    </circle>
+    <circle
+       id="436-2"
+       cx="442"
+       cy="1183.4667"
+       inkscape:label="436-2"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title53">436-2</title>
+    </circle>
+    <circle
+       id="F4C436"
+       cx="432"
+       cy="1096"
+       inkscape:label="F4C436"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title56">F4C436</title>
+    </circle>
+    <circle
+       id="STAIRS3-F4-D"
+       cx="434.85458"
+       cy="364.40088"
+       inkscape:label="STAIRS3-F4-D"
+       style="fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title57">STAIRS3-F4</title>
+    </circle>
+    <circle
+       id="STAIRS3-F4-U"
+       cx="299.85223"
+       cy="361.41934"
+       inkscape:label="STAIRS3-F4-U"
+       style="display:inline;fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title58">STAIRS3-F4</title>
+    </circle>
+    <circle
+       id="STAIRS1-F4-D"
+       cx="641.57794"
+       cy="934.64856"
+       inkscape:label="STAIRS1-F4"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title60">F4C008</title>
+    </circle>
+    <circle
+       id="circle70"
+       cx="548.76117"
+       cy="968.07288"
+       inkscape:label="F4C010"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title70">F4C010</title>
+    </circle>
+    <circle
+       id="circle73"
+       cx="549.49908"
+       cy="994.146"
+       inkscape:label="F4C010"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title73">F4C010</title>
+    </circle>
+    <circle
+       id="circle25"
+       cx="431.38174"
+       cy="968.82483"
+       inkscape:label="F4C016"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title25">F4C016</title>
+    </circle>
+    <circle
+       id="circle42"
+       cx="470.6897"
+       cy="925.45709"
+       inkscape:label="F4C016"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title42">F4C016</title>
+    </circle>
+    <circle
+       id="circle54"
+       cx="471.75543"
+       cy="721.12408"
+       inkscape:label="F4C016"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title54">F4C016</title>
+    </circle>
+    <circle
+       id="circle59"
+       cx="440.36987"
+       cy="681.7428"
+       inkscape:label="circle59"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title59">F4C013</title>
+    </circle>
+    <circle
+       id="circle66"
+       cx="304.73682"
+       cy="1175.1399"
+       inkscape:label="F4C026"
+       style="fill:#008000;stroke:#008000;stroke-width:1.1;stroke-opacity:1"
+       r="2.75">
+      <title
+         id="title66">F4C026</title>
+    </circle>
+  </g>
+  <g
+     id="nav-edges-f4"
+     inkscape:groupmode="layer"
+     inkscape:label="NAV - Edges">
+    <path
+       id="F4E005"
+       d="M 655.2046,687.71475 474.46278,682.4898"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C009 -&gt; F4C011" />
+    <path
+       id="F4E007"
+       d="M 471.50221,884.3456 470.15563,766.82599"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C012 -&gt; F4C013" />
+    <path
+       id="F4E013"
+       d="M 471.50221,884.3456 313.76149,880.85729"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C012 -&gt; F4C014" />
+    <path
+       id="F4E014"
+       d="M 313.76149,880.85729 317.7588,766.12073"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C014 -&gt; F4C023" />
+    <path
+       id="F4E015"
+       d="M 317.7588,766.12073 316.25066,716.3778"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C023 -&gt; F4C022" />
+    <path
+       id="F4E016"
+       d="m 316.25066,716.3778 -27.65718,1.57874"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C022 -&gt; 427" />
+    <path
+       id="F4E017"
+       d="M 470.15563,766.82599 317.7588,766.12073"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C013 -&gt; F4C023" />
+    <path
+       id="F4E018"
+       d="m 471.18884,967.72503 0.82738,68.51277"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C010 -&gt; LIFT3-F4" />
+    <path
+       id="F4E022"
+       d="m 302.81126,1216.1081 -19.0863,2.1112"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C026 -&gt; 424" />
+    <path
+       id="F4E023"
+       d="m 302.81126,1216.1081 -6.38441,41.9046"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C026 -&gt; F4C027" />
+    <path
+       id="F4E024"
+       d="m 296.42685,1258.0127 -33.85649,-1.1319"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C027 -&gt; 423" />
+    <path
+       id="F4E025"
+       d="m 296.42685,1258.0127 -2.5805,60.4514"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C027 -&gt; 422" />
+    <path
+       id="F4E027"
+       d="m 310.75574,1044.9637 -27.34312,0.6411"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C015 -&gt; 425" />
+    <path
+       id="F4E028"
+       d="m 310.75574,1044.9637 3.00575,-164.10641"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C015 -&gt; F4C014" />
+    <path
+       id="F4E029"
+       d="m 419.69322,1172.1659 25.56311,49.6514"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C025 -&gt; F4C002" />
+    <path
+       id="F4E030"
+       d="m 445.25633,1221.8173 -14.24744,16.4839"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C002 -&gt; 421" />
+    <path
+       id="F4E031"
+       d="m 445.25633,1221.8173 92.73383,52.1991"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C002 -&gt; F4C004" />
+    <path
+       id="F4E034"
+       d="M 474.46278,682.4898 476.799,621.54974"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C011 -&gt; LIFT2-F4" />
+    <path
+       id="F4E037"
+       d="m 438.51026,564.0786 1.32389,-136.03634"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C005 -&gt; F4C018" />
+    <path
+       id="F4E038"
+       d="m 439.83415,428.04226 -4.92798,-30.98588"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C018 -&gt; F4C019" />
+    <path
+       id="F4E040"
+       d="M 434.90617,397.05638 360.21131,395.7355"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C019 -&gt; F4C006" />
+    <path
+       id="F4E041"
+       d="m 360.21131,395.7355 -0.17314,17.797"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C006 -&gt; LIFT1-F4" />
+    <path
+       id="F4E042"
+       d="m 360.21131,395.7355 -36.86364,0.80462"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C006 -&gt; F4C020" />
+    <path
+       id="F4E043"
+       d="m 323.34767,396.54012 -48.62184,6.35781"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C020 -&gt; 430" />
+    <path
+       id="F4E045"
+       d="M 323.34767,396.54012 318.85056,551.5785"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C020 -&gt; F4C021" />
+    <path
+       id="F4E046"
+       d="m 318.85056,551.5785 -29.63031,-0.38081"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C021 -&gt; 429" />
+    <path
+       id="F4E047"
+       d="m 318.85056,551.5785 -2.5999,164.7993"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C021 -&gt; F4C022" />
+    <path
+       id="F4E048"
+       d="m 313.76149,880.85729 -28.74626,-0.13303"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C014 -&gt; 426" />
+    <path
+       id="F4E051"
+       d="m 493.27987,757.49482 -23.12424,9.33117"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="434-1 -&gt; F4C013" />
+    <path
+       id="F4E052"
+       d="M 316.25066,716.3778 331.2,716.8"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C022 -&gt; 428-1" />
+    <path
+       id="F4E057"
+       d="m 438.64461,564.21295 19.94954,2.50564"
+       style="fill:none;stroke:#0093ff;stroke-width:1.46871;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C005 -&gt; 432-2" />
+    <path
+       id="F4E060"
+       d="M 431.75071,1059.0968 432,1096"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C016 -&gt; F4C436" />
+    <path
+       id="F4E061"
+       d="m 432,1096 -12.30678,76.1659"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C436 -&gt; F4C025" />
+    <path
+       id="F4E062"
+       d="m 432,1096 h 13.2"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C436 -&gt; 436-1" />
+    <path
+       id="F4E063"
+       d="M 419.69322,1172.1659 442,1183.4667"
+       style="fill:none;stroke:#0093ff;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       inkscape:label="F4C025 -&gt; 436-2" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#008dff;stroke-opacity:1"
+       d="m 440.21428,428.47407 21.39326,1.39143"
+       id="path56" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:#0095ff;stroke-width:1.09984;stroke-dasharray:none;stroke-opacity:1"
+       d="m 548.22418,967.39305 1.04358,26.959"
+       id="path72" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:#0095ff;stroke-width:1.09984;stroke-dasharray:none;stroke-opacity:1"
+       d="m 658.32123,967.04519 -110.09705,0.69572"
+       id="path73" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="M 323.50792,396.5581 C 300.5493,361.42444 300.5493,361.42444 300.5493,361.42444"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="M 658.59201,966.54987 C 641.4969,934.94238 641.4969,934.94238 641.4969,934.94238"
+       id="path65" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 645.97227,722.67496 c 9.91395,-34.61187 9.91395,-34.61187 9.91395,-34.61187"
+       id="path66" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 305.07145,1175.0643 c 114.09742,-3.1308 114.09742,-3.1308 114.09742,-3.1308"
+       id="path67" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 302.28859,1217.1551 c 2.08714,-41.743 2.08714,-41.743 2.08714,-41.743"
+       id="path68" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 305.76717,1175.0643 c 4.52215,-130.4468 4.52215,-130.4468 4.52215,-130.4468"
+       id="path69" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 440.04523,682.32837 c 34.19021,0.24598 34.19021,0.24598 34.19021,0.24598"
+       id="path59" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 439.79925,682.32837 c 0.73792,-88.05824 0.73792,-88.05824 0.73792,-88.05824"
+       id="path60" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 440.04523,594.27013 c -1.72181,-30.50062 -1.72181,-30.50062 -1.72181,-30.50062"
+       id="path64" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 470.30399,766.50506 c 1.39143,-45.39546 1.39143,-45.39546 1.39143,-45.39546"
+       id="path54" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 472.04328,721.45745 c 30.6115,0.17393 30.6115,0.17393 30.6115,0.17393"
+       id="path55" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 473.60864,682.32343 c -1.39143,38.96009 -1.39143,38.96009 -1.39143,38.96009"
+       id="path57" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 409.29864,717.2565 c 62.47707,3.44362 62.47707,3.44362 62.47707,3.44362"
+       id="path58" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 471.69542,968.08876 c -0.69571,-43.48225 -0.69571,-43.48225 -0.69571,-43.48225"
+       id="path42" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 471.34756,884.9507 c -1.39143,41.3951 -1.39143,41.3951 -1.39143,41.3951"
+       id="path43" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="M 503.3505,927.38938 C 470.99971,926.3458 470.99971,926.3458 470.99971,926.3458"
+       id="path44" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 471.69542,924.60651 c 21.21934,-29.22007 21.21934,-29.22007 21.21934,-29.22007"
+       id="path45" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 472.7596,966.67286 c -41.32342,1.96778 -41.32342,1.96778 -41.32342,1.96778"
+       id="path25" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 431.92813,1060.6344 c -0.49195,-91.50181 -0.49195,-91.50181 -0.49195,-91.50181"
+       id="path26" />
+    <path
+       style="fill:#008000;fill-opacity:1;stroke:#0095ff;stroke-width:1.09984;stroke-dasharray:none;stroke-opacity:1"
+       d="M 470.82578,967.39305 H 548.9199"
+       id="path70" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 537.52755,1274.5516 c -35.48152,32.4378 -35.48152,32.4378 -35.48152,32.4378"
+       id="path71" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="M 460.33798,404.50217 C 434.8798,396.75403 434.8798,396.75403 434.8798,396.75403"
+       id="path74" />
+    <path
+       style="fill:none;stroke:#00aaff;stroke-width:1;stroke-dasharray:none"
+       d="m 435.24876,397.12299 c -0.61494,-32.22243 -0.61494,-32.22243 -0.61494,-32.22243"
+       id="path75" />
+  </g>
+  <metadata
+     id="metadata73">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>PRP E Block - 4th Floor CampusNav Final Map</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

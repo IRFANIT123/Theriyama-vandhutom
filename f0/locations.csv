@@ -1,0 +1,16 @@
+﻿location_id,floor_id,code,name,type,searchable,public_access,description
+G28,G,G28,G28,toilet,1,1,
+G30,G,G30,G30,room,1,1,
+G29,G,G29,G29,room,1,1,
+G31,G,G31,G31,room,1,1,
+G32,G,G32,G32,room,1,1,
+G33,G,G33,G33,room,1,1,
+G34,G,G34,G34,room,1,1,
+G35,G,G35,G35,room,1,1,
+G36,G,G36,G36,room,0,0,No navigation node found in NAV - Nodes.
+G37,G,G37,G37,room,1,1,
+G39,G,G39,G39,room,1,1,
+G41,G,G41,G41,room,1,1,
+G38,G,G38,G38,room,0,0,No navigation node found in NAV - Nodes.
+G40,G,G40,G40,room,0,0,No navigation node found in NAV - Nodes.
+G42,G,G42,G42,room,0,0,No navigation node found in NAV - Nodes.

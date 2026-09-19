@@ -1,0 +1,17 @@
+﻿location_id,floor_id,code,name,type,searchable,public_access,description
+526,F5,526,526,room,1,1,
+527,F5,527,527,room,1,1,
+528,F5,528,528,room,1,1,
+529,F5,529,529,room,1,1,
+530,F5,530,530,room,1,1,
+531,F5,531,531,room,1,1,
+532,F5,532,532,room,1,1,
+533,F5,533,533,room,1,1,
+534,F5,534,534,room,1,1,
+535,F5,535,535,room,1,1,
+536,F5,536,536,room,1,1,
+537,F5,537,537,room,1,1,
+538,F5,538,538,room,1,0,Electrical/service room; routable to its marked corridor doorway.
+539,F5,539,539,room,1,1,
+540,F5,540,540,room,0,0,Electrical/service room; excluded from navigation.
+541,F5,541,541,room,1,1,

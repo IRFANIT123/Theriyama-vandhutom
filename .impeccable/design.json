@@ -1,0 +1,137 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "Field Trace",
+  "version": "1.0.0",
+  "intent": "A campus wayfinding interface expressed as an authoritative working field plan, with the map as the dominant surface.",
+  "tokens": {
+    "color": {
+      "paper": "#f3f0e8",
+      "paperRaised": "#fbfaf5",
+      "paperDeep": "#e7e3d9",
+      "ink": "#18242b",
+      "ink2": "#435159",
+      "graphite": "#5d676c",
+      "line": "#c7c8c0",
+      "lineStrong": "#9ea39f",
+      "route": "#c9472d",
+      "routeDark": "#9f2d1a",
+      "routeSoft": "#ffe5de",
+      "current": "#087f8c",
+      "destination": "#cf3654",
+      "tealWash": "#d9eeee",
+      "stamp": "#ed5638",
+      "focus": "#087f8c",
+      "inverse": "#fffef9",
+      "danger": "#9f2d1a"
+    },
+    "typography": {
+      "displayFamily": "Fira Sans Condensed, Segoe UI, sans-serif",
+      "bodyFamily": "Segoe UI, Arial, sans-serif",
+      "displayWeights": [600, 700],
+      "bodyWeights": [400, 600],
+      "scalePx": {
+        "micro": 11,
+        "caption": 12,
+        "body": 14,
+        "control": 15,
+        "subheading": 18,
+        "heading": 24,
+        "title": 32
+      },
+      "mapLabelRangePx": [11, 16],
+      "lineHeight": {
+        "tight": 1.1,
+        "default": 1.45,
+        "reading": 1.6
+      },
+      "trackingEm": {
+        "label": 0.08,
+        "heading": -0.01
+      }
+    },
+    "spacingPx": {
+      "base": 4,
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24,
+      "2xl": 32,
+      "3xl": 48
+    },
+    "radiiPx": {
+      "none": 0,
+      "control": 2,
+      "panel": 4,
+      "pill": 999
+    },
+    "borders": {
+      "default": "1px solid #c7c8c0",
+      "strong": "1px solid #18242b",
+      "route": "1px solid #c9472d",
+      "focus": "2px solid #087f8c",
+      "grid": "1px solid rgba(24, 36, 43, 0.08)"
+    },
+    "shadows": {
+      "none": "none",
+      "insetRule": "inset 0 1px 0 rgba(24, 36, 43, 0.12)",
+      "raisedControl": "0 2px 8px rgba(24, 36, 43, 0.14)",
+      "fixedTray": "0 -8px 24px rgba(24, 36, 43, 0.18)"
+    },
+    "motion": {
+      "fastMs": 120,
+      "standardMs": 180,
+      "slowMs": 220,
+      "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+      "properties": ["opacity", "transform"],
+      "reducedMotion": "Disable non-essential transitions and preserve immediate state feedback."
+    },
+    "sizingPx": {
+      "touchTargetMin": 44,
+      "desktopPlannerWidth": 320,
+      "desktopTopRailHeight": 70,
+      "mobileActionTrayMaxHeight": 178,
+      "mobileActionTrayReservedPadding": 178
+    },
+    "breakpointsPx": {
+      "mobile": 680,
+      "compactDesktop": 1180,
+      "wide": 1440
+    }
+  },
+  "states": {
+    "desktopPlanning": {
+      "layout": "Slim ruled planner on the left, dominant central map, vertical eight-floor binding on the right, and utility controls above.",
+      "priority": ["route setup", "map", "floor selection", "secondary utilities"]
+    },
+    "desktopActiveRoute": {
+      "layout": "Planner transforms into route status and instructions while the map stays dominant; next physical action remains fully readable.",
+      "routeColor": "route",
+      "currentPositionColor": "current"
+    },
+    "mobilePlanning": {
+      "layout": "Horizontal floor binding, route setup, then a zoomable and pannable map.",
+      "touchTargetMinPx": 44
+    },
+    "mobileActiveRoute": {
+      "layout": "Compact route summary followed by a closer map with a fixed bottom next-action tray.",
+      "details": "Collapsed by default and accessible through an explicit Route details toggle.",
+      "map": "Zoomed for relevant room and facility labels while retaining pan and zoom controls.",
+      "bottomReserve": "Reserve layout space equal to the fixed tray height so content is not obscured."
+    }
+  },
+  "componentGuidance": {
+    "map": "Primary visual surface with measured grid, floor-plan geometry, route trace, current-position marker, and technical annotations.",
+    "planner": "Ruled working sheet, not a card stack; form controls align to a compact field-note rhythm.",
+    "floorBinding": "Always represents all eight floors; vertical on desktop and horizontal on mobile.",
+    "controls": "Square technical construction, direct labels, visible focus, and no decorative gradients.",
+    "nextActionTray": "Shows the complete next instruction and preserves I’m here and Blocked actions without truncation."
+  },
+  "guardrails": [
+    "Do not turn the interface into a generic dashboard or card grid.",
+    "Do not add gradients, glassmorphism, oversized corner radii, or decorative elevation.",
+    "Do not let route detail displace the active map from the first mobile viewport.",
+    "Do not use orange or teal decoratively; each color carries route or position meaning.",
+    "Do not reduce touch targets below 44 px or route-relevant mobile labels below 11 px."
+  ]
+}

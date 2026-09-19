@@ -1,0 +1,82 @@
+PRP E BLOCK SVG NAVIGATION EXTRACTION REPORT
+====================================================
+SVG file: E Block - 2nd Floor Final Map - VERIFIED.svg
+Floor: F2
+
+COUNTS
+--------------------
+Total nodes: 33
+  Room nodes: 13
+  Corridor nodes: 14
+  Lift nodes: 3
+  Stair nodes: 3
+  Entrance nodes: 0
+Unique graph edges: 34
+Room locations: 15
+Connected components: 1
+
+SEARCHABLE LOCATIONS
+--------------------
+235 (room)
+234 (room)
+233 (room)
+232 (room)
+231 (room)
+230 (room)
+229 (room)
+228 (toilet)
+227 (room)
+236 (room)
+238-A (smart_classroom)
+238 (smart_classroom)
+239 (faculty_room)
+
+NON-SEARCHABLE LOCATIONS
+--------------------
+237: Electrical/service room; excluded from navigation.
+240: Electrical/service room; excluded from navigation.
+
+PATH TOPOLOGY EXTRACTED FROM NAV - Edges
+--------------------
+F2V001: C01 -> C02
+F2V002: C02 -> C03
+F2V003: C03 -> C04
+F2V004: C04 -> C05
+F2V005: C05 -> C06
+F2V006: C06 -> C07
+F2V007: C07 -> C08
+F2V008: 235 -> C01
+F2V009: 234 -> C02
+F2V010: 233 -> C03
+F2V011: 232 -> C04
+F2V012: 231 -> C05
+F2V013: 230 -> C06
+F2V014: 229 -> C07
+F2V015: 228 -> C07
+F2V016: 227 -> C08
+F2V017: C01 -> STAIRS3-F2
+F2V018: C01 -> LIFT1-F2
+F2V019: C01 -> C09
+F2V020: 236 -> C09
+F2V021: C09 -> C10
+F2V022: C10 -> LIFT2-F2
+F2V023: C03 -> C11
+F2V024: C10 -> C11
+F2V025: C11 -> 238-A
+F2V026: C11 -> STAIRS2-F2
+F2V027: C11 -> C12
+F2V028: C12 -> 238
+F2V029: C12 -> C13
+F2V030: C13 -> STAIRS1-F2
+F2V031: C13 -> LOWER_JUNCTION
+F2V032: LOWER_JUNCTION -> 239
+F2V033: LOWER_JUNCTION -> LIFT3-F2
+F2V034: LOWER_JUNCTION -> C08
+
+WARNINGS
+--------------------
+None
+
+VALIDATION
+--------------------
+PASS

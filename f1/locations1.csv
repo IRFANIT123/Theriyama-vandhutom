@@ -1,0 +1,17 @@
+﻿location_id,floor_id,code,name,type,searchable,public_access,description
+131,F1,131,131,room,1,1,
+132,F1,132,132,room,1,1,
+133,F1,133,133,room,1,1,
+134,F1,134,134,room,1,1,
+135,F1,135,135,room,1,1,
+136,F1,136,136,room,1,1,
+137,F1,137,137,room,1,1,
+138,F1,138,138,room,1,1,
+139,F1,139,139,room,1,1,
+140,F1,140,140,room,1,1,
+141,F1,141,141,room,1,1,
+142,F1,142,142,room,0,0,Electrical/service room; excluded from navigation.
+143-A,F1,143-A,143-A,room,1,1,
+143,F1,143,143,room,1,1,
+144,F1,144,144,room,0,0,Electrical/service room; excluded from navigation.
+145,F1,145,145,room,1,1,

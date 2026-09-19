@@ -1,0 +1,43 @@
+PRP E BLOCK - 4TH FLOOR DATABASE VALIDATION
+==========================================
+Source map: E Block - 4th Floor Final Map.svg
+Floor ID: F4
+
+Extraction
+----------
+Nodes: 55
+Edges: 63
+Locations: 17
+Searchable locations: 15
+Excluded/non-searchable service locations: 433, 435
+Warnings: 0
+Validation: PASS
+Connected components: 1
+
+SQLite checks
+-------------
+PRAGMA integrity_check: ok
+PRAGMA foreign_key_check: no violations
+Tables:
+  floors: 1
+  locations: 17
+  nodes: 55
+  edges: 63
+  floor_maps: 1
+
+A* test
+-------
+Route tested: 421 -> 434-A
+Result: SUCCESS
+Distance: 18.64 m
+Route nodes: 9
+
+Files
+-----
+prp_navigation.db
+nodes.csv
+edges.csv
+locations.csv
+extraction_report.txt
+A_STAR_TEST.txt
+DATABASE_VALIDATION.txt

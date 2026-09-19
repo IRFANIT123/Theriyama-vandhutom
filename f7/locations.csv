@@ -1,0 +1,15 @@
+﻿location_id,floor_id,code,name,type,searchable,public_access,description
+728,F7,728,728,room,1,1,
+729,F7,729,729,room,1,1,
+730,F7,730,730,room,1,1,
+731,F7,731,731,room,1,1,
+732,F7,732,732,room,1,1,
+733,F7,733,733,room,1,1,
+734,F7,734,734,room,1,1,
+735,F7,735,735,room,1,1,
+736,F7,736,736,room,1,1,
+737,F7,737,737,room,1,1,
+738,F7,738,738,room,1,1,
+739,F7,739,739,room,0,0,Electrical/service room; excluded from navigation.
+740,F7,740,740,room,1,1,
+741,F7,741,741,room,0,0,Electrical/service room; excluded from navigation.

@@ -1,0 +1,590 @@
+from __future__ import annotations
+
+import heapq
+import math
+import sqlite3
+from collections import defaultdict
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+from fastapi import FastAPI, HTTPException, Query
+from fastapi.middleware.cors import CORSMiddleware
+
+
+# ---------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATABASE_PATH = PROJECT_ROOT / "integration" / "building_navigation.db"
+
+
+# ---------------------------------------------------------------------
+# FastAPI app
+# ---------------------------------------------------------------------
+
+app = FastAPI(
+    title="CampusNav - PRP E Block API",
+    description="Indoor navigation backend for PRP E Block.",
+    version="1.0.0",
+)
+
+# Useful later when the 2.5D frontend runs separately.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+# ---------------------------------------------------------------------
+# Database helpers
+# ---------------------------------------------------------------------
+
+def get_connection() -> sqlite3.Connection:
+    if not DATABASE_PATH.exists():
+        raise RuntimeError(
+            "building_navigation.db was not found at: "
+            + str(DATABASE_PATH)
+        )
+
+    con = sqlite3.connect(str(DATABASE_PATH))
+    con.row_factory = sqlite3.Row
+    return con
+
+
+def resolve_location_node(
+    con: sqlite3.Connection,
+    floor_id: str,
+    code: str,
+) -> Optional[sqlite3.Row]:
+
+    # Preferred: location table -> destination node.
+    row = con.execute(
+        """
+        SELECT
+            n.node_id,
+            n.floor_id,
+            n.original_node_id,
+            n.node_type,
+            l.location_id,
+            l.code,
+            l.name,
+            l.type
+        FROM locations l
+        JOIN nodes n
+          ON n.location_id = l.location_id
+        WHERE UPPER(l.floor_id) = UPPER(?)
+          AND UPPER(l.code) = UPPER(?)
+          AND l.searchable = 1
+        ORDER BY n.node_id
+        LIMIT 1
+        """,
+        (floor_id, code),
+    ).fetchone()
+
+    if row:
+        return row
+
+    # Fallback for entrance/node IDs.
+    row = con.execute(
+        """
+        SELECT
+            n.node_id,
+            n.floor_id,
+            n.original_node_id,
+            n.node_type,
+            NULL AS location_id,
+            n.original_node_id AS code,
+            n.original_node_id AS name,
+            n.node_type AS type
+        FROM nodes n
+        WHERE UPPER(n.floor_id) = UPPER(?)
+          AND UPPER(n.original_node_id) = UPPER(?)
+        LIMIT 1
+        """,
+        (floor_id, code),
+    ).fetchone()
+
+    return row
+
+
+def build_graph(
+    con: sqlite3.Connection,
+    mode: str,
+) -> Dict[str, List[Tuple[str, float]]]:
+
+    if mode not in {"lift", "stairs"}:
+        raise ValueError("mode must be 'lift' or 'stairs'")
+
+    graph: Dict[str, List[Tuple[str, float]]] = defaultdict(list)
+
+    rows = con.execute(
+        """
+        SELECT
+            from_node,
+            to_node,
+            distance_m,
+            travel_mode,
+            is_vertical,
+            bidirectional
+        FROM edges
+        """
+    ).fetchall()
+
+    for row in rows:
+        a = row["from_node"]
+        b = row["to_node"]
+        weight = float(row["distance_m"])
+        travel_mode = row["travel_mode"]
+        is_vertical = bool(row["is_vertical"])
+        bidirectional = bool(row["bidirectional"])
+
+        # Horizontal walking edges are always allowed.
+        # Vertical edges are filtered by the user's selected travel mode.
+        if is_vertical:
+            if mode == "lift" and travel_mode != "lift":
+                continue
+            if mode == "stairs" and travel_mode != "stair":
+                continue
+
+        graph[a].append((b, weight))
+
+        if bidirectional:
+            graph[b].append((a, weight))
+
+    return graph
+
+
+def shortest_path(
+    con: sqlite3.Connection,
+    start_node: str,
+    goal_node: str,
+    mode: str,
+) -> Tuple[Optional[List[str]], float]:
+
+    graph = build_graph(con, mode)
+
+    best: Dict[str, float] = {start_node: 0.0}
+    parent: Dict[str, str] = {}
+    queue: List[Tuple[float, str]] = [(0.0, start_node)]
+
+    while queue:
+        current_cost, current = heapq.heappop(queue)
+
+        if current_cost != best.get(current):
+            continue
+
+        if current == goal_node:
+            path = [goal_node]
+
+            while path[-1] in parent:
+                path.append(parent[path[-1]])
+
+            path.reverse()
+            return path, current_cost
+
+        for nxt, weight in graph.get(current, []):
+            new_cost = current_cost + weight
+
+            if new_cost < best.get(nxt, math.inf):
+                best[nxt] = new_cost
+                parent[nxt] = current
+                heapq.heappush(queue, (new_cost, nxt))
+
+    return None, math.inf
+
+
+def get_node_info(
+    con: sqlite3.Connection,
+    node_id: str,
+) -> sqlite3.Row:
+    row = con.execute(
+        """
+        SELECT
+            node_id,
+            floor_id,
+            original_node_id,
+            node_type,
+            connector_kind,
+            connector_number
+        FROM nodes
+        WHERE node_id = ?
+        """,
+        (node_id,),
+    ).fetchone()
+
+    if not row:
+        raise RuntimeError("Node not found: " + node_id)
+
+    return row
+
+
+def get_edge_info(
+    con: sqlite3.Connection,
+    a: str,
+    b: str,
+) -> Optional[sqlite3.Row]:
+
+    return con.execute(
+        """
+        SELECT
+            edge_type,
+            travel_mode,
+            is_vertical,
+            distance_m
+        FROM edges
+        WHERE
+            (from_node = ? AND to_node = ?)
+            OR
+            (bidirectional = 1 AND from_node = ? AND to_node = ?)
+        LIMIT 1
+        """,
+        (a, b, b, a),
+    ).fetchone()
+
+
+def build_route_response(
+    con: sqlite3.Connection,
+    path: List[str],
+    total_cost: float,
+    mode: str,
+    start_code: str,
+    destination_code: str,
+) -> dict:
+
+    floors: List[str] = []
+    floor_routes: Dict[str, List[dict]] = {}
+    instructions: List[dict] = []
+
+    for index, node_id in enumerate(path):
+        node = get_node_info(con, node_id)
+
+        floor_id = node["floor_id"]
+        original_id = node["original_node_id"]
+        node_type = node["node_type"]
+
+        if floor_id not in floors:
+            floors.append(floor_id)
+
+        floor_routes.setdefault(floor_id, []).append(
+            {
+                "node_id": node_id,
+                "original_node_id": original_id,
+                "node_type": node_type,
+            }
+        )
+
+        if index == 0:
+            instructions.append(
+                {
+                    "type": "start",
+                    "floor": floor_id,
+                    "text": "Start at " + start_code,
+                }
+            )
+            continue
+
+        previous_id = path[index - 1]
+        previous_node = get_node_info(con, previous_id)
+        edge = get_edge_info(con, previous_id, node_id)
+
+        if edge and bool(edge["is_vertical"]):
+            if edge["travel_mode"] == "lift":
+                text = (
+                    "Take the lift from "
+                    + previous_node["floor_id"]
+                    + " to "
+                    + floor_id
+                )
+                instruction_type = "lift"
+            else:
+                text = (
+                    "Take the stairs from "
+                    + previous_node["floor_id"]
+                    + " to "
+                    + floor_id
+                )
+                instruction_type = "stairs"
+
+            instructions.append(
+                {
+                    "type": instruction_type,
+                    "from_floor": previous_node["floor_id"],
+                    "to_floor": floor_id,
+                    "text": text,
+                }
+            )
+
+        elif node_type == "room":
+            instructions.append(
+                {
+                    "type": "destination",
+                    "floor": floor_id,
+                    "text": "Reach the entrance of " + original_id,
+                }
+            )
+
+        elif node_type in {"lift", "stair", "stairs", "staircase"}:
+            friendly = (
+                "Lift "
+                if node_type == "lift"
+                else "Staircase "
+            )
+
+            number = node["connector_number"]
+            if number is not None:
+                friendly += str(number)
+
+            instructions.append(
+                {
+                    "type": "connector",
+                    "floor": floor_id,
+                    "text": "Proceed to " + friendly.strip(),
+                }
+            )
+
+    # Remove consecutive duplicate human instructions.
+    cleaned = []
+    for instruction in instructions:
+        if not cleaned or instruction["text"] != cleaned[-1]["text"]:
+            cleaned.append(instruction)
+
+    return {
+        "start": start_code,
+        "destination": destination_code,
+        "mode": mode,
+        "total_cost": round(total_cost, 2),
+        "floors": floors,
+        "instructions": cleaned,
+        "floor_routes": floor_routes,
+        "raw_node_path": path,
+    }
+
+
+# ---------------------------------------------------------------------
+# API endpoints
+# ---------------------------------------------------------------------
+
+@app.get("/")
+def home():
+    return {
+        "project": "CampusNav - PRP E Block",
+        "status": "running",
+        "database": "building_navigation.db",
+        "output_style": "2.5D",
+        "route_modes": ["lift", "stairs"],
+    }
+
+
+@app.get("/health")
+def health():
+    try:
+        con = get_connection()
+
+        floors = con.execute(
+            "SELECT COUNT(*) AS count FROM floors"
+        ).fetchone()["count"]
+
+        nodes = con.execute(
+            "SELECT COUNT(*) AS count FROM nodes"
+        ).fetchone()["count"]
+
+        edges = con.execute(
+            "SELECT COUNT(*) AS count FROM edges"
+        ).fetchone()["count"]
+
+        con.close()
+
+        return {
+            "status": "ok",
+            "floors": floors,
+            "nodes": nodes,
+            "edges": edges,
+        }
+
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc))
+
+
+@app.get("/floors")
+def floors():
+    con = get_connection()
+
+    rows = con.execute(
+        """
+        SELECT floor_id, floor_number, name
+        FROM floors
+        ORDER BY floor_number
+        """
+    ).fetchall()
+
+    con.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/locations")
+def locations(
+    floor_id: str = Query(..., description="Example: G, F1, F4"),
+):
+    con = get_connection()
+
+    rows = con.execute(
+        """
+        SELECT
+            location_id,
+            floor_id,
+            code,
+            name,
+            type,
+            searchable
+        FROM locations
+        WHERE UPPER(floor_id) = UPPER(?)
+          AND searchable = 1
+        ORDER BY code
+        """,
+        (floor_id,),
+    ).fetchall()
+
+    con.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/search")
+def search(
+    q: str = Query(..., min_length=1),
+):
+    con = get_connection()
+
+    pattern = "%" + q + "%"
+
+    rows = con.execute(
+        """
+        SELECT
+            location_id,
+            floor_id,
+            code,
+            name,
+            type
+        FROM locations
+        WHERE searchable = 1
+          AND (
+              code LIKE ?
+              OR name LIKE ?
+          )
+        ORDER BY floor_id, code
+        LIMIT 50
+        """,
+        (pattern, pattern),
+    ).fetchall()
+
+    con.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/entrances")
+def entrances():
+    con = get_connection()
+
+    rows = con.execute(
+        """
+        SELECT
+            node_id,
+            floor_id,
+            original_node_id,
+            node_type
+        FROM nodes
+        WHERE floor_id = 'G'
+          AND (
+              LOWER(node_type) = 'entrance'
+              OR UPPER(original_node_id) LIKE '%ENTRANCE%'
+          )
+        ORDER BY original_node_id
+        """
+    ).fetchall()
+
+    con.close()
+
+    return [dict(row) for row in rows]
+
+
+@app.get("/route")
+def route(
+    start_floor: str = Query(..., description="Example: G"),
+    start: str = Query(..., description="Example: ENTRANCE1-G or G41"),
+    destination_floor: str = Query(..., description="Example: F7"),
+    destination: str = Query(..., description="Example: 740"),
+    mode: str = Query(
+        ...,
+        description="lift or stairs",
+        regex="^(lift|stairs)$",
+    ),
+):
+    con = get_connection()
+
+    try:
+        start_row = resolve_location_node(
+            con,
+            start_floor,
+            start,
+        )
+
+        if not start_row:
+            raise HTTPException(
+                status_code=404,
+                detail=(
+                    "Start location not found: "
+                    + start_floor
+                    + " / "
+                    + start
+                ),
+            )
+
+        destination_row = resolve_location_node(
+            con,
+            destination_floor,
+            destination,
+        )
+
+        if not destination_row:
+            raise HTTPException(
+                status_code=404,
+                detail=(
+                    "Destination not found: "
+                    + destination_floor
+                    + " / "
+                    + destination
+                ),
+            )
+
+        # On same-floor routes vertical mode is irrelevant, but keeping the
+        # supplied mode makes the API shape consistent.
+        path, cost = shortest_path(
+            con,
+            start_row["node_id"],
+            destination_row["node_id"],
+            mode,
+        )
+
+        if path is None:
+            raise HTTPException(
+                status_code=404,
+                detail="No route found.",
+            )
+
+        return build_route_response(
+            con,
+            path,
+            cost,
+            mode,
+            start,
+            destination,
+        )
+
+    finally:
+        con.close()

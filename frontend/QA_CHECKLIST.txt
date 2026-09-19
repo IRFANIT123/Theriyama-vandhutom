@@ -1,0 +1,156 @@
+CampusNav Frontend - QA CHECKLIST
+==================================
+
+AUTOMATED STATIC CHECKS PERFORMED
+---------------------------------
+[ ] app.js passes JavaScript syntax check (node --check).
+[ ] index.html parses without structural parser errors.
+[ ] JavaScript-referenced DOM IDs exist in index.html.
+[ ] CSS braces are balanced.
+[ ] ZIP CRC validation passes.
+[ ] Frontend route query parameter names match backend/main.py signatures.
+
+MANUAL FULL-PROJECT TESTS
+-------------------------
+Run backend on 127.0.0.1:8000 and frontend on 127.0.0.1:5500.
+
+1. Normal same-floor room route
+   - Select two rooms on the same floor.
+   - Start Navigation.
+   - Confirm only active backend route appears.
+   - Confirm no NAV graph nodes/edges are visible.
+   - Confirm blue arrows point start -> destination.
+   - Inspect every turn for wall crossing.
+
+2. Multi-floor lift route
+   - Choose rooms on different floors and Lift mode.
+   - Confirm a valid lift is used.
+   - Confirm automatic floor switching as checkpoints are advanced.
+   - Confirm lift is visibly purple.
+
+3. Multi-floor stairs route
+   - Repeat with Stairs mode.
+   - Confirm valid staircase transition.
+   - Confirm staircase is visibly amber.
+
+4. Blocked lift before route
+   - Mark a lift unavailable in Blocked route options.
+   - Plan a Lift route.
+   - Confirm backend returns an alternate lift or a clear no-route error.
+
+5. Blocked lift during route
+   - Advance several checkpoints.
+   - Click Route blocked?
+   - Select the used lift.
+   - Find Alternate Route.
+   - Confirm reroute begins from latest confirmed checkpoint.
+
+6. Blocked staircase during route
+   - Repeat with stairs.
+   - Confirm blocked staircase is not silently reused.
+
+7. Room -> nearest exit
+   - Search "exit".
+   - Choose Nearest available exit.
+   - Confirm /route-to-exit behavior and chosen exit display.
+
+8. Room -> Entrance 1 / Exit
+   - Search "exit".
+   - Choose Entrance 1 / Exit.
+   - Confirm route ends at that exact ground-floor entrance.
+
+9. Room -> Entrance 2 / Exit
+   - Repeat for Entrance 2 / Exit.
+
+10. Outdoor GPS nearest entrance
+    - Test outside or with browser devtools geolocation.
+    - Click Use My Location.
+    - Allow location.
+    - Confirm nearest entrance name and approximate distance are shown.
+    - Confirm UI never claims indoor GPS tracking.
+
+11. Manual checkpoint progression
+    - Tap the NEXT checkpoint only after reaching it.
+    - Confirm completed line/checkpoints disappear from active route.
+    - Confirm progress and remaining metres update.
+    - Confirm map centers on confirmed point.
+
+12. Accidental future checkpoint
+    - Try tapping a checkpoint more than one step ahead.
+    - Confirm it is rejected and user is told to confirm in order.
+
+13. Previous Point
+    - Advance two checkpoints.
+    - Click Previous Point.
+    - Confirm progress goes back exactly one checkpoint and route redraws.
+
+14. Current Point
+    - Pan away.
+    - Click Current Point.
+    - Confirm map returns to latest manually confirmed checkpoint.
+
+15. Floor switching
+    - Click every G/F1/F2/F3/F4/F5/F6/F7 button.
+    - Confirm each is a clear button with active state.
+    - Confirm corresponding map loads.
+
+16. 90 degree clockwise map rendering
+    - Compare every rendered floor to source SVG.
+    - Confirm blueprint is exactly 90 degrees clockwise.
+    - Confirm room labels, corridor, route, dots and arrows stay aligned.
+    - Confirm source SVG/database coordinates remain unchanged.
+
+17. Corridor visualization
+    - Inspect every floor before routing.
+    - Confirm corridors look like pale indoor roads.
+    - Confirm no giant circular junction blobs.
+    - Confirm room-door spurs do not flood rooms.
+    - Confirm architectural walls remain visually above corridor fill.
+
+18. Facility colors
+    - Verify rooms are cool neutral.
+    - Verify lifts purple.
+    - Verify stairs amber.
+    - Verify bathrooms teal and bathroom symbol does not cover labels.
+    - Verify legend matches actual colors.
+
+19. Route arrows
+    - Test long horizontal/vertical/turning routes.
+    - Confirm explicit blue arrowheads are visible and face destination.
+
+20. Technical graph hidden
+    - Inspect all floors before and during route.
+    - Confirm no green debug nodes, blue graph edges or entire NAV graph is visible.
+
+21. Wall-crossing visual inspection
+    - Test representative room-to-room routes in every map region on every floor.
+    - Inspect every segment.
+    - Any wall crossing must be treated as a backend/SVG/data issue; do not hide it by drawing a shortcut.
+
+22. Search
+    - Search rooms, labs, offices and facilities.
+    - Confirm raw technical IDs are not presented as normal destinations.
+    - Search "exit" and confirm friendly exit choices.
+
+23. Pan / zoom / fit
+    - Drag map.
+    - Mouse-wheel zoom.
+    - Click +, -, Fit map.
+    - Confirm no clipping/broken centering after rotation.
+
+24. Responsive layout
+    - Test desktop and narrow/mobile width.
+    - Confirm map remains usable and controls do not cover route.
+
+SUPPLIED-ZIP LIMITATION
+-----------------------
+The supplied backend ZIP did not include the SQLite database or f0..f7 SVG directories, so items requiring live route generation / visual map inspection cannot be truthfully marked passed here. Run these exact checks in the complete project containing those existing assets.
+
+
+CROSS-FLOOR HAND-OFF REGRESSION TEST
+[ ] Start a route G -> F1+ using Lift.
+[ ] Confirm the final Ground Floor checkpoint at the lift.
+[ ] Verify the floor changes automatically to F1 without manually pressing F1.
+[ ] Verify the remaining F1 route and next checkpoint are visible.
+[ ] Verify progress is not falsely advanced until the F1 arrival checkpoint is tapped.
+[ ] Repeat with Stairs and with a route spanning multiple floor transitions.

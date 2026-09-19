@@ -1,0 +1,208 @@
+========================================================================
+GROUND FLOOR
+Folder   : f0
+Database : f0\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — G / Ground Floor
+Nodes                   : PASS — 49 found
+Edges                   : PASS — 57 found
+Locations               : PASS — 15 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 11 searchable; all have nodes
+Entrances               : PASS — ENTRANCE1-G, ENTRANCE2-G
+Stairs                  : PASS — STAIRS1, STAIRS2-G, STAIRS3-G
+Lifts                   : PASS — LIFT1-G, LIFT2-G, LIFT3-G
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 19 target(s) reachable; examples: ENTRANCE1-G->G28 (17.30, 8 nodes) | ENTRANCE1-G->G29 (21.22, 9 nodes) | ENTRANCE1-G->G30 (20.50, 9 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+FIRST FLOOR
+Folder   : f1
+Database : f1\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F1 / First Floor
+Nodes                   : PASS — 49 found
+Edges                   : PASS — 55 found
+Locations               : PASS — 16 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 14 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F1, STAIRS2-F1, STAIRS3-F1
+Lifts                   : PASS — LIFT1-F1, LIFT2-F1, LIFT3-F1
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 20 target(s) reachable; examples: 131->132 (8.02, 6 nodes) | 131->133 (7.29, 6 nodes) | 131->134 (5.79, 5 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+SECOND FLOOR
+Folder   : f2
+Database : f2\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F2 / Second Floor
+Nodes                   : PASS — 33 found
+Edges                   : PASS — 34 found
+Locations               : PASS — 15 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 13 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F2, STAIRS2-F2, STAIRS3-F2
+Lifts                   : PASS — LIFT1-F2, LIFT2-F2, LIFT3-F2
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 19 target(s) reachable; examples: 227->228 (6.15, 4 nodes) | 227->229 (5.43, 4 nodes) | 227->230 (6.17, 5 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+THIRD FLOOR
+Folder   : f3
+Database : f3\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F3 / Third Floor
+Nodes                   : PASS — 40 found
+Edges                   : PASS — 40 found
+Locations               : PASS — 15 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 13 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F3, STAIRS2-F3, STAIRS3-F3
+Lifts                   : PASS — LIFT1-F3, LIFT2-F3, LIFT3-F3
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 19 target(s) reachable; examples: 327->328 (3.64, 4 nodes) | 327->329 (5.23, 5 nodes) | 327->330 (8.67, 6 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+F4
+Folder   : f4
+Database : f4\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F4 / F4
+Nodes                   : PASS — 55 found
+Edges                   : PASS — 63 found
+Locations               : PASS — 17 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 15 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F4, STAIRS2-F4, STAIRS3-F4
+Lifts                   : PASS — LIFT1-F4, LIFT2-F4, LIFT3-F4
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 21 target(s) reachable; examples: 421->422 (8.08, 6 nodes) | 421->423 (7.38, 6 nodes) | 421->424 (5.87, 5 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+F5
+Folder   : f5
+Database : f5\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F5 / F5
+Nodes                   : PASS — 46 found
+Edges                   : PASS — 51 found
+Locations               : PASS — 16 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 14 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F5, STAIRS2-F5, STAIRS3-F5
+Lifts                   : PASS — LIFT1-F5, LIFT2-F5, LIFT3-F5
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 20 target(s) reachable; examples: 526->527 (8.01, 6 nodes) | 526->528 (7.30, 6 nodes) | 526->529 (5.65, 5 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+SIXTH FLOOR
+Folder   : f6
+Database : f6\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F6 / Sixth Floor
+Nodes                   : PASS — 47 found
+Edges                   : PASS — 51 found
+Locations               : PASS — 16 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 14 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F6, STAIRS2-F6, STAIRS3-F6
+Lifts                   : PASS — LIFT1-F6, LIFT2-F6, LIFT3-F6
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 20 target(s) reachable; examples: 626->627 (8.08, 6 nodes) | 626->628 (7.38, 6 nodes) | 626->629 (5.87, 5 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+SEVENTH FLOOR
+Folder   : f7
+Database : f7\prp_navigation.db
+========================================================================
+Database                : PASS — prp_navigation.db
+Required tables         : PASS — floors, nodes, edges, locations
+Required columns        : PASS — PASS
+Floor record            : PASS — F7 / Seventh Floor
+Nodes                   : PASS — 45 found
+Edges                   : PASS — 51 found
+Locations               : PASS — 14 found
+Unique IDs              : PASS — node_id, edge_id, location_id unique
+Broken edges            : PASS — 0
+Foreign keys            : PASS — 0 broken references
+Edge distances          : PASS — all > 0
+Searchable locations    : PASS — 12 searchable; all have nodes
+Entrances               : N/A  — not required on upper floor
+Stairs                  : PASS — STAIRS1-F7, STAIRS2-F7, STAIRS3-F7
+Lifts                   : PASS — LIFT1-F7, LIFT2-F7, LIFT3-F7
+Disconnected nodes      : PASS — 0
+A* tests                : PASS — 18 target(s) reachable; examples: 728->729 (8.04, 6 nodes) | 728->730 (7.32, 6 nodes) | 728->731 (5.82, 5 nodes)
+
+FLOOR RESULT: PASS
+
+========================================================================
+OVERALL RESULT
+========================================================================
+Floors checked : 8
+Floors passed  : 8
+Floors failed  : 0
+
+READY FOR INTEGRATION

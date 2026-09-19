@@ -1,0 +1,88 @@
+PRP E BLOCK SVG NAVIGATION EXTRACTION REPORT
+====================================================
+SVG file: E Block - 3rd Floor Final Map.svg
+Floor: F3
+
+COUNTS
+--------------------
+Total nodes: 40
+  Room nodes: 13
+  Corridor nodes: 21
+  Lift nodes: 3
+  Stair nodes: 3
+  Entrance nodes: 0
+Unique graph edges: 40
+Room locations: 15
+Connected components: 1
+
+SEARCHABLE LOCATIONS
+--------------------
+334 (room)
+333 (room)
+332 (room)
+330 (room)
+329 (room)
+335 (toilet)
+337 (faculty_room)
+336 (toilet)
+339 (classroom)
+331 (faculty_room)
+341 (faculty_room)
+328 (toilet)
+327 (toilet)
+
+NON-SEARCHABLE LOCATIONS
+--------------------
+338: Electrical/service room; excluded from navigation.
+340: Electrical/service room; excluded from navigation.
+
+PATH TOPOLOGY EXTRACTED FROM NAV - Edges
+--------------------
+F3_EDGE_001: W0 -> W1
+F3_EDGE_002: W1 -> W2
+F3_EDGE_003: W2 -> W3
+F3_EDGE_004: W3 -> WC
+F3_EDGE_005: WC -> W4
+F3_EDGE_006: W4 -> W5
+F3_EDGE_007: W5 -> W6
+F3_EDGE_008: W6 -> W7
+F3_EDGE_009: 335 -> W0
+F3_EDGE_010: 334 -> W1
+F3_EDGE_011: 333 -> W2
+F3_EDGE_012: 332 -> W3
+F3_EDGE_013: 330 -> W4
+F3_EDGE_014: 329 -> W5
+F3_EDGE_015: 328 -> W6
+F3_EDGE_016: 327 -> W7
+F3_EDGE_017: 331 -> W4
+F3_EDGE_018: W0 -> CT
+F3_EDGE_019: CT -> STAIRS3-F3
+F3_EDGE_020: CT -> LIFT1-F3
+F3_EDGE_021: CT -> T1
+F3_EDGE_022: T1 -> E1
+F3_EDGE_023: E1 -> E0
+F3_EDGE_024: E0 -> 336
+F3_EDGE_025: E1 -> 337
+F3_EDGE_026: E1 -> E2
+F3_EDGE_027: E2 -> E3
+F3_EDGE_028: E3 -> E4
+F3_EDGE_029: E4 -> EC
+F3_EDGE_030: EC -> E5
+F3_EDGE_031: E2 -> LIFT2-F3
+F3_EDGE_032: E3 -> STAIRS2-F3
+F3_EDGE_033: E4 -> 339
+F3_EDGE_034: E5 -> STAIRS1-F3
+F3_EDGE_035: WC -> EC
+F3_EDGE_036: E5 -> Q0
+F3_EDGE_037: Q0 -> Q1
+F3_EDGE_038: Q1 -> LIFT3-F3
+F3_EDGE_039: Q1 -> Q2
+F3_EDGE_040: Q2 -> 341
+
+WARNINGS
+--------------------
+None
+
+VALIDATION
+--------------------
+PASS
